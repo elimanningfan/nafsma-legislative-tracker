@@ -1,0 +1,120 @@
+# NAFSMA Legislative Tracker Configuration
+
+notifications:
+  email_recipients:
+    - jon@nafsma.org
+  from_email: jon@nafsma.org
+
+congress:
+  api_base: "https://api.congress.gov/v3"
+  current_congress: 119
+
+  # Bill searches to run
+  searches:
+    - name: "WRDA"
+      query: "water resources development"
+    - name: "NFIP"
+      query: "flood insurance"
+    - name: "Clean Water"
+      query: "clean water act"
+    - name: "FEMA"
+      query: "FEMA emergency management"
+    - name: "Stormwater"
+      query: "stormwater"
+    - name: "Appropriations - USACE"
+      query: "army corps engineers appropriations"
+
+  # Keywords that indicate high relevance (used for priority scoring)
+  priority_keywords:
+    critical:
+      - "WRDA"
+      - "water resources development act"
+      - "NFIP"
+      - "national flood insurance"
+      - "flood insurance program"
+      - "levee safety"
+      - "section 408"
+    high:
+      - "FEMA"
+      - "USACE"
+      - "Army Corps"
+      - "flood control"
+      - "flood risk"
+      - "stormwater"
+      - "MS4"
+      - "NPDES"
+      - "clean water act"
+      - "BRIC"
+      - "hazard mitigation"
+      - "WIFIA"
+
+  # Subject-based filtering (more reliable than text search)
+  # These are CRS-assigned policy areas and subject terms
+  relevant_policy_areas:
+    - "Water resources development"
+    - "Emergency management"
+    - "Environmental protection"
+    - "Public lands and natural resources"
+    - "Transportation and public works"
+
+  relevant_subjects:
+    - "Floods and storm protection"
+    - "Flood control"
+    - "Water use and supply"
+    - "Water storage"
+    - "Water quality"
+    - "Stormwater"
+    - "Natural disasters"
+    - "Disaster relief and insurance"
+    - "Emergency planning and evacuation"
+    - "Hydrology and hydrography"
+    - "Levees"
+    - "Dams"
+    - "Wetlands"
+    - "Lakes and rivers"
+    - "Marine and coastal resources, fisheries"
+    - "Water resources funding"
+    - "Watersheds"
+
+  # Title keywords for first-pass filtering (before fetching subjects)
+  title_keywords:
+    - "flood"
+    - "water"
+    - "storm"
+    - "FEMA"
+    - "levee"
+    - "dam"
+    - "drainage"
+    - "infrastructure"
+    - "resilience"
+    - "disaster"
+    - "emergency"
+    - "corps"
+    - "USACE"
+    - "EPA"
+    - "wetland"
+    - "coastal"
+    - "watershed"
+    - "river"
+    - "lake"
+
+federal_register:
+  api_base: "https://www.federalregister.gov/api/v1"
+
+  # Agencies to monitor
+  agencies:
+    - slug: "federal-emergency-management-agency"
+      name: "FEMA"
+    - slug: "environmental-protection-agency"
+      name: "EPA"
+    - slug: "engineers-corps"
+      name: "USACE"
+
+  # Document types to track
+  document_types:
+    - "Proposed Rule"
+    - "Rule"
+    - "Notice"
+
+  # Days warning for comment periods
+  comment_warning_days: 7

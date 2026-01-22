@@ -1,0 +1,160 @@
+{
+  "last_run": "2026-01-22T08:30:26.485843",
+  "bills": {
+    "119-hr-187": {
+      "bill_id": "119-hr-187",
+      "title": "MAPWaters Act of 2025",
+      "last_action": "Became Public Law No: 119-62.",
+      "last_action_date": "2025-12-26",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    },
+    "119-hr-125": {
+      "bill_id": "119-hr-125",
+      "title": "Limiting Emergency Powers Act of 2025",
+      "last_action": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "last_action_date": "2025-01-04",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    },
+    "119-hr-197": {
+      "bill_id": "119-hr-197",
+      "title": "Lake Winnibigoshish Land Exchange Act of 2025",
+      "last_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 218.",
+      "last_action_date": "2025-10-27",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    },
+    "119-hr-152": {
+      "bill_id": "119-hr-152",
+      "title": "Federal Disaster Assistance Coordination Act",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "last_action_date": "2025-01-14",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    },
+    "119-hr-132": {
+      "bill_id": "119-hr-132",
+      "title": "Western Water Accelerated Revenue Repayment Act",
+      "last_action": "Referred to the House Committee on Natural Resources.",
+      "last_action_date": "2025-01-03",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    },
+    "119-hr-153": {
+      "bill_id": "119-hr-153",
+      "title": "Post-Disaster Assistance Online Accountability Act",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "last_action_date": "2025-01-15",
+      "first_seen": "2026-01-22T08:30:25.733468",
+      "last_updated": "2026-01-22T08:30:25.733468"
+    }
+  },
+  "federal_register_documents": {
+    "2026-01058": {
+      "document_number": "2026-01058",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-21",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01057": {
+      "document_number": "2026-01057",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-21",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01056": {
+      "document_number": "2026-01056",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-21",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01055": {
+      "document_number": "2026-01055",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-21",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01054": {
+      "document_number": "2026-01054",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-21",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01001": {
+      "document_number": "2026-01001",
+      "title": "Air Plan Approval; Ohio; 2015 Ozone Moderate Reasonably Available Control Technology",
+      "doc_type": "Rule",
+      "publication_date": "2026-01-20",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00844": {
+      "document_number": "2026-00844",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00783": {
+      "document_number": "2026-00783",
+      "title": "Proposed Cercla Cost Recovery Settlement for the Trinseo Polymer Release Site, Bristol, Bucks County, Pennsylvania",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00781": {
+      "document_number": "2026-00781",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Brownfields Program-Accomplishment Reporting in Assessment, Cleanup and Redevelopment Exchange System (ACRES) (Revision)",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00779": {
+      "document_number": "2026-00779",
+      "title": "Farm, Ranch, and Rural Communities Advisory Committee (FRRCC); Call for Nominations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00776": {
+      "document_number": "2026-00776",
+      "title": "Notice of Final Decision To Reissue the Republic Industrial and Energy Solutions, LLC Land-Ban Exemption",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00782": {
+      "document_number": "2026-00782",
+      "title": "Determination of Attainment by the Attainment Date; 1997 Ozone Standards; California; Coachella Valley",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-01-15",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00754": {
+      "document_number": "2026-00754",
+      "title": "Updating the Water Quality Certification Regulations",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-01-15",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00677": {
+      "document_number": "2026-00677",
+      "title": "New Source Performance Standards Review for Stationary Combustion Turbines and Stationary Gas Turbines",
+      "doc_type": "Rule",
+      "publication_date": "2026-01-15",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-00635": {
+      "document_number": "2026-00635",
+      "title": "SRC, Inc.; Access of Data",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-15",
+      "first_seen": "2026-01-22T08:30:26.289699"
+    }
+  }
+}

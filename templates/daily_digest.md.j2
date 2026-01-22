@@ -1,0 +1,121 @@
+# NAFSMA Legislative Update
+**Date:** {{ date }}
+
+{% if not has_updates %}
+No new legislative updates today.
+
+---
+*Generated automatically by NAFSMA Legislative Tracker*
+{% else %}
+
+{% if new_bills_critical %}
+## Critical Updates
+
+### New Bills Introduced
+{% for update in new_bills_critical %}
+- **{{ update.bill.bill_type.upper() }} {{ update.bill.bill_number }} - {{ update.bill.title }}**
+  {% if update.bill.sponsor %}
+  - Sponsor: {{ update.bill.sponsor }}{% if update.bill.sponsor_party %} ({{ update.bill.sponsor_party }}-{{ update.bill.sponsor_state }}){% endif %}
+
+  {% endif %}
+  {% if update.bill.committees %}
+  - Committee: {{ update.bill.committees | join(', ') }}
+  {% endif %}
+  {% if update.bill.latest_action %}
+  - Latest Action ({{ update.bill.latest_action_date }}): {{ update.bill.latest_action }}
+  {% endif %}
+  - [View on Congress.gov]({{ update.bill.url }})
+
+{% endfor %}
+{% endif %}
+
+{% if new_bills_high %}
+## High Priority
+
+### New Bills Introduced
+{% for update in new_bills_high %}
+- **{{ update.bill.bill_type.upper() }} {{ update.bill.bill_number }} - {{ update.bill.title }}**
+  {% if update.bill.sponsor %}
+  - Sponsor: {{ update.bill.sponsor }}{% if update.bill.sponsor_party %} ({{ update.bill.sponsor_party }}-{{ update.bill.sponsor_state }}){% endif %}
+
+  {% endif %}
+  {% if update.bill.latest_action %}
+  - Latest Action ({{ update.bill.latest_action_date }}): {{ update.bill.latest_action }}
+  {% endif %}
+  - [View on Congress.gov]({{ update.bill.url }})
+
+{% endfor %}
+{% endif %}
+
+{% if status_changes %}
+## Bill Status Changes
+
+{% for update in status_changes %}
+- **{{ update.bill.bill_type.upper() }} {{ update.bill.bill_number }} - {{ update.bill.title }}**
+  {% if update.previous_action %}
+  - Previous: {{ update.previous_action }}
+  {% endif %}
+  - New Action ({{ update.bill.latest_action_date }}): {{ update.bill.latest_action }}
+  - [View on Congress.gov]({{ update.bill.url }})
+
+{% endfor %}
+{% endif %}
+
+{% if new_bills_normal %}
+## Other Bills
+
+### New Bills Introduced
+{% for update in new_bills_normal %}
+- **{{ update.bill.bill_type.upper() }} {{ update.bill.bill_number }} - {{ update.bill.title }}**
+  {% if update.bill.sponsor %}
+  - Sponsor: {{ update.bill.sponsor }}{% if update.bill.sponsor_party %} ({{ update.bill.sponsor_party }}-{{ update.bill.sponsor_state }}){% endif %}
+
+  {% endif %}
+  {% if update.bill.latest_action %}
+  - Latest Action ({{ update.bill.latest_action_date }}): {{ update.bill.latest_action }}
+  {% endif %}
+  - [View on Congress.gov]({{ update.bill.url }})
+
+{% endfor %}
+{% endif %}
+
+{% if comment_alerts %}
+## Comment Periods Closing Soon
+
+{% for doc in comment_alerts %}
+- **{{ doc.title }}**
+  - Document: {{ doc.document_number }}
+  - Agencies: {{ doc.agencies | join(', ') }}
+  - **Comment Period Closes: {{ doc.comments_close_on }} ({{ doc.days_until_comment_close }} days)**
+  - [View Document]({{ doc.html_url }})
+
+{% endfor %}
+{% endif %}
+
+{% if new_federal_register %}
+## Federal Register
+
+### New Documents
+{% for doc in new_federal_register %}
+- **[{{ doc.doc_type }}] {{ doc.title }}**
+  - Document: {{ doc.document_number }}
+  - Agencies: {{ doc.agencies | join(', ') }}
+  - Published: {{ doc.publication_date }}
+  {% if doc.comments_close_on %}
+  - Comment Period Closes: {{ doc.comments_close_on }}
+  {% endif %}
+  - [View Document]({{ doc.html_url }})
+
+{% endfor %}
+{% endif %}
+
+## Summary
+- New bills tracked: {{ total_new_bills }}
+- Status changes: {{ total_status_changes }}
+- Federal Register documents: {{ total_federal_register | default(0) }}
+- Comment alerts: {{ total_comment_alerts | default(0) }}
+- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) }}
+
+---
+*Generated automatically by NAFSMA Legislative Tracker*
+{% endif %}
