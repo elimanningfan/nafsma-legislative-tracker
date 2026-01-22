@@ -42,14 +42,16 @@ class DigestGenerator:
         bill_updates: list[BillUpdate],
         federal_register_docs: list[Any] | None = None,
         comment_alerts: list[Any] | None = None,
+        committee_items: list[Any] | None = None,
         date: datetime | None = None,
     ) -> str:
-        """Generate a daily digest from bill updates and Federal Register documents.
+        """Generate a daily digest from bill updates, Federal Register, and committee items.
 
         Args:
             bill_updates: List of BillUpdate objects.
             federal_register_docs: List of new FederalRegisterDocument objects.
             comment_alerts: List of FederalRegisterDocument objects with closing comment periods.
+            committee_items: List of CommitteeItem objects from RSS feeds.
             date: Date for the digest. Defaults to today.
 
         Returns:
@@ -60,6 +62,7 @@ class DigestGenerator:
 
         federal_register_docs = federal_register_docs or []
         comment_alerts = comment_alerts or []
+        committee_items = committee_items or []
 
         # Separate updates by type and priority
         new_bills_critical = []
@@ -83,6 +86,7 @@ class DigestGenerator:
             len(bill_updates) > 0
             or len(federal_register_docs) > 0
             or len(comment_alerts) > 0
+            or len(committee_items) > 0
         )
 
         template = self.env.get_template("daily_digest.md.j2")
@@ -94,10 +98,12 @@ class DigestGenerator:
             status_changes=status_changes,
             new_federal_register=federal_register_docs,
             comment_alerts=comment_alerts,
+            committee_items=committee_items,
             total_new_bills=total_new_bills,
             total_status_changes=len(status_changes),
             total_federal_register=len(federal_register_docs),
             total_comment_alerts=len(comment_alerts),
+            total_committee_items=len(committee_items),
             has_updates=has_updates,
         )
 

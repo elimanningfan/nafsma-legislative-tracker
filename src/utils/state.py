@@ -57,6 +57,7 @@ class StateData:
     last_run: str | None = None
     bills: dict[str, TrackedBill] = field(default_factory=dict)
     federal_register_documents: dict[str, dict[str, Any]] = field(default_factory=dict)
+    committee_items: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -64,6 +65,7 @@ class StateData:
             "last_run": self.last_run,
             "bills": {k: v.to_dict() for k, v in self.bills.items()},
             "federal_register_documents": self.federal_register_documents,
+            "committee_items": self.committee_items,
         }
 
     @classmethod
@@ -77,6 +79,7 @@ class StateData:
             last_run=data.get("last_run"),
             bills=bills,
             federal_register_documents=data.get("federal_register_documents", {}),
+            committee_items=data.get("committee_items", {}),
         )
 
 
@@ -259,3 +262,37 @@ def process_federal_register_documents(
             logger.info(f"New Federal Register document: {doc_number}")
 
     return new_docs
+
+
+def process_committee_items(
+    state_manager: StateManager,
+    items: list[Any],
+) -> list[Any]:
+    """Process committee RSS items and return new ones.
+
+    Args:
+        state_manager: StateManager instance.
+        items: List of CommitteeItem objects.
+
+    Returns:
+        List of new CommitteeItem objects (not previously seen).
+    """
+    state = state_manager.get_state()
+    new_items = []
+    now = datetime.now().isoformat()
+
+    for item in items:
+        item_id = item.item_id
+        if item_id not in state.committee_items:
+            # New item
+            new_items.append(item)
+            state.committee_items[item_id] = {
+                "item_id": item_id,
+                "title": item.title,
+                "source_name": item.source_name,
+                "published_date": item.published_date,
+                "first_seen": now,
+            }
+            logger.info(f"New committee item: {item.source_name} - {item.title[:50]}...")
+
+    return new_items

@@ -109,12 +109,24 @@ No new legislative updates today.
 {% endfor %}
 {% endif %}
 
+{% if committee_items %}
+## Committee Updates
+
+{% for item in committee_items %}
+- **[{{ item.source_name }}] {{ item.title }}**
+  - Published: {{ item.published_date }}
+  - [View Details]({{ item.link }})
+
+{% endfor %}
+{% endif %}
+
 ## Summary
 - New bills tracked: {{ total_new_bills }}
 - Status changes: {{ total_status_changes }}
 - Federal Register documents: {{ total_federal_register | default(0) }}
+- Committee updates: {{ total_committee_items | default(0) }}
 - Comment alerts: {{ total_comment_alerts | default(0) }}
-- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) }}
+- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) + (total_committee_items | default(0)) }}
 
 ---
 *Generated automatically by NAFSMA Legislative Tracker*

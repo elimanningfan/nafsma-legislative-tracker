@@ -118,3 +118,47 @@ federal_register:
 
   # Days warning for comment periods
   comment_warning_days: 7
+
+committees:
+  # Congressional committee RSS feeds to monitor
+  # Note: Committee RSS feeds may be unreliable or return malformed XML.
+  # The system handles this gracefully - if feeds fail, they are skipped.
+  # You can add/remove feeds as needed. Feeds are filtered by keywords.
+  rss_feeds:
+    - name: "House T&I"
+      url: "https://transportation.house.gov/news/documentquery.aspx?DocumentTypeID=2545&rss=true"
+      keywords:
+        - "water"
+        - "WRDA"
+        - "FEMA"
+        - "flood"
+        - "infrastructure"
+        - "Corps"
+        - "levee"
+        - "dam"
+        - "stormwater"
+
+    - name: "Senate EPW"
+      url: "https://www.epw.senate.gov/public/index.cfm/rss/feed"
+      keywords:
+        - "water"
+        - "WRDA"
+        - "infrastructure"
+        - "EPA"
+        - "flood"
+        - "clean water"
+        - "stormwater"
+        - "FEMA"
+
+    # Congress.gov Most Viewed Bills - a working alternative
+    - name: "Congress.gov Most Viewed"
+      url: "https://www.congress.gov/rss/most-viewed-bills.xml"
+      keywords:
+        - "water"
+        - "flood"
+        - "FEMA"
+        - "infrastructure"
+        - "disaster"
+        - "emergency"
+        - "EPA"
+        - "Corps"

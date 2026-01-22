@@ -8,6 +8,7 @@ import click
 
 from src.outputs.digest import DigestGenerator
 from src.outputs.email import send_daily_digest, send_comment_period_alert
+from src.sources.committee_rss import CommitteeRSSClient, fetch_committee_items
 from src.sources.congress import CongressApiClient, find_relevant_bills, run_all_searches
 from src.sources.federal_register import (
     FederalRegisterClient,
@@ -15,7 +16,12 @@ from src.sources.federal_register import (
     get_closing_comment_periods,
 )
 from src.utils.config import get_project_root, load_config
-from src.utils.state import StateManager, process_bills, process_federal_register_documents
+from src.utils.state import (
+    StateManager,
+    process_bills,
+    process_committee_items,
+    process_federal_register_documents,
+)
 
 # Configure logging
 logging.basicConfig(
@@ -54,6 +60,7 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     # Initialize components
     congress_client = CongressApiClient()
     federal_register_client = FederalRegisterClient()
+    committee_rss_client = CommitteeRSSClient()
     state_manager = StateManager()
     digest_generator = DigestGenerator()
 
@@ -80,11 +87,21 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     comment_alerts = get_closing_comment_periods(fr_docs, warning_days=comment_warning_days)
     logger.info(f"Found {len(comment_alerts)} documents with comment periods closing soon")
 
+    # Fetch committee RSS items
+    logger.info("Fetching committee RSS feeds...")
+    committee_items = fetch_committee_items(committee_rss_client, config)
+    logger.info(f"Found {len(committee_items)} committee items")
+
+    # Process committee items to find new ones
+    new_committee_items = process_committee_items(state_manager, committee_items)
+    logger.info(f"Detected {len(new_committee_items)} new committee items")
+
     # Generate digest
     digest_content = digest_generator.generate_daily_digest(
         bill_updates,
         federal_register_docs=new_fr_docs,
         comment_alerts=comment_alerts,
+        committee_items=new_committee_items,
     )
 
     if save_digest:
@@ -121,7 +138,8 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_bills = sum(1 for u in bill_updates if u.update_type == "new")
     status_changes = sum(1 for u in bill_updates if u.update_type == "status_change")
     click.echo(f"Summary: {new_bills} new bills, {status_changes} status changes, "
-               f"{len(new_fr_docs)} new FR docs, {len(comment_alerts)} comment alerts")
+               f"{len(new_fr_docs)} new FR docs, {len(comment_alerts)} comment alerts, "
+               f"{len(new_committee_items)} new committee items")
 
 
 @cli.command()
@@ -166,6 +184,7 @@ def show_state(verbose: bool) -> None:
     click.echo(f"Last run: {state.last_run or 'Never'}")
     click.echo(f"Tracked bills: {len(state.bills)}")
     click.echo(f"Tracked Federal Register documents: {len(state.federal_register_documents)}")
+    click.echo(f"Tracked committee items: {len(state.committee_items)}")
 
     if verbose and state.bills:
         click.echo("\nTracked Bills:")
@@ -181,6 +200,14 @@ def show_state(verbose: bool) -> None:
             click.echo(f"    Type: {doc.get('doc_type', 'Unknown')}")
         if len(state.federal_register_documents) > 10:
             click.echo(f"  ... and {len(state.federal_register_documents) - 10} more")
+
+    if verbose and state.committee_items:
+        click.echo("\nTracked Committee Items:")
+        for item_id, item in list(state.committee_items.items())[:10]:
+            click.echo(f"  - [{item.get('source_name', 'Unknown')}] {item.get('title', 'No title')[:50]}...")
+            click.echo(f"    Published: {item.get('published_date', 'Unknown')}")
+        if len(state.committee_items) > 10:
+            click.echo(f"  ... and {len(state.committee_items) - 10} more")
 
 
 @cli.command()
