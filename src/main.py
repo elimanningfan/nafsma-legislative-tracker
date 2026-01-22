@@ -15,11 +15,13 @@ from src.sources.federal_register import (
     fetch_agency_documents,
     get_closing_comment_periods,
 )
+from src.sources.openfema import OpenFEMAClient, fetch_flood_disasters
 from src.utils.config import get_project_root, load_config
 from src.utils.state import (
     StateManager,
     process_bills,
     process_committee_items,
+    process_disaster_declarations,
     process_federal_register_documents,
 )
 
@@ -61,6 +63,7 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     congress_client = CongressApiClient()
     federal_register_client = FederalRegisterClient()
     committee_rss_client = CommitteeRSSClient()
+    openfema_client = OpenFEMAClient()
     state_manager = StateManager()
     digest_generator = DigestGenerator()
 
@@ -96,12 +99,23 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_committee_items = process_committee_items(state_manager, committee_items)
     logger.info(f"Detected {len(new_committee_items)} new committee items")
 
+    # Fetch FEMA disaster declarations
+    openfema_days_back = config.get("openfema", {}).get("days_back", 7)
+    logger.info(f"Fetching FEMA disaster declarations (last {openfema_days_back} days)...")
+    disaster_declarations = fetch_flood_disasters(openfema_client, days_back=openfema_days_back)
+    logger.info(f"Found {len(disaster_declarations)} flood-related disaster declarations")
+
+    # Process disaster declarations to find new ones
+    new_disasters = process_disaster_declarations(state_manager, disaster_declarations)
+    logger.info(f"Detected {len(new_disasters)} new disaster declarations")
+
     # Generate digest
     digest_content = digest_generator.generate_daily_digest(
         bill_updates,
         federal_register_docs=new_fr_docs,
         comment_alerts=comment_alerts,
         committee_items=new_committee_items,
+        disaster_declarations=new_disasters,
     )
 
     if save_digest:
@@ -139,7 +153,8 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     status_changes = sum(1 for u in bill_updates if u.update_type == "status_change")
     click.echo(f"Summary: {new_bills} new bills, {status_changes} status changes, "
                f"{len(new_fr_docs)} new FR docs, {len(comment_alerts)} comment alerts, "
-               f"{len(new_committee_items)} new committee items")
+               f"{len(new_committee_items)} new committee items, "
+               f"{len(new_disasters)} new disaster declarations")
 
 
 @cli.command()
@@ -185,6 +200,7 @@ def show_state(verbose: bool) -> None:
     click.echo(f"Tracked bills: {len(state.bills)}")
     click.echo(f"Tracked Federal Register documents: {len(state.federal_register_documents)}")
     click.echo(f"Tracked committee items: {len(state.committee_items)}")
+    click.echo(f"Tracked disaster declarations: {len(state.disaster_declarations)}")
 
     if verbose and state.bills:
         click.echo("\nTracked Bills:")
@@ -208,6 +224,14 @@ def show_state(verbose: bool) -> None:
             click.echo(f"    Published: {item.get('published_date', 'Unknown')}")
         if len(state.committee_items) > 10:
             click.echo(f"  ... and {len(state.committee_items) - 10} more")
+
+    if verbose and state.disaster_declarations:
+        click.echo("\nTracked Disaster Declarations:")
+        for dec_id, dec in list(state.disaster_declarations.items())[:10]:
+            click.echo(f"  - DR-{dec.get('disaster_number', '?')}: {dec.get('declaration_title', 'No title')[:40]}...")
+            click.echo(f"    State: {dec.get('state', '?')}, Type: {dec.get('incident_type', '?')}")
+        if len(state.disaster_declarations) > 10:
+            click.echo(f"  ... and {len(state.disaster_declarations) - 10} more")
 
 
 @cli.command()

@@ -92,6 +92,20 @@ No new legislative updates today.
 {% endfor %}
 {% endif %}
 
+{% if disaster_declarations %}
+## FEMA Disaster Declarations
+
+{% for dec in disaster_declarations %}
+- **DR-{{ dec.disaster_number }}: {{ dec.declaration_title }}**
+  - State: {{ dec.state }}
+  - Type: {{ dec.incident_type }}
+  - Declared: {{ dec.declaration_date }}
+  - Area: {{ dec.designated_area }}
+  - [View on FEMA]({{ dec.url }})
+
+{% endfor %}
+{% endif %}
+
 {% if new_federal_register %}
 ## Federal Register
 
@@ -124,9 +138,10 @@ No new legislative updates today.
 - New bills tracked: {{ total_new_bills }}
 - Status changes: {{ total_status_changes }}
 - Federal Register documents: {{ total_federal_register | default(0) }}
+- Disaster declarations: {{ total_disaster_declarations | default(0) }}
 - Committee updates: {{ total_committee_items | default(0) }}
 - Comment alerts: {{ total_comment_alerts | default(0) }}
-- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) + (total_committee_items | default(0)) }}
+- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) + (total_disaster_declarations | default(0)) + (total_committee_items | default(0)) }}
 
 ---
 *Generated automatically by NAFSMA Legislative Tracker*

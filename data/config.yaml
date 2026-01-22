@@ -162,3 +162,39 @@ committees:
         - "emergency"
         - "EPA"
         - "Corps"
+
+    # USACE News Releases - agency news
+    - name: "USACE News"
+      url: "https://www.usace.army.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=7&Site=1&max=20"
+      keywords:
+        - "flood"
+        - "levee"
+        - "dam"
+        - "water"
+        - "infrastructure"
+        - "navigation"
+        - "WRDA"
+        - "disaster"
+        - "hurricane"
+        - "storm"
+
+openfema:
+  # OpenFEMA API settings (no API key required)
+  api_base: "https://www.fema.gov/api/open/v2"
+
+  # Days to look back for disaster declarations
+  # Note: Use 60+ days to capture recent declarations (FEMA declares in batches)
+  days_back: 60
+
+  # Incident types relevant to NAFSMA
+  # Filters disaster declarations to flood/storm related
+  relevant_incident_types:
+    - "Flood"
+    - "Severe Storm"
+    - "Severe Storm(s)"
+    - "Hurricane"
+    - "Coastal Storm"
+    - "Typhoon"
+    - "Dam/Levee Break"
+    - "Tornado"
+    - "Mud/Landslide"

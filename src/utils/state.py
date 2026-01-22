@@ -58,6 +58,7 @@ class StateData:
     bills: dict[str, TrackedBill] = field(default_factory=dict)
     federal_register_documents: dict[str, dict[str, Any]] = field(default_factory=dict)
     committee_items: dict[str, dict[str, Any]] = field(default_factory=dict)
+    disaster_declarations: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -66,6 +67,7 @@ class StateData:
             "bills": {k: v.to_dict() for k, v in self.bills.items()},
             "federal_register_documents": self.federal_register_documents,
             "committee_items": self.committee_items,
+            "disaster_declarations": self.disaster_declarations,
         }
 
     @classmethod
@@ -80,6 +82,7 @@ class StateData:
             bills=bills,
             federal_register_documents=data.get("federal_register_documents", {}),
             committee_items=data.get("committee_items", {}),
+            disaster_declarations=data.get("disaster_declarations", {}),
         )
 
 
@@ -296,3 +299,41 @@ def process_committee_items(
             logger.info(f"New committee item: {item.source_name} - {item.title[:50]}...")
 
     return new_items
+
+
+def process_disaster_declarations(
+    state_manager: StateManager,
+    declarations: list[Any],
+) -> list[Any]:
+    """Process FEMA disaster declarations and return new ones.
+
+    Args:
+        state_manager: StateManager instance.
+        declarations: List of DisasterDeclaration objects.
+
+    Returns:
+        List of new DisasterDeclaration objects (not previously seen).
+    """
+    state = state_manager.get_state()
+    new_declarations = []
+    now = datetime.now().isoformat()
+
+    for dec in declarations:
+        # Create unique key: disaster_number + state + designated_area
+        dec_key = f"{dec.disaster_number}-{dec.state}-{dec.designated_area}"
+
+        if dec_key not in state.disaster_declarations:
+            # New declaration
+            new_declarations.append(dec)
+            state.disaster_declarations[dec_key] = {
+                "disaster_number": dec.disaster_number,
+                "declaration_title": dec.declaration_title,
+                "state": dec.state,
+                "incident_type": dec.incident_type,
+                "declaration_date": dec.declaration_date,
+                "designated_area": dec.designated_area,
+                "first_seen": now,
+            }
+            logger.info(f"New disaster declaration: DR-{dec.disaster_number} ({dec.state})")
+
+    return new_declarations
