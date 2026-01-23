@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-01-22T08:30:26.485843",
+  "last_run": "2026-01-23T16:45:29.489496",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -155,6 +155,347 @@
       "doc_type": "Notice",
       "publication_date": "2026-01-15",
       "first_seen": "2026-01-22T08:30:26.289699"
+    },
+    "2026-01324": {
+      "document_number": "2026-01324",
+      "title": "Air Plan Approval; Montana; Revisions to Western Sugar Stipulation",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    },
+    "2026-01319": {
+      "document_number": "2026-01319",
+      "title": "Proposed Revisions of the Nonattainment Designation for the 2008 and 2015 Ozone Standards and Clean Data Determinations for the 2008 and 2015 Ozone Standards: Cecil County, MD and New Castle County, DE; Extension of Comment Period",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    },
+    "2026-01315": {
+      "document_number": "2026-01315",
+      "title": "Underground Injection Control Program; Hazardous Waste Injection Restrictions; Petition for Exemption Reissuance-Class I Hazardous Waste Injection; Sasol Chemicals (USA), LLC, Greens Bayou Plant, Texas",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    },
+    "2026-01314": {
+      "document_number": "2026-01314",
+      "title": "Air Plan Approval; Maryland; Clean Data Determination for the Baltimore, MD Nonattainment Area for the 2015 Ozone National Ambient Air Quality Standards",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    },
+    "2026-01276": {
+      "document_number": "2026-01276",
+      "title": "Notice of Proposed Administrative Settlement Agreement for Response Action and Payment of Response Costs by Bona Fide Prospective Purchaser at 9648 Santa Fe Springs Road and 9951 and 9848 Greenleaf Avenue in Santa Fe Springs, Los Angeles County, California",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    },
+    "2026-01267": {
+      "document_number": "2026-01267",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-23",
+      "first_seen": "2026-01-23T16:43:02.903030"
+    }
+  },
+  "committee_items": {
+    "January 18, 2026": {
+      "item_id": "January 18, 2026",
+      "title": "Most-Viewed Bills - Week of January 18, 2026",
+      "source_name": "Congress.gov Most Viewed",
+      "published_date": "",
+      "first_seen": "2026-01-23T16:45:28.619918"
+    }
+  },
+  "disaster_declarations": {
+    "3630-MT-Blackfeet Indian Reservation": {
+      "disaster_number": 3630,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "MT",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Blackfeet Indian Reservation",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3630-MT-Lincoln (County)": {
+      "disaster_number": 3630,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "MT",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Lincoln (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3630-MT-Sanders (County)": {
+      "disaster_number": 3630,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "MT",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Sanders (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Barton (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Barton (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Comanche (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Comanche (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Edwards (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Edwards (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Hodgeman (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Hodgeman (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Logan (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Logan (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Morris (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Morris (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Ottawa (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Ottawa (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Rawlins (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Rawlins (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Saline (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Saline (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Stevens (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Stevens (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Sumner (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Sumner (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "4897-KS-Wyandotte (County)": {
+      "disaster_number": 4897,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, AND FLOODING",
+      "state": "KS",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2025-12-19",
+      "designated_area": "Wyandotte (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Samish (TDSA)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Samish (TDSA)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Yakima (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Yakima (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Benton (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Benton (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Chelan (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Chelan (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Clallam (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Clallam (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Grays Harbor (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Grays Harbor (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Jefferson (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Jefferson (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-King (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "King (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Kittitas (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Kittitas (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Lewis (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Lewis (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Mason (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Mason (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Pierce (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Pierce (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Skagit (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Skagit (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Snohomish (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Snohomish (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Thurston (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Thurston (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Wahkiakum (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Wahkiakum (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
+    },
+    "3629-WA-Whatcom (County)": {
+      "disaster_number": 3629,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2025-12-12",
+      "designated_area": "Whatcom (County)",
+      "first_seen": "2026-01-23T16:45:28.823671"
     }
   }
 }
