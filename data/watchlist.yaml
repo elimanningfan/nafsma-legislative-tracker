@@ -1,0 +1,140 @@
+# NAFSMA Priority Bill Watchlist
+# These bills are tracked regardless of automated subject filtering
+# Updated from NAFSMA Federal Tracker 1.22.2026
+
+high_priority:
+  # NPDES / Clean Water
+  - bill_id: "119-hr-2093"
+    title: "NPDES Permit Terms Extension"
+    nafsma_notes: "Extends NPDES Permit Terms to 10 Years"
+
+  # Weather/NOAA
+  - bill_id: "119-hr-5089"
+    title: "Weather Act Reauthorization Act of 2025"
+    nafsma_notes: "Improve NOAA weather research, forecasting, commercial weather data opportunities"
+
+  # WIFIA
+  - bill_id: "119-hr-3035"
+    title: "Restoring WIFIA Eligibility Act of 2025"
+    nafsma_notes: "Amend WIFIA 2014 for budgetary treatment of financial assistance"
+
+  - bill_id: "119-s-1760"
+    title: "Restoring WIFIA Eligibility Act of 2025 (Senate)"
+    nafsma_notes: "Senate companion - amend WIFIA 2014 for budgetary treatment"
+
+  # Digital Coast / NOAA
+  - bill_id: "119-hr-4256"
+    title: "Digital Coast Reauthorization Act"
+    nafsma_notes: "Formalize and strengthen NOAA Digital Coast Program"
+
+  - bill_id: "119-s-2245"
+    title: "Digital Coast Reauthorization Act (Senate)"
+    nafsma_notes: "Senate companion - NOAA Digital Coast Program"
+
+  # NEPA Reform
+  - bill_id: "119-hr-573"
+    title: "Study NEPA's Impact on Projects Act"
+    nafsma_notes: "Require CEQ annual report on NEPA impacts, greater transparency"
+
+  - bill_id: "119-hr-4503"
+    title: "ePermit Act"
+    nafsma_notes: "Electronic permitting systems, clarify CEQ interagency permitting technology authority"
+
+  - bill_id: "119-hr-4776"
+    title: "SPEED Act"
+    nafsma_notes: "NEPA reform - shorten timelines, reduce litigation, clarify triggers. Passed House 221-196"
+
+  # NFIP / Flood Insurance
+  - bill_id: "119-s-1015"
+    title: "Extend NFIP through December 31, 2026"
+    nafsma_notes: "NFIP extension bill"
+
+  - bill_id: "119-s-1564"
+    title: "Floodplain Enhancement and Recovery Act"
+    nafsma_notes: "Amend Homeowner Flood Insurance Affordability Act for ecosystem restoration"
+
+  - bill_id: "119-hr-6620"
+    title: "Continuous Coverage for Flood Insurance Act"
+    nafsma_notes: "Allow private flood insurance for continuous coverage requirements"
+
+  # Clean Water Act / WOTUS
+  - bill_id: "119-hr-3898"
+    title: "PERMIT Act"
+    nafsma_notes: "CWA reforms - WOTUS, NPDES changes. Passed House 221-205"
+
+  # FEMA Reform
+  - bill_id: "119-hr-4669"
+    title: "Fixing Emergency Management for Americans Act of 2025"
+    nafsma_notes: "Restore FEMA independence, shift reimbursement to grants, streamline infrastructure"
+
+  # WIFIA Reauthorization
+  - bill_id: "119-hr-6229"
+    title: "Water Infrastructure Finance and Innovation Act Amendments of 2025"
+    nafsma_notes: "Reauthorize WIFIA 2014"
+
+funding_appropriations:
+  - bill_id: "119-hr-5371"
+    title: "Continuing Appropriations and Extensions Act, 2026"
+    nafsma_notes: "Stopgap funding through November 21, 2025. Passed House 217-212"
+
+  - bill_id: "119-hr-6938"
+    title: "Consolidated Appropriations Act (Energy & Water, CJS, Interior)"
+    nafsma_notes: "Funds NOAA (Div A), USACE (Div B), EPA (Div C). Passed House 397-28, Senate 82-15"
+
+  - bill_id: "119-hr-4213"
+    title: "Department of Homeland Security Appropriations Act"
+    nafsma_notes: "Funds DHS including FEMA for FY 2026"
+
+other_notable:
+  - bill_id: "119-s-5361"
+    title: "Improving Atmospheric River Forecasts Act"
+    nafsma_notes: "Improve lead time, accuracy of atmospheric river forecasts"
+
+  - bill_id: "119-hr-1115"
+    title: "Weather Radar Coverage Act"
+    nafsma_notes: "Plan to replace NEXRAD system by September 30, 2040"
+
+  - bill_id: "119-hr-1894"
+    title: "Fish Act of 2025"
+    nafsma_notes: "ESA amendments for fish that migrate between fresh/ocean waters"
+
+  - bill_id: "119-hr-1897"
+    title: "ESA Amendments Act of 2025"
+    nafsma_notes: "ESA reform - prioritization, private land incentives, permitting streamlining"
+
+  - bill_id: "119-s-1323"
+    title: "FIREWALL Act"
+    nafsma_notes: "Federal tax credit for community disaster resilience"
+
+  - bill_id: "119-hr-5848"
+    title: "NFIP Retroactive Renewal and Reauthorization Act"
+    nafsma_notes: "Retroactively renew NFIP for policies expired during shutdown, extend to Dec 31, 2026"
+
+regulatory_comments:
+  - name: "WOTUS (Waters of the U.S.)"
+    url: "https://www.federalregister.gov/documents/2025/11/20"
+    comment_deadline: "2026-01-05"
+    federal_register_date: "2025-11-20"
+    nafsma_status: "Comment letter submitted"
+    notes: "Proposed rule would narrow WOTUS definition, fewer waters subject to CWA"
+
+  - name: "Endangered Species Act Rules"
+    url: "https://www.federalregister.gov/documents/2025/11/21"
+    comment_deadline: "2025-12-22"
+    federal_register_date: "2025-11-21"
+    nafsma_status: "Comment letter submitted"
+    notes: "Four proposed ESA rules - Section 7 consultation, critical habitat, listing/delisting"
+
+  - name: "EPA 401 Water Quality Certification"
+    url: "https://www.federalregister.gov/documents/2026/01/15"
+    comment_deadline: "2026-02-17"
+    federal_register_date: "2026-01-15"
+    nafsma_status: "Pending review"
+    notes: "Update CWA section 401 certification requirements for state/tribal review"
+
+  - name: "EPA/USACE Nationwide Permits"
+    url: "https://www.federalregister.gov/documents/2026/01/08"
+    effective_date: "2026-03-15"
+    federal_register_date: "2026-01-08"
+    nafsma_status: "Final rule - monitoring"
+    notes: "NWP 60 - authorizes discharges for fish passage improvements"

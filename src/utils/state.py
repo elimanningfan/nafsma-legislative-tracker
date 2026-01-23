@@ -60,6 +60,7 @@ class StateData:
     committee_items: dict[str, dict[str, Any]] = field(default_factory=dict)
     committee_meetings: dict[str, dict[str, Any]] = field(default_factory=dict)
     disaster_declarations: dict[str, dict[str, Any]] = field(default_factory=dict)
+    watchlist_bills: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -70,6 +71,7 @@ class StateData:
             "committee_items": self.committee_items,
             "committee_meetings": self.committee_meetings,
             "disaster_declarations": self.disaster_declarations,
+            "watchlist_bills": self.watchlist_bills,
         }
 
     @classmethod
@@ -86,6 +88,7 @@ class StateData:
             committee_items=data.get("committee_items", {}),
             committee_meetings=data.get("committee_meetings", {}),
             disaster_declarations=data.get("disaster_declarations", {}),
+            watchlist_bills=data.get("watchlist_bills", {}),
         )
 
 
@@ -380,3 +383,88 @@ def process_committee_meetings(
             )
 
     return new_meetings
+
+
+@dataclass
+class WatchlistUpdate:
+    """Represents an update detected for a watchlist bill."""
+
+    bill: Any  # WatchlistBill
+    update_type: str  # "new" or "status_change"
+    previous_action: str | None = None
+    previous_action_date: str | None = None
+
+
+def process_watchlist_bills(
+    state_manager: StateManager,
+    bills: list[Any],
+) -> list[WatchlistUpdate]:
+    """Process watchlist bills and detect status changes.
+
+    Args:
+        state_manager: StateManager instance.
+        bills: List of WatchlistBill objects.
+
+    Returns:
+        List of WatchlistUpdate objects for new or changed bills.
+    """
+    state = state_manager.get_state()
+    updates: list[WatchlistUpdate] = []
+    now = datetime.now().isoformat()
+
+    for bill in bills:
+        bill_id = bill.bill_id
+        existing = state.watchlist_bills.get(bill_id)
+
+        if existing is None:
+            # First time seeing this watchlist bill
+            updates.append(WatchlistUpdate(bill=bill, update_type="new"))
+            state.watchlist_bills[bill_id] = {
+                "bill_id": bill_id,
+                "title": bill.title,
+                "category": bill.category,
+                "last_action": bill.latest_action,
+                "last_action_date": bill.latest_action_date,
+                "first_seen": now,
+                "last_updated": now,
+            }
+            logger.info(f"New watchlist bill tracked: {bill_id}")
+
+        elif _watchlist_status_changed(existing, bill):
+            # Status change detected
+            updates.append(
+                WatchlistUpdate(
+                    bill=bill,
+                    update_type="status_change",
+                    previous_action=existing.get("last_action"),
+                    previous_action_date=existing.get("last_action_date"),
+                )
+            )
+            # Update tracked state
+            existing["last_action"] = bill.latest_action
+            existing["last_action_date"] = bill.latest_action_date
+            existing["last_updated"] = now
+            logger.info(f"Watchlist bill status change: {bill_id}")
+
+    return updates
+
+
+def _watchlist_status_changed(existing: dict[str, Any], bill: Any) -> bool:
+    """Check if a watchlist bill's status has changed.
+
+    Args:
+        existing: Previously tracked state dict.
+        bill: Current WatchlistBill from API.
+
+    Returns:
+        True if the status has changed.
+    """
+    # Check if action date changed
+    if existing.get("last_action_date") != bill.latest_action_date:
+        return True
+
+    # Check if action text changed
+    if existing.get("last_action") != bill.latest_action:
+        return True
+
+    return False

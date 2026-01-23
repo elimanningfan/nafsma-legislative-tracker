@@ -17,6 +17,7 @@ from src.sources.federal_register import (
     get_closing_comment_periods,
 )
 from src.sources.openfema import OpenFEMAClient, fetch_flood_disasters
+from src.sources.watchlist import WatchlistClient, fetch_watchlist_bills, get_regulatory_items
 from src.utils.config import get_project_root, load_config
 from src.utils.state import (
     StateManager,
@@ -25,6 +26,7 @@ from src.utils.state import (
     process_committee_meetings,
     process_disaster_declarations,
     process_federal_register_documents,
+    process_watchlist_bills,
 )
 
 # Configure logging
@@ -67,6 +69,7 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     committee_rss_client = CommitteeRSSClient()
     committee_meeting_client = CommitteeMeetingClient()
     openfema_client = OpenFEMAClient()
+    watchlist_client = WatchlistClient(congress_client=congress_client)
     state_manager = StateManager()
     digest_generator = DigestGenerator()
 
@@ -121,6 +124,19 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_disasters = process_disaster_declarations(state_manager, disaster_declarations)
     logger.info(f"Detected {len(new_disasters)} new disaster declarations")
 
+    # Fetch NAFSMA priority watchlist bills
+    logger.info("Fetching NAFSMA priority watchlist bills...")
+    watchlist_bills = fetch_watchlist_bills(watchlist_client, config)
+    logger.info(f"Found {len(watchlist_bills)} watchlist bills")
+
+    # Process watchlist bills to detect changes
+    watchlist_updates = process_watchlist_bills(state_manager, watchlist_bills)
+    logger.info(f"Detected {len(watchlist_updates)} watchlist bill updates")
+
+    # Get regulatory items with deadline info
+    regulatory_items = get_regulatory_items(watchlist_client)
+    logger.info(f"Found {len(regulatory_items)} regulatory items to track")
+
     # Generate digest
     digest_content = digest_generator.generate_daily_digest(
         bill_updates,
@@ -129,6 +145,8 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
         committee_items=new_committee_items,
         committee_meetings=new_committee_meetings,
         disaster_declarations=new_disasters,
+        watchlist_updates=watchlist_updates,
+        regulatory_items=regulatory_items,
     )
 
     if save_digest:
@@ -165,10 +183,12 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_bills = sum(1 for u in bill_updates if u.update_type == "new")
     status_changes = sum(1 for u in bill_updates if u.update_type == "status_change")
     click.echo(f"Summary: {new_bills} new bills, {status_changes} status changes, "
+               f"{len(watchlist_updates)} watchlist updates, "
                f"{len(new_committee_meetings)} committee meetings, "
                f"{len(new_fr_docs)} new FR docs, {len(comment_alerts)} comment alerts, "
                f"{len(new_committee_items)} new committee items (RSS), "
-               f"{len(new_disasters)} new disaster declarations")
+               f"{len(new_disasters)} new disaster declarations, "
+               f"{len(regulatory_items)} regulatory items")
 
 
 @cli.command()
@@ -212,6 +232,7 @@ def show_state(verbose: bool) -> None:
 
     click.echo(f"Last run: {state.last_run or 'Never'}")
     click.echo(f"Tracked bills: {len(state.bills)}")
+    click.echo(f"Tracked watchlist bills: {len(state.watchlist_bills)}")
     click.echo(f"Tracked Federal Register documents: {len(state.federal_register_documents)}")
     click.echo(f"Tracked committee items: {len(state.committee_items)}")
     click.echo(f"Tracked disaster declarations: {len(state.disaster_declarations)}")
@@ -246,6 +267,13 @@ def show_state(verbose: bool) -> None:
             click.echo(f"    State: {dec.get('state', '?')}, Type: {dec.get('incident_type', '?')}")
         if len(state.disaster_declarations) > 10:
             click.echo(f"  ... and {len(state.disaster_declarations) - 10} more")
+
+    if verbose and state.watchlist_bills:
+        click.echo("\nTracked Watchlist Bills:")
+        for bill_id, bill in list(state.watchlist_bills.items()):
+            click.echo(f"  - [{bill.get('category', '?').upper()}] {bill_id}: {bill.get('title', 'No title')[:50]}...")
+            last_action = bill.get('last_action') or 'None'
+            click.echo(f"    Last action: {last_action[:60]}...")
 
 
 @cli.command()

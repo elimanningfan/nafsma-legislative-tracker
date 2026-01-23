@@ -45,6 +45,8 @@ class DigestGenerator:
         committee_items: list[Any] | None = None,
         committee_meetings: list[Any] | None = None,
         disaster_declarations: list[Any] | None = None,
+        watchlist_updates: list[Any] | None = None,
+        regulatory_items: list[Any] | None = None,
         date: datetime | None = None,
     ) -> str:
         """Generate a daily digest from bill updates, Federal Register, and committee items.
@@ -56,6 +58,8 @@ class DigestGenerator:
             committee_items: List of CommitteeItem objects from RSS feeds.
             committee_meetings: List of CommitteeMeeting objects from Congress.gov API.
             disaster_declarations: List of DisasterDeclaration objects from OpenFEMA.
+            watchlist_updates: List of WatchlistUpdate objects for priority bills.
+            regulatory_items: List of RegulatoryItem objects with deadlines.
             date: Date for the digest. Defaults to today.
 
         Returns:
@@ -69,6 +73,8 @@ class DigestGenerator:
         committee_items = committee_items or []
         committee_meetings = committee_meetings or []
         disaster_declarations = disaster_declarations or []
+        watchlist_updates = watchlist_updates or []
+        regulatory_items = regulatory_items or []
 
         # Separate updates by type and priority
         new_bills_critical = []
@@ -95,6 +101,8 @@ class DigestGenerator:
             or len(committee_items) > 0
             or len(committee_meetings) > 0
             or len(disaster_declarations) > 0
+            or len(watchlist_updates) > 0
+            or len(regulatory_items) > 0
         )
 
         template = self.env.get_template("daily_digest.md.j2")
@@ -109,6 +117,8 @@ class DigestGenerator:
             committee_items=committee_items,
             committee_meetings=committee_meetings,
             disaster_declarations=disaster_declarations,
+            watchlist_updates=watchlist_updates,
+            regulatory_deadlines=regulatory_items,
             total_new_bills=total_new_bills,
             total_status_changes=len(status_changes),
             total_federal_register=len(federal_register_docs),
@@ -116,6 +126,8 @@ class DigestGenerator:
             total_committee_items=len(committee_items),
             total_committee_meetings=len(committee_meetings),
             total_disaster_declarations=len(disaster_declarations),
+            total_watchlist_updates=len(watchlist_updates),
+            total_regulatory_items=len(regulatory_items),
             has_updates=has_updates,
         )
 

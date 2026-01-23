@@ -47,6 +47,21 @@ No new legislative updates today.
 {% endfor %}
 {% endif %}
 
+{% if watchlist_updates %}
+## Priority Bill Watchlist Updates
+
+{% for update in watchlist_updates %}
+- **[{{ update.bill.category | upper }}] {{ update.bill.bill_type.upper() }} {{ update.bill.bill_number }} - {{ update.bill.title }}**
+  {% if update.update_type == "status_change" and update.previous_action %}
+  - Previous: {{ update.previous_action }}
+  {% endif %}
+  - Latest Action ({{ update.bill.latest_action_date }}): {{ update.bill.latest_action }}
+  - NAFSMA Notes: {{ update.bill.nafsma_notes }}
+  - [View on Congress.gov]({{ update.bill.url }})
+
+{% endfor %}
+{% endif %}
+
 {% if status_changes %}
 ## Bill Status Changes
 
@@ -107,6 +122,25 @@ No new legislative updates today.
 {% endfor %}
 {% endif %}
 
+{% if regulatory_deadlines %}
+## NAFSMA Regulatory Tracking
+
+{% for reg in regulatory_deadlines %}
+- **{{ reg.name }}**
+  {% if reg.comment_deadline %}
+  - Comment Deadline: {{ reg.comment_deadline }}{% if reg.days_until is not none %} ({{ reg.days_until }} days){% endif %}
+
+  {% elif reg.effective_date %}
+  - Effective Date: {{ reg.effective_date }}{% if reg.days_until is not none %} ({{ reg.days_until }} days){% endif %}
+
+  {% endif %}
+  - NAFSMA Status: {{ reg.nafsma_status }}
+  - Notes: {{ reg.notes }}
+  - [Federal Register]({{ reg.url }})
+
+{% endfor %}
+{% endif %}
+
 {% if disaster_declarations %}
 ## FEMA Disaster Declarations
 
@@ -152,12 +186,14 @@ No new legislative updates today.
 ## Summary
 - New bills tracked: {{ total_new_bills }}
 - Status changes: {{ total_status_changes }}
+- Watchlist updates: {{ total_watchlist_updates | default(0) }}
 - Committee meetings: {{ total_committee_meetings | default(0) }}
 - Federal Register documents: {{ total_federal_register | default(0) }}
 - Disaster declarations: {{ total_disaster_declarations | default(0) }}
 - Committee news (RSS): {{ total_committee_items | default(0) }}
 - Comment alerts: {{ total_comment_alerts | default(0) }}
-- Total items: {{ total_new_bills + total_status_changes + (total_committee_meetings | default(0)) + (total_federal_register | default(0)) + (total_disaster_declarations | default(0)) + (total_committee_items | default(0)) }}
+- Regulatory items: {{ total_regulatory_items | default(0) }}
+- Total items: {{ total_new_bills + total_status_changes + (total_watchlist_updates | default(0)) + (total_committee_meetings | default(0)) + (total_federal_register | default(0)) + (total_disaster_declarations | default(0)) + (total_committee_items | default(0)) }}
 
 ---
 *Generated automatically by NAFSMA Legislative Tracker*
