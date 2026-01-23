@@ -58,6 +58,7 @@ class StateData:
     bills: dict[str, TrackedBill] = field(default_factory=dict)
     federal_register_documents: dict[str, dict[str, Any]] = field(default_factory=dict)
     committee_items: dict[str, dict[str, Any]] = field(default_factory=dict)
+    committee_meetings: dict[str, dict[str, Any]] = field(default_factory=dict)
     disaster_declarations: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
@@ -67,6 +68,7 @@ class StateData:
             "bills": {k: v.to_dict() for k, v in self.bills.items()},
             "federal_register_documents": self.federal_register_documents,
             "committee_items": self.committee_items,
+            "committee_meetings": self.committee_meetings,
             "disaster_declarations": self.disaster_declarations,
         }
 
@@ -82,6 +84,7 @@ class StateData:
             bills=bills,
             federal_register_documents=data.get("federal_register_documents", {}),
             committee_items=data.get("committee_items", {}),
+            committee_meetings=data.get("committee_meetings", {}),
             disaster_declarations=data.get("disaster_declarations", {}),
         )
 
@@ -337,3 +340,43 @@ def process_disaster_declarations(
             logger.info(f"New disaster declaration: DR-{dec.disaster_number} ({dec.state})")
 
     return new_declarations
+
+
+def process_committee_meetings(
+    state_manager: StateManager,
+    meetings: list[Any],
+) -> list[Any]:
+    """Process committee meetings and return new ones.
+
+    Args:
+        state_manager: StateManager instance.
+        meetings: List of CommitteeMeeting objects.
+
+    Returns:
+        List of new CommitteeMeeting objects (not previously seen).
+    """
+    state = state_manager.get_state()
+    new_meetings = []
+    now = datetime.now().isoformat()
+
+    for meeting in meetings:
+        meeting_id = meeting.event_id
+
+        if meeting_id not in state.committee_meetings:
+            # New meeting
+            new_meetings.append(meeting)
+            state.committee_meetings[meeting_id] = {
+                "event_id": meeting.event_id,
+                "committee_code": meeting.committee_code,
+                "committee_name": meeting.committee_name,
+                "meeting_type": meeting.meeting_type,
+                "title": meeting.title,
+                "date": meeting.date,
+                "first_seen": now,
+            }
+            logger.info(
+                f"New committee meeting: {meeting.committee_name} - "
+                f"{meeting.meeting_type}: {meeting.title[:50]}..."
+            )
+
+    return new_meetings

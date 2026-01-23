@@ -43,6 +43,7 @@ class DigestGenerator:
         federal_register_docs: list[Any] | None = None,
         comment_alerts: list[Any] | None = None,
         committee_items: list[Any] | None = None,
+        committee_meetings: list[Any] | None = None,
         disaster_declarations: list[Any] | None = None,
         date: datetime | None = None,
     ) -> str:
@@ -53,6 +54,7 @@ class DigestGenerator:
             federal_register_docs: List of new FederalRegisterDocument objects.
             comment_alerts: List of FederalRegisterDocument objects with closing comment periods.
             committee_items: List of CommitteeItem objects from RSS feeds.
+            committee_meetings: List of CommitteeMeeting objects from Congress.gov API.
             disaster_declarations: List of DisasterDeclaration objects from OpenFEMA.
             date: Date for the digest. Defaults to today.
 
@@ -65,6 +67,7 @@ class DigestGenerator:
         federal_register_docs = federal_register_docs or []
         comment_alerts = comment_alerts or []
         committee_items = committee_items or []
+        committee_meetings = committee_meetings or []
         disaster_declarations = disaster_declarations or []
 
         # Separate updates by type and priority
@@ -90,6 +93,7 @@ class DigestGenerator:
             or len(federal_register_docs) > 0
             or len(comment_alerts) > 0
             or len(committee_items) > 0
+            or len(committee_meetings) > 0
             or len(disaster_declarations) > 0
         )
 
@@ -103,12 +107,14 @@ class DigestGenerator:
             new_federal_register=federal_register_docs,
             comment_alerts=comment_alerts,
             committee_items=committee_items,
+            committee_meetings=committee_meetings,
             disaster_declarations=disaster_declarations,
             total_new_bills=total_new_bills,
             total_status_changes=len(status_changes),
             total_federal_register=len(federal_register_docs),
             total_comment_alerts=len(comment_alerts),
             total_committee_items=len(committee_items),
+            total_committee_meetings=len(committee_meetings),
             total_disaster_declarations=len(disaster_declarations),
             has_updates=has_updates,
         )

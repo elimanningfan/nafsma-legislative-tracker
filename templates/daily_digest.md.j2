@@ -79,6 +79,21 @@ No new legislative updates today.
 {% endfor %}
 {% endif %}
 
+{% if committee_meetings %}
+## Congressional Committee Activity
+
+{% for meeting in committee_meetings %}
+- **{{ meeting.committee_name }}** - {{ meeting.meeting_type }}
+  - {{ meeting.title }}
+  - Date: {{ meeting.date }}{% if meeting.time %} at {{ meeting.time }}{% endif %}
+  {% if meeting.location %}- Location: {{ meeting.location }}{% endif %}
+  {% if meeting.witnesses %}- Witnesses: {{ meeting.witnesses | join(', ') }}{% endif %}
+  {% if meeting.related_bills %}- Related Bills: {{ meeting.related_bills | join(', ') }}{% endif %}
+  - [Details]({{ meeting.url }})
+
+{% endfor %}
+{% endif %}
+
 {% if comment_alerts %}
 ## Comment Periods Closing Soon
 
@@ -137,11 +152,12 @@ No new legislative updates today.
 ## Summary
 - New bills tracked: {{ total_new_bills }}
 - Status changes: {{ total_status_changes }}
+- Committee meetings: {{ total_committee_meetings | default(0) }}
 - Federal Register documents: {{ total_federal_register | default(0) }}
 - Disaster declarations: {{ total_disaster_declarations | default(0) }}
-- Committee updates: {{ total_committee_items | default(0) }}
+- Committee news (RSS): {{ total_committee_items | default(0) }}
 - Comment alerts: {{ total_comment_alerts | default(0) }}
-- Total items: {{ total_new_bills + total_status_changes + (total_federal_register | default(0)) + (total_disaster_declarations | default(0)) + (total_committee_items | default(0)) }}
+- Total items: {{ total_new_bills + total_status_changes + (total_committee_meetings | default(0)) + (total_federal_register | default(0)) + (total_disaster_declarations | default(0)) + (total_committee_items | default(0)) }}
 
 ---
 *Generated automatically by NAFSMA Legislative Tracker*

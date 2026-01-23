@@ -120,7 +120,59 @@ federal_register:
   comment_warning_days: 7
 
 committees:
-  # Congressional committee RSS feeds to monitor
+  # Congress.gov API committee meeting tracking (replaces broken RSS feeds)
+  # Codes use Congress.gov systemCode format: lowercase + numeric suffix
+  # 00 = full committee, other numbers = subcommittees
+  tracked_committees:
+    # House Transportation & Infrastructure (WRDA jurisdiction)
+    - code: "hspw00"
+      name: "House Transportation & Infrastructure"
+      chamber: "house"
+      priority: critical
+    - code: "hspw02"
+      name: "House T&I - Water Resources"
+      chamber: "house"
+      priority: critical
+    - code: "hspw13"
+      name: "House T&I - Emergency Management"
+      chamber: "house"
+      priority: high
+    # Senate Environment & Public Works (WRDA jurisdiction)
+    - code: "ssev00"
+      name: "Senate Environment & Public Works"
+      chamber: "senate"
+      priority: critical
+    - code: "ssev15"
+      name: "Senate EPW - Fisheries, Wildlife, and Water"
+      chamber: "senate"
+      priority: high
+    # Appropriations (agency funding)
+    - code: "hsap00"
+      name: "House Appropriations"
+      chamber: "house"
+      priority: high
+    - code: "hsap10"
+      name: "House Appropriations - Energy & Water"
+      chamber: "house"
+      priority: critical
+    - code: "ssap00"
+      name: "Senate Appropriations"
+      chamber: "senate"
+      priority: high
+    - code: "ssap22"
+      name: "Senate Appropriations - Energy & Water"
+      chamber: "senate"
+      priority: critical
+    # Senate Banking (NFIP jurisdiction)
+    - code: "ssbk00"
+      name: "Senate Banking"
+      chamber: "senate"
+      priority: high
+
+  # Days to look back for recent committee meetings
+  meetings_days_back: 30
+
+  # Congressional committee RSS feeds to monitor (legacy - some may be broken)
   # Note: Committee RSS feeds may be unreliable or return malformed XML.
   # The system handles this gracefully - if feeds fail, they are skipped.
   # You can add/remove feeds as needed. Feeds are filtered by keywords.

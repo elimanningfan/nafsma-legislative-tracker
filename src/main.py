@@ -8,6 +8,7 @@ import click
 
 from src.outputs.digest import DigestGenerator
 from src.outputs.email import send_daily_digest, send_comment_period_alert
+from src.sources.committee_meetings import CommitteeMeetingClient, fetch_committee_meetings
 from src.sources.committee_rss import CommitteeRSSClient, fetch_committee_items
 from src.sources.congress import CongressApiClient, find_relevant_bills, run_all_searches
 from src.sources.federal_register import (
@@ -21,6 +22,7 @@ from src.utils.state import (
     StateManager,
     process_bills,
     process_committee_items,
+    process_committee_meetings,
     process_disaster_declarations,
     process_federal_register_documents,
 )
@@ -63,6 +65,7 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     congress_client = CongressApiClient()
     federal_register_client = FederalRegisterClient()
     committee_rss_client = CommitteeRSSClient()
+    committee_meeting_client = CommitteeMeetingClient()
     openfema_client = OpenFEMAClient()
     state_manager = StateManager()
     digest_generator = DigestGenerator()
@@ -99,6 +102,15 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_committee_items = process_committee_items(state_manager, committee_items)
     logger.info(f"Detected {len(new_committee_items)} new committee items")
 
+    # Fetch committee meetings from Congress.gov API
+    logger.info("Fetching committee meetings from Congress.gov API...")
+    committee_meetings = fetch_committee_meetings(committee_meeting_client, config)
+    logger.info(f"Found {len(committee_meetings)} committee meetings")
+
+    # Process committee meetings to find new ones
+    new_committee_meetings = process_committee_meetings(state_manager, committee_meetings)
+    logger.info(f"Detected {len(new_committee_meetings)} new committee meetings")
+
     # Fetch FEMA disaster declarations
     openfema_days_back = config.get("openfema", {}).get("days_back", 7)
     logger.info(f"Fetching FEMA disaster declarations (last {openfema_days_back} days)...")
@@ -115,6 +127,7 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
         federal_register_docs=new_fr_docs,
         comment_alerts=comment_alerts,
         committee_items=new_committee_items,
+        committee_meetings=new_committee_meetings,
         disaster_declarations=new_disasters,
     )
 
@@ -152,8 +165,9 @@ def daily_check(save_digest: bool, send_email: bool, days_back: int) -> None:
     new_bills = sum(1 for u in bill_updates if u.update_type == "new")
     status_changes = sum(1 for u in bill_updates if u.update_type == "status_change")
     click.echo(f"Summary: {new_bills} new bills, {status_changes} status changes, "
+               f"{len(new_committee_meetings)} committee meetings, "
                f"{len(new_fr_docs)} new FR docs, {len(comment_alerts)} comment alerts, "
-               f"{len(new_committee_items)} new committee items, "
+               f"{len(new_committee_items)} new committee items (RSS), "
                f"{len(new_disasters)} new disaster declarations")
 
 
