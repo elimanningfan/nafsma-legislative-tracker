@@ -6,6 +6,10 @@ on:
     - cron: '0 12 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
+# Required for git push
+permissions:
+  contents: write
+
 jobs:
   daily-check:
     runs-on: ubuntu-latest
