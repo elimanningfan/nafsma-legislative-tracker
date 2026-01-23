@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-01-23T21:03:40.106456",
+  "last_run": "2026-01-23T21:06:20.543892",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -548,6 +548,224 @@
       "declaration_date": "2025-12-12",
       "designated_area": "Whatcom (County)",
       "first_seen": "2026-01-23T09:43:53.659581"
+    }
+  },
+  "watchlist_bills": {
+    "119-hr-2093": {
+      "bill_id": "119-hr-2093",
+      "title": "NPDES Permit Terms Extension",
+      "category": "high_priority",
+      "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "last_action_date": "2025-03-14",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-5089": {
+      "bill_id": "119-hr-5089",
+      "title": "Weather Act Reauthorization Act of 2025",
+      "category": "high_priority",
+      "last_action": "Ordered to be Reported (Amended) by Voice Vote.",
+      "last_action_date": "2025-09-10",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-3035": {
+      "bill_id": "119-hr-3035",
+      "title": "Restoring WIFIA Eligibility Act of 2025",
+      "category": "high_priority",
+      "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "last_action_date": "2025-04-28",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-1760": {
+      "bill_id": "119-s-1760",
+      "title": "Restoring WIFIA Eligibility Act of 2025 (Senate)",
+      "category": "high_priority",
+      "last_action": "Read twice and referred to the Committee on the Budget.",
+      "last_action_date": "2025-05-14",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-4256": {
+      "bill_id": "119-hr-4256",
+      "title": "Digital Coast Reauthorization Act",
+      "category": "high_priority",
+      "last_action": "Placed on the Union Calendar, Calendar No. 310.",
+      "last_action_date": "2025-10-31",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-2245": {
+      "bill_id": "119-s-2245",
+      "title": "Digital Coast Reauthorization Act (Senate)",
+      "category": "high_priority",
+      "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "last_action_date": "2025-10-21",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-573": {
+      "bill_id": "119-hr-573",
+      "title": "Study NEPA's Impact on Projects Act",
+      "category": "high_priority",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "last_action_date": "2025-12-10",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-4503": {
+      "bill_id": "119-hr-4503",
+      "title": "ePermit Act",
+      "category": "high_priority",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "last_action_date": "2025-12-10",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-4776": {
+      "bill_id": "119-hr-4776",
+      "title": "SPEED Act",
+      "category": "high_priority",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "last_action_date": "2025-12-18",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-1015": {
+      "bill_id": "119-s-1015",
+      "title": "Extend NFIP through December 31, 2026",
+      "category": "high_priority",
+      "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S1745)",
+      "last_action_date": "2025-03-13",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-1564": {
+      "bill_id": "119-s-1564",
+      "title": "Floodplain Enhancement and Recovery Act",
+      "category": "high_priority",
+      "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "last_action_date": "2025-05-01",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-6620": {
+      "bill_id": "119-hr-6620",
+      "title": "Continuous Coverage for Flood Insurance Act",
+      "category": "high_priority",
+      "last_action": "Referred to the House Committee on Financial Services.",
+      "last_action_date": "2025-12-11",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-3898": {
+      "bill_id": "119-hr-3898",
+      "title": "PERMIT Act",
+      "category": "high_priority",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "last_action_date": "2025-12-15",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-4669": {
+      "bill_id": "119-hr-4669",
+      "title": "Fixing Emergency Management for Americans Act of 2025",
+      "category": "high_priority",
+      "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 3.",
+      "last_action_date": "2025-09-03",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-6229": {
+      "bill_id": "119-hr-6229",
+      "title": "Water Infrastructure Finance and Innovation Act Amendments of 2025",
+      "category": "high_priority",
+      "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "last_action_date": "2025-11-22",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-5371": {
+      "bill_id": "119-hr-5371",
+      "title": "Continuing Appropriations and Extensions Act, 2026",
+      "category": "funding",
+      "last_action": "Became Public Law No: 119-37.",
+      "last_action_date": "2025-11-12",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-6938": {
+      "bill_id": "119-hr-6938",
+      "title": "Consolidated Appropriations Act (Energy & Water, CJS, Interior)",
+      "category": "funding",
+      "last_action": "Presented to President.",
+      "last_action_date": "2026-01-22",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-4213": {
+      "bill_id": "119-hr-4213",
+      "title": "Department of Homeland Security Appropriations Act",
+      "category": "funding",
+      "last_action": "Placed on the Union Calendar, Calendar No. 139.",
+      "last_action_date": "2025-06-26",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-5361": {
+      "bill_id": "119-s-5361",
+      "title": "Improving Atmospheric River Forecasts Act",
+      "category": "notable",
+      "last_action": null,
+      "last_action_date": null,
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-1115": {
+      "bill_id": "119-hr-1115",
+      "title": "Weather Radar Coverage Act",
+      "category": "notable",
+      "last_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "last_action_date": "2025-02-07",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-1894": {
+      "bill_id": "119-hr-1894",
+      "title": "Fish Act of 2025",
+      "category": "notable",
+      "last_action": "Referred to the House Committee on Natural Resources.",
+      "last_action_date": "2025-03-06",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-1897": {
+      "bill_id": "119-hr-1897",
+      "title": "ESA Amendments Act of 2025",
+      "category": "notable",
+      "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 25 - 16.",
+      "last_action_date": "2025-12-17",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-s-1323": {
+      "bill_id": "119-s-1323",
+      "title": "FIREWALL Act",
+      "category": "notable",
+      "last_action": "Read twice and referred to the Committee on Finance.",
+      "last_action_date": "2025-04-08",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
+    },
+    "119-hr-5848": {
+      "bill_id": "119-hr-5848",
+      "title": "NFIP Retroactive Renewal and Reauthorization Act",
+      "category": "notable",
+      "last_action": "Referred to the House Committee on Financial Services.",
+      "last_action_date": "2025-10-28",
+      "first_seen": "2026-01-23T21:06:20.300322",
+      "last_updated": "2026-01-23T21:06:20.300322"
     }
   }
 }
