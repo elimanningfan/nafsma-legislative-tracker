@@ -1,53 +1,53 @@
 {
-  "last_run": "2026-01-23T21:06:20.543892",
+  "last_run": "2026-01-23T13:02:16.383939",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
       "title": "MAPWaters Act of 2025",
       "last_action": "Became Public Law No: 119-62.",
       "last_action_date": "2025-12-26",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     },
     "119-hr-125": {
       "bill_id": "119-hr-125",
       "title": "Limiting Emergency Powers Act of 2025",
       "last_action": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
       "last_action_date": "2025-01-04",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     },
     "119-hr-197": {
       "bill_id": "119-hr-197",
       "title": "Lake Winnibigoshish Land Exchange Act of 2025",
       "last_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 218.",
       "last_action_date": "2025-10-27",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     },
     "119-hr-152": {
       "bill_id": "119-hr-152",
       "title": "Federal Disaster Assistance Coordination Act",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "last_action_date": "2025-01-14",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     },
     "119-hr-132": {
       "bill_id": "119-hr-132",
       "title": "Western Water Accelerated Revenue Repayment Act",
       "last_action": "Referred to the House Committee on Natural Resources.",
       "last_action_date": "2025-01-03",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     },
     "119-hr-153": {
       "bill_id": "119-hr-153",
       "title": "Post-Disaster Assistance Online Accountability Act",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "last_action_date": "2025-01-15",
-      "first_seen": "2026-01-22T08:30:25.733468",
-      "last_updated": "2026-01-22T08:30:25.733468"
+      "first_seen": "2026-01-23T13:01:32.490203",
+      "last_updated": "2026-01-23T13:01:32.490203"
     }
   },
   "federal_register_documents": {
@@ -56,147 +56,119 @@
       "title": "Proposed Flood Hazard Determinations",
       "doc_type": "Notice",
       "publication_date": "2026-01-21",
-      "first_seen": "2026-01-22T08:30:26.289699"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01057": {
       "document_number": "2026-01057",
       "title": "Proposed Flood Hazard Determinations",
       "doc_type": "Notice",
       "publication_date": "2026-01-21",
-      "first_seen": "2026-01-22T08:30:26.289699"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01056": {
       "document_number": "2026-01056",
       "title": "Proposed Flood Hazard Determinations",
       "doc_type": "Notice",
       "publication_date": "2026-01-21",
-      "first_seen": "2026-01-22T08:30:26.289699"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01055": {
       "document_number": "2026-01055",
       "title": "Changes in Flood Hazard Determinations",
       "doc_type": "Notice",
       "publication_date": "2026-01-21",
-      "first_seen": "2026-01-22T08:30:26.289699"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01054": {
       "document_number": "2026-01054",
       "title": "Changes in Flood Hazard Determinations",
       "doc_type": "Notice",
       "publication_date": "2026-01-21",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-01001": {
-      "document_number": "2026-01001",
-      "title": "Air Plan Approval; Ohio; 2015 Ozone Moderate Reasonably Available Control Technology",
-      "doc_type": "Rule",
-      "publication_date": "2026-01-20",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00844": {
-      "document_number": "2026-00844",
-      "title": "Environmental Impact Statements; Notice of Availability",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-16",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00783": {
-      "document_number": "2026-00783",
-      "title": "Proposed Cercla Cost Recovery Settlement for the Trinseo Polymer Release Site, Bristol, Bucks County, Pennsylvania",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-16",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00781": {
-      "document_number": "2026-00781",
-      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Brownfields Program-Accomplishment Reporting in Assessment, Cleanup and Redevelopment Exchange System (ACRES) (Revision)",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-16",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00779": {
-      "document_number": "2026-00779",
-      "title": "Farm, Ranch, and Rural Communities Advisory Committee (FRRCC); Call for Nominations",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-16",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00776": {
-      "document_number": "2026-00776",
-      "title": "Notice of Final Decision To Reissue the Republic Industrial and Energy Solutions, LLC Land-Ban Exemption",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-16",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00782": {
-      "document_number": "2026-00782",
-      "title": "Determination of Attainment by the Attainment Date; 1997 Ozone Standards; California; Coachella Valley",
-      "doc_type": "Proposed Rule",
-      "publication_date": "2026-01-15",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00754": {
-      "document_number": "2026-00754",
-      "title": "Updating the Water Quality Certification Regulations",
-      "doc_type": "Proposed Rule",
-      "publication_date": "2026-01-15",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00677": {
-      "document_number": "2026-00677",
-      "title": "New Source Performance Standards Review for Stationary Combustion Turbines and Stationary Gas Turbines",
-      "doc_type": "Rule",
-      "publication_date": "2026-01-15",
-      "first_seen": "2026-01-22T08:30:26.289699"
-    },
-    "2026-00635": {
-      "document_number": "2026-00635",
-      "title": "SRC, Inc.; Access of Data",
-      "doc_type": "Notice",
-      "publication_date": "2026-01-15",
-      "first_seen": "2026-01-22T08:30:26.289699"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01324": {
       "document_number": "2026-01324",
       "title": "Air Plan Approval; Montana; Revisions to Western Sugar Stipulation",
       "doc_type": "Proposed Rule",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01319": {
       "document_number": "2026-01319",
       "title": "Proposed Revisions of the Nonattainment Designation for the 2008 and 2015 Ozone Standards and Clean Data Determinations for the 2008 and 2015 Ozone Standards: Cecil County, MD and New Castle County, DE; Extension of Comment Period",
       "doc_type": "Proposed Rule",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01315": {
       "document_number": "2026-01315",
       "title": "Underground Injection Control Program; Hazardous Waste Injection Restrictions; Petition for Exemption Reissuance-Class I Hazardous Waste Injection; Sasol Chemicals (USA), LLC, Greens Bayou Plant, Texas",
       "doc_type": "Notice",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01314": {
       "document_number": "2026-01314",
       "title": "Air Plan Approval; Maryland; Clean Data Determination for the Baltimore, MD Nonattainment Area for the 2015 Ozone National Ambient Air Quality Standards",
       "doc_type": "Proposed Rule",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01276": {
       "document_number": "2026-01276",
       "title": "Notice of Proposed Administrative Settlement Agreement for Response Action and Payment of Response Costs by Bona Fide Prospective Purchaser at 9648 Santa Fe Springs Road and 9951 and 9848 Greenleaf Avenue in Santa Fe Springs, Los Angeles County, California",
       "doc_type": "Notice",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
     },
     "2026-01267": {
       "document_number": "2026-01267",
       "title": "Environmental Impact Statements; Notice of Availability",
       "doc_type": "Notice",
       "publication_date": "2026-01-23",
-      "first_seen": "2026-01-23T09:43:15.845633"
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-01001": {
+      "document_number": "2026-01001",
+      "title": "Air Plan Approval; Ohio; 2015 Ozone Moderate Reasonably Available Control Technology",
+      "doc_type": "Rule",
+      "publication_date": "2026-01-20",
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-00844": {
+      "document_number": "2026-00844",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-00783": {
+      "document_number": "2026-00783",
+      "title": "Proposed Cercla Cost Recovery Settlement for the Trinseo Polymer Release Site, Bristol, Bucks County, Pennsylvania",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-00781": {
+      "document_number": "2026-00781",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Brownfields Program-Accomplishment Reporting in Assessment, Cleanup and Redevelopment Exchange System (ACRES) (Revision)",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-00779": {
+      "document_number": "2026-00779",
+      "title": "Farm, Ranch, and Rural Communities Advisory Committee (FRRCC); Call for Nominations",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-00776": {
+      "document_number": "2026-00776",
+      "title": "Notice of Final Decision To Reissue the Republic Industrial and Energy Solutions, LLC Land-Ban Exemption",
+      "doc_type": "Notice",
+      "publication_date": "2026-01-16",
+      "first_seen": "2026-01-23T13:01:33.300725"
     }
   },
   "committee_items": {
@@ -205,21 +177,21 @@
       "title": "Desert Storm veteran influences daughter\u2019s call to service",
       "source_name": "USACE News",
       "published_date": "2021-02-04",
-      "first_seen": "2026-01-23T09:43:43.524724"
+      "first_seen": "2026-01-23T13:01:37.097279"
     },
     "https://www.usace.army.mil/Who-We-Are/Reserve-Affairs/Article/2161091/djibouti-unknown/": {
       "item_id": "https://www.usace.army.mil/Who-We-Are/Reserve-Affairs/Article/2161091/djibouti-unknown/",
       "title": "Djibouti Unknown",
       "source_name": "USACE News",
       "published_date": "2020-04-22",
-      "first_seen": "2026-01-23T09:43:43.524724"
+      "first_seen": "2026-01-23T13:01:37.097279"
     },
     "January 18, 2026": {
       "item_id": "January 18, 2026",
       "title": "Most-Viewed Bills - Week of January 18, 2026",
       "source_name": "Congress.gov Most Viewed",
       "published_date": "",
-      "first_seen": "2026-01-23T09:43:43.524724"
+      "first_seen": "2026-01-23T13:01:37.097279"
     }
   },
   "committee_meetings": {
@@ -230,7 +202,7 @@
       "meeting_type": "Meeting",
       "title": "Hearings to examine improving the Federal environmental review and permitting process, part 2.",
       "date": "2026-01-28",
-      "first_seen": "2026-01-23T09:45:06.935829"
+      "first_seen": "2026-01-23T13:02:12.255396"
     },
     "118896": {
       "event_id": "118896",
@@ -239,7 +211,7 @@
       "meeting_type": "Hearing",
       "title": "\"Smarter Spending, Stronger Results: Reducing Duplication and Ensuring Effectiveness Through Economic Development Reforms\"",
       "date": "2026-01-22",
-      "first_seen": "2026-01-23T09:45:06.935829"
+      "first_seen": "2026-01-23T13:02:12.255396"
     },
     "118827": {
       "event_id": "118827",
@@ -248,7 +220,7 @@
       "meeting_type": "Markup",
       "title": "an ANS of H.R. 7084, the \"Defending American Property Abroad Act of 2026\"; an ANS to H.R. 6744, the \"Military Air Traffic Control Transition Act\"; an ANS to H.R. 6618, the \"Wildfire Aerial Response Safety Act\"; an ANS to H.R. 2247, the \"Pilot Certificate Accessibility Act\"; an ANS to H.R. 2474, the \"Expanding Appalachia's Broadband Access Act\"; and other matters cleared for consideration.",
       "date": "2026-01-21",
-      "first_seen": "2026-01-23T09:45:06.935829"
+      "first_seen": "2026-01-23T13:02:12.255396"
     },
     "118810": {
       "event_id": "118810",
@@ -257,7 +229,7 @@
       "meeting_type": "Hearing",
       "title": "\"Committee on Transportation and Infrastructure Member Day\"",
       "date": "2026-01-14",
-      "first_seen": "2026-01-23T09:45:06.935829"
+      "first_seen": "2026-01-23T13:02:12.255396"
     }
   },
   "disaster_declarations": {
@@ -268,7 +240,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-19",
       "designated_area": "Blackfeet Indian Reservation",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3630-MT-Lincoln (County)": {
       "disaster_number": 3630,
@@ -277,7 +249,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-19",
       "designated_area": "Lincoln (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3630-MT-Sanders (County)": {
       "disaster_number": 3630,
@@ -286,7 +258,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-19",
       "designated_area": "Sanders (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Barton (County)": {
       "disaster_number": 4897,
@@ -295,7 +267,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Barton (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Comanche (County)": {
       "disaster_number": 4897,
@@ -304,7 +276,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Comanche (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Edwards (County)": {
       "disaster_number": 4897,
@@ -313,7 +285,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Edwards (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Hodgeman (County)": {
       "disaster_number": 4897,
@@ -322,7 +294,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Hodgeman (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Logan (County)": {
       "disaster_number": 4897,
@@ -331,7 +303,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Logan (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Morris (County)": {
       "disaster_number": 4897,
@@ -340,7 +312,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Morris (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Ottawa (County)": {
       "disaster_number": 4897,
@@ -349,7 +321,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Ottawa (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Rawlins (County)": {
       "disaster_number": 4897,
@@ -358,7 +330,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Rawlins (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Saline (County)": {
       "disaster_number": 4897,
@@ -367,7 +339,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Saline (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Stevens (County)": {
       "disaster_number": 4897,
@@ -376,7 +348,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Stevens (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Sumner (County)": {
       "disaster_number": 4897,
@@ -385,7 +357,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Sumner (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "4897-KS-Wyandotte (County)": {
       "disaster_number": 4897,
@@ -394,7 +366,7 @@
       "incident_type": "Severe Storm",
       "declaration_date": "2025-12-19",
       "designated_area": "Wyandotte (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Samish (TDSA)": {
       "disaster_number": 3629,
@@ -403,7 +375,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Samish (TDSA)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Yakima (County)": {
       "disaster_number": 3629,
@@ -412,7 +384,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Yakima (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Benton (County)": {
       "disaster_number": 3629,
@@ -421,7 +393,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Benton (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Chelan (County)": {
       "disaster_number": 3629,
@@ -430,7 +402,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Chelan (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Clallam (County)": {
       "disaster_number": 3629,
@@ -439,7 +411,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Clallam (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Grays Harbor (County)": {
       "disaster_number": 3629,
@@ -448,7 +420,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Grays Harbor (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Jefferson (County)": {
       "disaster_number": 3629,
@@ -457,7 +429,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Jefferson (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-King (County)": {
       "disaster_number": 3629,
@@ -466,7 +438,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "King (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Kittitas (County)": {
       "disaster_number": 3629,
@@ -475,7 +447,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Kittitas (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Lewis (County)": {
       "disaster_number": 3629,
@@ -484,7 +456,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Lewis (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Mason (County)": {
       "disaster_number": 3629,
@@ -493,7 +465,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Mason (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Pierce (County)": {
       "disaster_number": 3629,
@@ -502,7 +474,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Pierce (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Skagit (County)": {
       "disaster_number": 3629,
@@ -511,7 +483,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Skagit (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Snohomish (County)": {
       "disaster_number": 3629,
@@ -520,7 +492,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Snohomish (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Thurston (County)": {
       "disaster_number": 3629,
@@ -529,7 +501,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Thurston (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Wahkiakum (County)": {
       "disaster_number": 3629,
@@ -538,7 +510,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Wahkiakum (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     },
     "3629-WA-Whatcom (County)": {
       "disaster_number": 3629,
@@ -547,7 +519,7 @@
       "incident_type": "Flood",
       "declaration_date": "2025-12-12",
       "designated_area": "Whatcom (County)",
-      "first_seen": "2026-01-23T09:43:53.659581"
+      "first_seen": "2026-01-23T13:02:12.628797"
     }
   },
   "watchlist_bills": {
@@ -557,8 +529,8 @@
       "category": "high_priority",
       "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
       "last_action_date": "2025-03-14",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-5089": {
       "bill_id": "119-hr-5089",
@@ -566,8 +538,8 @@
       "category": "high_priority",
       "last_action": "Ordered to be Reported (Amended) by Voice Vote.",
       "last_action_date": "2025-09-10",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-3035": {
       "bill_id": "119-hr-3035",
@@ -575,8 +547,8 @@
       "category": "high_priority",
       "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
       "last_action_date": "2025-04-28",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-1760": {
       "bill_id": "119-s-1760",
@@ -584,8 +556,8 @@
       "category": "high_priority",
       "last_action": "Read twice and referred to the Committee on the Budget.",
       "last_action_date": "2025-05-14",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-4256": {
       "bill_id": "119-hr-4256",
@@ -593,8 +565,8 @@
       "category": "high_priority",
       "last_action": "Placed on the Union Calendar, Calendar No. 310.",
       "last_action_date": "2025-10-31",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-2245": {
       "bill_id": "119-s-2245",
@@ -602,8 +574,8 @@
       "category": "high_priority",
       "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
       "last_action_date": "2025-10-21",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-573": {
       "bill_id": "119-hr-573",
@@ -611,8 +583,8 @@
       "category": "high_priority",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
       "last_action_date": "2025-12-10",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-4503": {
       "bill_id": "119-hr-4503",
@@ -620,8 +592,8 @@
       "category": "high_priority",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
       "last_action_date": "2025-12-10",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-4776": {
       "bill_id": "119-hr-4776",
@@ -629,8 +601,8 @@
       "category": "high_priority",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
       "last_action_date": "2025-12-18",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-1015": {
       "bill_id": "119-s-1015",
@@ -638,8 +610,8 @@
       "category": "high_priority",
       "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S1745)",
       "last_action_date": "2025-03-13",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-1564": {
       "bill_id": "119-s-1564",
@@ -647,8 +619,8 @@
       "category": "high_priority",
       "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
       "last_action_date": "2025-05-01",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-6620": {
       "bill_id": "119-hr-6620",
@@ -656,8 +628,8 @@
       "category": "high_priority",
       "last_action": "Referred to the House Committee on Financial Services.",
       "last_action_date": "2025-12-11",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-3898": {
       "bill_id": "119-hr-3898",
@@ -665,8 +637,8 @@
       "category": "high_priority",
       "last_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
       "last_action_date": "2025-12-15",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-4669": {
       "bill_id": "119-hr-4669",
@@ -674,8 +646,8 @@
       "category": "high_priority",
       "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 3.",
       "last_action_date": "2025-09-03",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-6229": {
       "bill_id": "119-hr-6229",
@@ -683,8 +655,8 @@
       "category": "high_priority",
       "last_action": "Referred to the Subcommittee on Water Resources and Environment.",
       "last_action_date": "2025-11-22",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-5371": {
       "bill_id": "119-hr-5371",
@@ -692,8 +664,8 @@
       "category": "funding",
       "last_action": "Became Public Law No: 119-37.",
       "last_action_date": "2025-11-12",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-6938": {
       "bill_id": "119-hr-6938",
@@ -701,8 +673,8 @@
       "category": "funding",
       "last_action": "Presented to President.",
       "last_action_date": "2026-01-22",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-4213": {
       "bill_id": "119-hr-4213",
@@ -710,8 +682,8 @@
       "category": "funding",
       "last_action": "Placed on the Union Calendar, Calendar No. 139.",
       "last_action_date": "2025-06-26",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-5361": {
       "bill_id": "119-s-5361",
@@ -719,8 +691,8 @@
       "category": "notable",
       "last_action": null,
       "last_action_date": null,
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-1115": {
       "bill_id": "119-hr-1115",
@@ -728,8 +700,8 @@
       "category": "notable",
       "last_action": "Referred to the House Committee on Science, Space, and Technology.",
       "last_action_date": "2025-02-07",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-1894": {
       "bill_id": "119-hr-1894",
@@ -737,8 +709,8 @@
       "category": "notable",
       "last_action": "Referred to the House Committee on Natural Resources.",
       "last_action_date": "2025-03-06",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-1897": {
       "bill_id": "119-hr-1897",
@@ -746,8 +718,8 @@
       "category": "notable",
       "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 25 - 16.",
       "last_action_date": "2025-12-17",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-s-1323": {
       "bill_id": "119-s-1323",
@@ -755,8 +727,8 @@
       "category": "notable",
       "last_action": "Read twice and referred to the Committee on Finance.",
       "last_action_date": "2025-04-08",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     },
     "119-hr-5848": {
       "bill_id": "119-hr-5848",
@@ -764,8 +736,8 @@
       "category": "notable",
       "last_action": "Referred to the House Committee on Financial Services.",
       "last_action_date": "2025-10-28",
-      "first_seen": "2026-01-23T21:06:20.300322",
-      "last_updated": "2026-01-23T21:06:20.300322"
+      "first_seen": "2026-01-23T13:02:16.355438",
+      "last_updated": "2026-01-23T13:02:16.355438"
     }
   }
 }

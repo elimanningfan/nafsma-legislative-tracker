@@ -18,6 +18,8 @@ The NAFSMA Legislative Tracker is an automated system that monitors federal legi
 | **Federal Register API** | Working | Rules, proposed rules, and notices from FEMA, EPA, USACE |
 | **OpenFEMA API** | Working | Disaster declarations (floods, storms, hurricanes) |
 | **Committee RSS** | Partial | USACE News works; House T&I and Senate EPW feeds are broken |
+| **Congress.gov Committee Meetings API** | Working | Hearings, markups, meetings from 11 key committees |
+| **NAFSMA Priority Watchlist** | Working | 24 priority bills + regulatory comment deadlines |
 
 ### Features
 
@@ -26,12 +28,17 @@ The NAFSMA Legislative Tracker is an automated system that monitors federal legi
 - **State tracking** to avoid duplicate notifications
 - **Priority scoring** (critical/high/normal) based on NAFSMA keywords
 - **Comment period alerts** for regulations closing within 7 days
+- **Priority bill watchlist** tracking 24 NAFSMA priority bills with status monitoring
+- **Committee meeting tracking** from 11 key committees via Congress.gov API
 
 ### Output Example
 
 Each daily digest includes:
+- Priority bill watchlist updates (status changes on tracked bills)
+- NAFSMA regulatory tracking (comment deadlines)
 - New bills (by priority level)
 - Bill status changes
+- Committee activity (hearings, markups, meetings)
 - Comment periods closing soon
 - FEMA disaster declarations
 - Federal Register documents
@@ -70,8 +77,28 @@ JSON-based tracking prevents duplicate notifications and enables:
 - Detection of bill status changes
 - First-seen timestamps for all items
 - Persistence across runs via git commits
+- Watchlist bill tracking with status change detection
+- Committee meeting state management
 
-### 5. Automation
+### 5. Congress.gov Committee Meetings API
+Reliable tracking of committee activity from 11 key committees:
+- **House T&I** (full committee + Water Resources + Emergency Management subcommittees)
+- **Senate EPW** (full committee + Water subcommittee)
+- **House/Senate Appropriations** (full + Energy & Water subcommittees)
+- **Senate Banking** (NFIP jurisdiction)
+
+Captures hearings, markups, meetings with related bills and witness information.
+
+### 6. NAFSMA Priority Bill Watchlist
+Direct tracking of 24 priority bills from NAFSMA's legislative tracker:
+- 15 high priority bills (WIFIA, NPDES, NEPA, NFIP reauthorization, etc.)
+- 3 funding/appropriations bills
+- 6 other notable bills
+- 4 regulatory comment periods with deadline tracking
+
+Status changes on these priority bills are highlighted in digests.
+
+### 7. Automation
 GitHub Actions provides reliable, free automation:
 - No server to maintain
 - Secrets management for API keys
@@ -84,9 +111,9 @@ GitHub Actions provides reliable, free automation:
 ### 1. Congressional Committee RSS Feeds
 **Problem:** House T&I and Senate EPW RSS feeds return malformed XML or 404 errors.
 
-**Impact:** No committee hearing or press release tracking from primary committees of jurisdiction.
+**Impact:** Limited to press release tracking; RSS feeds unreliable.
 
-**Workaround:** Added Congress.gov Most Viewed Bills feed as a fallback, but it's not committee-specific.
+**Solution:** Replaced with Congress.gov Committee Meetings API (see below). Committee hearings, markups, and meetings are now tracked reliably from 11 key committees.
 
 ### 2. Limited Agency Coverage
 **Problem:** Only monitoring 3 agencies (FEMA, EPA, USACE).
@@ -143,11 +170,8 @@ agencies:
     name: "NOAA"
 ```
 
-#### 3. Fix or Replace Committee Feeds
-Options:
-- Monitor committee websites via web scraping
-- Use Congress.gov committee hearing API (if available)
-- Subscribe to committee email lists and parse
+#### 3. ~~Fix or Replace Committee Feeds~~ ✓ COMPLETED
+Implemented Congress.gov Committee Meetings API to track hearings, markups, and meetings from 11 key committees.
 
 ### Medium-Term Features
 
@@ -203,6 +227,10 @@ GitHub Actions (daily-check.yml)
     │
     ├── Congress.gov API → Subject filtering → Bill tracking
     │
+    ├── Congress.gov Committee Meetings API → 11 committees → Meeting tracking
+    │
+    ├── NAFSMA Watchlist → Priority bills → Status change detection
+    │
     ├── Federal Register API → Agency filtering → Document tracking
     │
     ├── OpenFEMA API → Incident type filtering → Disaster tracking
@@ -220,24 +248,27 @@ GitHub Actions (daily-check.yml)
 nafsma-legislative-tracker/
 ├── src/
 │   ├── sources/
-│   │   ├── congress.py        # Congress.gov API client
-│   │   ├── federal_register.py # Federal Register API client
-│   │   ├── openfema.py        # OpenFEMA API client
-│   │   └── committee_rss.py   # RSS feed client
+│   │   ├── congress.py           # Congress.gov API client
+│   │   ├── federal_register.py   # Federal Register API client
+│   │   ├── openfema.py           # OpenFEMA API client
+│   │   ├── committee_rss.py      # RSS feed client
+│   │   ├── committee_meetings.py # Congress.gov committee meetings API
+│   │   └── watchlist.py          # NAFSMA priority bill watchlist
 │   ├── outputs/
-│   │   ├── digest.py          # Digest generation
-│   │   └── email.py           # SendGrid email
+│   │   ├── digest.py             # Digest generation
+│   │   └── email.py              # SendGrid email
 │   ├── utils/
-│   │   ├── config.py          # Configuration loading
-│   │   └── state.py           # State management
-│   └── main.py                # CLI entry point
+│   │   ├── config.py             # Configuration loading
+│   │   └── state.py              # State management
+│   └── main.py                   # CLI entry point
 ├── templates/
-│   └── daily_digest.md.j2     # Digest template
+│   └── daily_digest.md.j2        # Digest template
 ├── data/
-│   ├── config.yaml            # Configuration
-│   └── state.json             # Tracking state
+│   ├── config.yaml               # Configuration
+│   ├── watchlist.yaml            # NAFSMA priority bills & regulatory items
+│   └── state.json                # Tracking state
 ├── .github/workflows/
-│   └── daily-check.yml        # GitHub Actions
+│   └── daily-check.yml           # GitHub Actions
 └── requirements.txt
 ```
 
@@ -247,8 +278,8 @@ nafsma-legislative-tracker/
 
 The NAFSMA Legislative Tracker successfully automates monitoring of federal legislation, regulations, and disasters relevant to flood and stormwater management. The core functionality is solid and production-ready.
 
-**Strengths:** Reliable data sources, automated delivery, change detection, priority scoring.
+**Strengths:** Reliable data sources, automated delivery, change detection, priority scoring, priority bill watchlist, committee meeting tracking.
 
-**Gaps:** Committee tracking, limited agencies, no web interface, basic keyword matching.
+**Gaps:** Limited agency coverage, no web interface, basic keyword matching.
 
-**Next steps** should focus on expanding coverage (more agencies, fixed committee feeds) and improving usability (Excel exports, web dashboard) before tackling advanced features like AI scoring.
+**Next steps** should focus on expanding agency coverage and improving usability (Excel exports, web dashboard) before tackling advanced features like AI scoring.
