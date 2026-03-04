@@ -1,0 +1,580 @@
+// NAFSMA CMS Database Schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// Authentication & Users
+// ============================================================
+
+model User {
+  id            String    @id @default(cuid())
+  name          String
+  email         String    @unique
+  emailVerified DateTime?
+  password      String
+  image         String?
+  role          UserRole  @default(MEMBER)
+  title         String?
+  phone         String?
+
+  // Organization membership
+  organizationId String?
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+
+  // Password reset
+  resetToken        String?   @unique
+  resetTokenExpiry  DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  pages              Page[]
+  blogPosts          BlogPost[]
+  media              Media[]
+  events             Event[]
+  resources          Resource[]
+  awards             Award[]
+  reviewedApplications MembershipApplication[] @relation("ReviewedBy")
+  accounts           Account[]
+  sessions           Session[]
+
+  @@index([email])
+  @@index([organizationId])
+  @@index([role])
+  @@index([resetToken])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+enum UserRole {
+  ADMIN
+  EDITOR
+  MEMBER
+}
+
+// ============================================================
+// Organizations (NAFSMA is a trade association of agencies)
+// ============================================================
+
+model Organization {
+  id               String             @id @default(cuid())
+  name             String
+  type             OrganizationType
+  address          String?
+  city             String?
+  state            String?
+  zip              String?
+  phone            String?
+  website          String?
+
+  // Membership
+  memberType       MemberType         @default(AGENCY)
+  membershipStatus MembershipStatus   @default(ACTIVE)
+  memberSince      DateTime?
+  duesAmount       Int?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  users User[]
+
+  @@index([membershipStatus])
+  @@index([memberType])
+}
+
+enum OrganizationType {
+  FLOOD_DISTRICT
+  STORMWATER_UTILITY
+  STATE_AGENCY
+  MUNICIPALITY
+  ASSOCIATE
+  OTHER
+}
+
+enum MemberType {
+  AGENCY
+  ASSOCIATE
+}
+
+enum MembershipStatus {
+  ACTIVE
+  PENDING
+  EXPIRED
+  CANCELLED
+}
+
+// ============================================================
+// Membership Applications
+// ============================================================
+
+model MembershipApplication {
+  id                 String                @id @default(cuid())
+  organizationName   String
+  organizationType   String
+  contactName        String
+  contactEmail       String
+  contactTitle       String?
+  contactPhone       String?
+  address            String?
+  city               String?
+  state              String?
+  zip                String?
+  website            String?
+  populationServed   String?
+  annualBudget       String?
+  federalProjects    String?              @db.Text
+  employeeCount      String?
+  referralSource     String?
+  comments           String?              @db.Text
+
+  status             ApplicationStatus    @default(PENDING)
+  notes              String?              @db.Text
+  submittedAt        DateTime             @default(now())
+  reviewedAt         DateTime?
+  reviewedById       String?
+  reviewedBy         User?                @relation("ReviewedBy", fields: [reviewedById], references: [id])
+
+  @@index([status])
+  @@index([contactEmail])
+  @@index([submittedAt])
+}
+
+enum ApplicationStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+// ============================================================
+// CMS Pages
+// ============================================================
+
+model Page {
+  id             String     @id @default(cuid())
+  title          String
+  slug           String     @unique
+  content        String     @db.Text
+  excerpt        String?    @db.Text
+  status         PageStatus @default(DRAFT)
+  template       String     @default("default")
+  seoTitle       String?
+  seoDescription String?
+  featuredImage  String?
+  version        Int        @default(1)
+
+  authorId  String
+  author    User   @relation(fields: [authorId], references: [id])
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  publishedAt DateTime?
+
+  @@index([slug])
+  @@index([status])
+  @@index([authorId])
+}
+
+enum PageStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+// ============================================================
+// Blog / News
+// ============================================================
+
+model BlogPost {
+  id             String     @id @default(cuid())
+  title          String
+  slug           String     @unique
+  content        String     @db.Text
+  excerpt        String?    @db.Text
+  status         BlogStatus @default(DRAFT)
+  featured       Boolean    @default(false)
+  membersOnly    Boolean    @default(false)
+  seoTitle       String?
+  seoDescription String?
+  featuredImage  String?
+  readingTime    Int?
+
+  authorId   String
+  author     User     @relation(fields: [authorId], references: [id])
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id])
+  tags       BlogPostTag[]
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  publishedAt DateTime?
+
+  @@index([slug])
+  @@index([status])
+  @@index([authorId])
+  @@index([categoryId])
+  @@index([featured])
+  @@index([membersOnly])
+}
+
+enum BlogStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?    @db.Text
+  color       String?
+
+  posts BlogPost[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model Tag {
+  id   String @id @default(cuid())
+  name String
+  slug String @unique
+
+  posts BlogPostTag[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model BlogPostTag {
+  id     String @id @default(cuid())
+  postId String
+  tagId  String
+
+  post BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  tag  Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([postId, tagId])
+  @@index([postId])
+  @@index([tagId])
+}
+
+// ============================================================
+// Events
+// ============================================================
+
+model Event {
+  id              String      @id @default(cuid())
+  title           String
+  slug            String      @unique
+  description     String      @db.Text
+  date            DateTime
+  endDate         DateTime?
+  location        String?
+  registrationUrl String?
+  type            EventType   @default(CONFERENCE)
+  status          EventStatus @default(DRAFT)
+  membersOnly     Boolean     @default(false)
+  featuredImage   String?
+
+  createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([slug])
+  @@index([status])
+  @@index([date])
+  @@index([membersOnly])
+}
+
+enum EventType {
+  CONFERENCE
+  WEBINAR
+  MENTORING
+}
+
+enum EventStatus {
+  DRAFT
+  PUBLISHED
+  CANCELLED
+}
+
+// ============================================================
+// Resources (member-gated documents)
+// ============================================================
+
+model Resource {
+  id           String           @id @default(cuid())
+  title        String
+  description  String?          @db.Text
+  fileUrl      String?
+  fileSize     Int?
+  fileMimeType String?
+  category     ResourceCategory @default(GUIDE)
+  membersOnly  Boolean          @default(true)
+  publishedAt  DateTime?
+
+  createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@index([membersOnly])
+}
+
+enum ResourceCategory {
+  NEWSLETTER
+  WEBINAR_RECORDING
+  COMMITTEE_DOC
+  GUIDE
+  POSITION_PAPER
+}
+
+// ============================================================
+// Awards
+// ============================================================
+
+model Award {
+  id          String        @id @default(cuid())
+  year        Int
+  category    AwardCategory
+  winnerName  String
+  agency      String?
+  city        String?
+  state       String?
+  description String?       @db.Text
+  photo       String?
+
+  createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([year])
+  @@index([category])
+}
+
+enum AwardCategory {
+  INNOVATIVE_PROJECT
+  COMMUNICATIONS
+}
+
+// ============================================================
+// FAQ
+// ============================================================
+
+model Faq {
+  id           String      @id @default(cuid())
+  question     String
+  answer       String      @db.Text
+  category     FaqCategory
+  displayOrder Int         @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@index([displayOrder])
+}
+
+enum FaqCategory {
+  GENERAL
+  MEMBERSHIP
+  FEDERAL_PROGRAMS
+  EVENTS
+  RESOURCES
+  CONTACT
+}
+
+// ============================================================
+// Contact Submissions
+// ============================================================
+
+model ContactSubmission {
+  id           String        @id @default(cuid())
+  name         String
+  email        String
+  organization String?
+  subject      ContactSubject
+  message      String        @db.Text
+  status       ContactStatus @default(NEW)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+enum ContactSubject {
+  GENERAL
+  MEMBERSHIP
+  EVENTS
+  POLICY
+  MEDIA
+  OTHER
+}
+
+enum ContactStatus {
+  NEW
+  READ
+  RESPONDED
+}
+
+// ============================================================
+// AI Content Templates
+// ============================================================
+
+model ContentTemplate {
+  id              String  @id @default(cuid())
+  name            String
+  type            String  @unique
+  systemPrompt    String  @db.Text
+  description     String?
+  isActive        Boolean @default(true)
+  generationParams Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([type])
+  @@index([isActive])
+}
+
+// ============================================================
+// Site Settings
+// ============================================================
+
+model SiteSettings {
+  id           String @id @default("default")
+  siteName     String @default("NAFSMA")
+  tagline      String @default("Driving flood and stormwater policy that benefits our communities")
+  contactEmail String @default("info@nafsma.org")
+  contactPhone String?
+  address      String?
+  socialMedia  Json?
+  colors       Json?
+  featureFlags Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ============================================================
+// Navigation
+// ============================================================
+
+model NavigationItem {
+  id           String  @id @default(cuid())
+  label        String
+  href         String
+  parentId     String?
+  menuGroup    String  @default("main")
+  displayOrder Int     @default(0)
+  isExternal   Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([menuGroup])
+  @@index([parentId])
+  @@index([displayOrder])
+}
+
+// ============================================================
+// Editable Content (inline-editable sections)
+// ============================================================
+
+model EditableContent {
+  id          String @id
+  pageSlug    String
+  section     String
+  label       String
+  content     String @db.Text
+  contentType String @default("text")
+  order       Int    @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  updatedBy String?
+
+  @@index([pageSlug])
+  @@index([section])
+}
+
+// ============================================================
+// Media Library
+// ============================================================
+
+model Media {
+  id           String  @id @default(cuid())
+  filename     String
+  originalName String
+  url          String
+  thumbnailUrl String?
+  mimeType     String
+  size         Int
+  width        Int?
+  height       Int?
+  altText      String?
+  caption      String? @db.Text
+  folder       String?
+
+  uploadedById String
+  uploadedBy   User   @relation(fields: [uploadedById], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([uploadedById])
+  @@index([folder])
+  @@index([createdAt])
+}
