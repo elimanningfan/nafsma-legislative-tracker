@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { prisma } from "@/lib/prisma";
+import { tiptapToHtml } from "@/lib/tiptap-renderer";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -75,8 +76,16 @@ export default async function DynamicCMSPage({ params }: PageProps) {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div
-              className="prose prose-lg max-w-none"
-              dangerouslySetInnerHTML={{ __html: page.content }}
+              className="prose prose-lg prose-slate max-w-none
+                prose-headings:text-nafsma-blue prose-headings:font-semibold
+                prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+                prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+                prose-p:text-nafsma-warm-gray prose-p:leading-relaxed prose-p:mb-5
+                prose-a:text-nafsma-teal prose-a:no-underline hover:prose-a:underline
+                prose-strong:text-gray-900
+                prose-ul:my-5 prose-li:text-nafsma-warm-gray
+                prose-blockquote:border-nafsma-teal"
+              dangerouslySetInnerHTML={{ __html: tiptapToHtml(page.content) }}
             />
           </div>
         </section>

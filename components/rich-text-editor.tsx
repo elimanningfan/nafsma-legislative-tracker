@@ -66,13 +66,22 @@ export function RichTextEditor({
       },
     },
     onUpdate: ({ editor }) => {
-      onChange(editor.getHTML());
+      onChange(JSON.stringify(editor.getJSON()));
     },
   });
 
   useEffect(() => {
-    if (editor && content !== editor.getHTML()) {
-      editor.commands.setContent(content);
+    if (editor && content) {
+      const currentJson = JSON.stringify(editor.getJSON());
+      if (content !== currentJson) {
+        // TipTap setContent accepts JSON string, JSON object, or HTML
+        try {
+          const parsed = JSON.parse(content);
+          editor.commands.setContent(parsed);
+        } catch {
+          editor.commands.setContent(content);
+        }
+      }
     }
   }, [content, editor]);
 
