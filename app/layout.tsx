@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Sans_3 } from "next/font/google";
+import { NextAuthProvider } from "@/components/providers/session-provider";
 import "./globals.css";
 
 const sourceSans = Source_Sans_3({
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={sourceSans.variable}>
       <body className="min-h-screen bg-background font-body antialiased">
-        {children}
+        <NextAuthProvider>{children}</NextAuthProvider>
       </body>
     </html>
   );
