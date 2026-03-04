@@ -39,3 +39,5 @@ Thumbs.db
 # Keep tracker state and digests in git (they're part of the tracking history)
 # !tracker/data/state.json
 # !tracker/outputs/digests/
+next-env.d.ts
+tsconfig.tsbuildinfo

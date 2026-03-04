@@ -1,6 +1,6 @@
 export const dynamic = 'force-dynamic';
 
-import prisma from '@/lib/prisma'
+import { prisma } from '@/lib/prisma'
 import { EventsClient } from './events-client'
 
 export default async function EventsPage() {

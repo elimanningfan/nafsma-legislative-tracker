@@ -17,6 +17,20 @@ export const metadata: Metadata = {
   description:
     "NAFSMA advocates federal flood and stormwater policy that benefits communities. Representing 200+ public agencies nationwide for 46+ years.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://nafsma.org"),
+  openGraph: {
+    type: "website",
+    siteName: "NAFSMA",
+    title: "NAFSMA - National Association of Flood & Stormwater Management Agencies",
+    description:
+      "NAFSMA advocates federal flood and stormwater policy that benefits communities. Representing 200+ public agencies nationwide for 46+ years.",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://nafsma.org",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NAFSMA - National Association of Flood & Stormwater Management Agencies",
+    description:
+      "NAFSMA advocates federal flood and stormwater policy that benefits communities. Representing 200+ public agencies nationwide for 46+ years.",
+  },
 };
 
 export default function RootLayout({
