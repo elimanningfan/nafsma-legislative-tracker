@@ -13,6 +13,9 @@ permissions:
 jobs:
   daily-check:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tracker
 
     steps:
       - name: Checkout repository
@@ -36,9 +39,10 @@ jobs:
           python -m src.main daily-check --send-email
 
       - name: Commit state changes
+        working-directory: .
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/state.json outputs/digests/
+          git add tracker/data/state.json tracker/outputs/digests/
           git diff --staged --quiet || git commit -m "Update state and digest for $(date +%Y-%m-%d)"
           git push

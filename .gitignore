@@ -9,6 +9,11 @@ venv/
 .venv/
 ENV/
 
+# Node.js
+node_modules/
+.next/
+out/
+
 # IDE
 .idea/
 .vscode/
@@ -22,6 +27,15 @@ Thumbs.db
 # Project specific
 *.log
 
-# Keep state.json and digests in git (they're part of the tracking history)
-# !data/state.json
-# !outputs/digests/
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Vercel
+.vercel
+
+# Keep tracker state and digests in git (they're part of the tracking history)
+# !tracker/data/state.json
+# !tracker/outputs/digests/
