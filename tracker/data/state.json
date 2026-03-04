@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-01-23T13:02:16.383939",
+  "last_run": "2026-03-04T13:06:27.115910",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -169,6 +169,258 @@
       "doc_type": "Notice",
       "publication_date": "2026-01-16",
       "first_seen": "2026-01-23T13:01:33.300725"
+    },
+    "2026-04339": {
+      "document_number": "2026-04339",
+      "title": "Air Plan Approval; Arizona; Attainment Plan for the Hayden SO2 Nonattainment Area for the 1971 and 2010 Sulfur Dioxide National Ambient Air Quality Standards",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04338": {
+      "document_number": "2026-04338",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; Texas; Control of Emissions From Existing Municipal Solid Waste Landfills",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04333": {
+      "document_number": "2026-04333",
+      "title": "Air Plan Approval; OR; Klamath Falls PM2.5 Redesignation to Attainment and Maintenance Plan",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04322": {
+      "document_number": "2026-04322",
+      "title": "New Mexico Statewide Municipal Separate Storm Sewer System (MS4) General Permit Proposal",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04321": {
+      "document_number": "2026-04321",
+      "title": "Proposed Deletion From the National Priorities List",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04320": {
+      "document_number": "2026-04320",
+      "title": "Deletion From the National Priorities List",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04319": {
+      "document_number": "2026-04319",
+      "title": "New Mexico and Oklahoma Statewide Tribal Municipal Separate Storm Sewer System (MS4) General Permit Proposal",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04304": {
+      "document_number": "2026-04304",
+      "title": "National Emission Standards for Marine Tank Vessel Loading Operations: Technology Review",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04301": {
+      "document_number": "2026-04301",
+      "title": "Certain New Chemicals or Significant New Uses; Statements of Findings-November 2025 to December 2025",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04159": {
+      "document_number": "2026-04159",
+      "title": "Air Plan Approval; AK; Regional Haze State Implementation Plan for the Second Implementation Period",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-03",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04151": {
+      "document_number": "2026-04151",
+      "title": "Interstate Transport Plan Review for the 2015 Ozone NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-03",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04127": {
+      "document_number": "2026-04127",
+      "title": "Removal of the Federal Reformulated Gasoline Program From the Kentucky Portion of the Louisville Area",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-02",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-04125": {
+      "document_number": "2026-04125",
+      "title": "Allocations of Cross-State Air Pollution Rule Allowances From New Unit Set-Asides for 2025 Control Periods",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-02",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03995": {
+      "document_number": "2026-03995",
+      "title": "Extending the Reporting Deadline Under the Greenhouse Gas Reporting Rule for 2025",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03959": {
+      "document_number": "2026-03959",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03944": {
+      "document_number": "2026-03944",
+      "title": "Implementing Statutory Addition of Certain Per- and Polyfluoroalkyl Substances (PFAS) to the Toxics Release Inventory Beginning With Reporting Year 2026",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03942": {
+      "document_number": "2026-03942",
+      "title": "Pesticide Tolerances; Implementing Registration Review Decisions for Certain Pesticides; Maleic Hydrazide, et al.",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03939": {
+      "document_number": "2026-03939",
+      "title": "Tetflupyrolimet; Receipt of Applications for Emergency Exemption, Solicitation of Public Comment",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03938": {
+      "document_number": "2026-03938",
+      "title": "Pyridate; Pesticide Tolerances",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03937": {
+      "document_number": "2026-03937",
+      "title": "Air Plan Approval; Michigan; 2015 Ozone Moderate Reasonably Available Control Technology",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03936": {
+      "document_number": "2026-03936",
+      "title": "Air Plan Approvals; Illinois; Regional Haze Plan for the Second Implementation Period; Interstate Transport of Air Pollution for the 2012 PM2.5 and 2015 Ozone NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03934": {
+      "document_number": "2026-03934",
+      "title": "Air Plan Approval; Ohio; Clean Data Determination for the Cleveland, Ohio Area for the 2015 Ozone Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03933": {
+      "document_number": "2026-03933",
+      "title": "Air Plan Approval; Indiana; Keystone VOC RACT Alternative Control",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03931": {
+      "document_number": "2026-03931",
+      "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-27",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03906": {
+      "document_number": "2026-03906",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Platteville Natural Gas Processing Plant",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03905": {
+      "document_number": "2026-03905",
+      "title": "Proposed Settlement Agreement",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03904": {
+      "document_number": "2026-03904",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; NESHAP for Source Categories: Generic Maximum Achievable Control Technology Standards (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03891": {
+      "document_number": "2026-03891",
+      "title": "Approval of Missouri's Request for Partial Program Delegation of Clean Air Act Section 112(r) Prevention of Accidental Release Program",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03888": {
+      "document_number": "2026-03888",
+      "title": "Air Plan Approval; Missouri; Reporting Emission Data, Emission Fees, and Process Information",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03887": {
+      "document_number": "2026-03887",
+      "title": "Air Plan Approval; Connecticut; State Implementation Plan Revisions Required as a Result of a Definition Change Due to the Ozone Reclassification",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03880": {
+      "document_number": "2026-03880",
+      "title": "Air Plan Approval; Michigan; Moderate Attainment Plan Elements for the Allegan County, Berrien County, and Muskegon County Areas for the 2015 Ozone Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03879": {
+      "document_number": "2026-03879",
+      "title": "No-Migration Variance From Land Disposal Restrictions for Clean Harbors Lone Mountain, Oklahoma",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03846": {
+      "document_number": "2026-03846",
+      "title": "Air Plan Approval; Illinois; Clean Data Determination for the Illinois Portion of the St. Louis Area for the 2015 Ozone Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03845": {
+      "document_number": "2026-03845",
+      "title": "Air Plan Approval; Missouri; Clean Data Determination for the 2015 8-Hour Ozone Standard for the Missouri Portion of the St. Louis Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03820": {
+      "document_number": "2026-03820",
+      "title": "Wyoming: Approval of State Coal Combustion Residuals Permit Program",
+      "doc_type": "Rule",
+      "publication_date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:04.070844"
+    },
+    "2026-03763": {
+      "document_number": "2026-03763",
+      "title": "Agency Information Collection Activities; Proposed Renewal Collection and Request for Comment; Confidential Business Information Claims Under the Toxic Substances Control Act (TSCA)",
+      "doc_type": "Notice",
+      "publication_date": "2026-02-25",
+      "first_seen": "2026-03-04T13:06:04.070844"
     }
   },
   "committee_items": {
@@ -230,6 +482,87 @@
       "title": "\"Committee on Transportation and Infrastructure Member Day\"",
       "date": "2026-01-14",
       "first_seen": "2026-01-23T13:02:12.255396"
+    },
+    "118991": {
+      "event_id": "118991",
+      "committee_code": "hspw13",
+      "committee_name": "House T&I - Emergency Management",
+      "meeting_type": "Hearing",
+      "title": "\"The General Services Administration: Examining the Future of Federal Real Estate Management to Reduce Costs for the Taxpayer\"",
+      "date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "338028": {
+      "event_id": "338028",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Meeting",
+      "title": "Business meeting to consider the nomination of\u00a0\u00a0the nomination of Douglas Weaver, of Maryland, to be a Member of the Nuclear Regulatory Commission; to be immediately followed by a\u00a0hearing to examine a discussion draft of an original bill entitled, \"the Toxic Substances Control Act Fee Reauthorization and Improvement Act of 2026.\"",
+      "date": "2026-03-04",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "338016": {
+      "event_id": "338016",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine an update from the Prudential regulators, focusing on rightsizing regulation to promote American opportunity.",
+      "date": "2026-02-26",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "338007": {
+      "event_id": "338007",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine Water Resources Development Act of 2026, focusing on U.S. Army Corps of Engineers projects, programs, and priorities.",
+      "date": "2026-02-25",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "118997": {
+      "event_id": "118997",
+      "committee_code": "hspw02",
+      "committee_name": "House T&I - Water Resources",
+      "meeting_type": "Meeting",
+      "title": "\"Proposals for a Water Resources Development Act of 2026 - Administration Priorities\"",
+      "date": "2026-02-24",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "337977": {
+      "event_id": "337977",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Meeting",
+      "title": "Oversight hearings to examine the Securities and Exchange Commission.",
+      "date": "2026-02-12",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "118961": {
+      "event_id": "118961",
+      "committee_code": "hspw00",
+      "committee_name": "House Transportation & Infrastructure",
+      "meeting_type": "Markup",
+      "title": "H.R. 7376, the \"Local Water Protection Act\"; an ANS to H.R. 7342, the \"Made in America Jobs Act of 2026\"; an ANS to H.R. 7388, the \"Smart Space Act of 2026\"; and H. Con. Res. 73, Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition",
+      "date": "2026-02-11",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "337957": {
+      "event_id": "337957",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine the Financial Stability Oversight Council's Annual Report to Congress.",
+      "date": "2026-02-05",
+      "first_seen": "2026-03-04T13:06:21.867736"
+    },
+    "337950": {
+      "event_id": "337950",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine identifying and addressing cybersecurity challenges to protect America's water infrastructure.",
+      "date": "2026-02-04",
+      "first_seen": "2026-03-04T13:06:21.867736"
     }
   },
   "disaster_declarations": {
@@ -572,10 +905,10 @@
       "bill_id": "119-s-2245",
       "title": "Digital Coast Reauthorization Act (Senate)",
       "category": "high_priority",
-      "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-      "last_action_date": "2025-10-21",
+      "last_action": "Held at the desk.",
+      "last_action_date": "2026-03-03",
       "first_seen": "2026-01-23T13:02:16.355438",
-      "last_updated": "2026-01-23T13:02:16.355438"
+      "last_updated": "2026-03-04T13:06:26.654811"
     },
     "119-hr-573": {
       "bill_id": "119-hr-573",
@@ -671,10 +1004,10 @@
       "bill_id": "119-hr-6938",
       "title": "Consolidated Appropriations Act (Energy & Water, CJS, Interior)",
       "category": "funding",
-      "last_action": "Presented to President.",
-      "last_action_date": "2026-01-22",
+      "last_action": "Became Public Law No: 119-74.",
+      "last_action_date": "2026-01-23",
       "first_seen": "2026-01-23T13:02:16.355438",
-      "last_updated": "2026-01-23T13:02:16.355438"
+      "last_updated": "2026-03-04T13:06:26.654811"
     },
     "119-hr-4213": {
       "bill_id": "119-hr-4213",
