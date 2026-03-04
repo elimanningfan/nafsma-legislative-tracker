@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* NAFSMA Brand Colors */
+    --nafsma-blue: 213 65% 31%;
+    --nafsma-teal: 180 52% 33%;
+    --nafsma-light-blue: 207 60% 95%;
+    --nafsma-warm-gray: 0 0% 29%;
+    --nafsma-light-gray: 0 0% 96%;
+    --nafsma-dark-navy: 213 70% 18%;
+
+    /* shadcn/ui variables mapped to NAFSMA colors */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 29%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 29%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 29%;
+
+    --primary: 213 65% 31%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 180 52% 33%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 207 60% 95%;
+    --accent-foreground: 213 65% 31%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 213 65% 31%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+    color: #1B4B82;
+  }
+
+  h1 {
+    @apply text-h1-mobile md:text-h1;
+  }
+
+  h2 {
+    @apply text-h2-mobile md:text-h2;
+  }
+
+  h3 {
+    @apply text-h3-mobile md:text-h3;
+  }
+
+  a {
+    color: #2A8080;
+  }
+
+  a:hover {
+    color: #1B4B82;
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
