@@ -4,7 +4,9 @@ import prisma from '@/lib/prisma'
 import bcrypt from 'bcryptjs'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY || '');
+}
 
 export async function POST(
   req: NextRequest,
@@ -88,7 +90,7 @@ export async function POST(
 
   // Send welcome email
   try {
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'NAFSMA <membership@nafsma.org>',
       to: application.contactEmail,
       subject: 'Welcome to NAFSMA - Membership Approved',

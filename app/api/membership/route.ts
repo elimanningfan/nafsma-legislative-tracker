@@ -2,7 +2,9 @@ import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY || '');
+}
 
 export async function POST(request: Request) {
   try {
@@ -62,7 +64,7 @@ export async function POST(request: Request) {
 
     // Send notification email to NAFSMA staff
     try {
-      await resend.emails.send({
+      await getResend().emails.send({
         from: 'NAFSMA <notifications@nafsma.org>',
         to: ['jennifer@nafsma.org'],
         subject: `New Membership Application: ${organizationName}`,
@@ -110,7 +112,7 @@ export async function POST(request: Request) {
 
     // Send confirmation email to applicant
     try {
-      await resend.emails.send({
+      await getResend().emails.send({
         from: 'NAFSMA <info@nafsma.org>',
         to: [contactEmail],
         subject: 'NAFSMA Membership Application Received',

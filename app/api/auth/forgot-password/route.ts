@@ -3,7 +3,9 @@ import { prisma } from '@/lib/prisma';
 import { Resend } from 'resend';
 import crypto from 'crypto';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY || '');
+}
 
 export async function POST(request: Request) {
   try {
@@ -34,7 +36,7 @@ export async function POST(request: Request) {
       const resetUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://nafsma.org'}/reset-password?token=${resetToken}`;
 
       try {
-        await resend.emails.send({
+        await getResend().emails.send({
           from: 'NAFSMA <info@nafsma.org>',
           to: [user.email],
           subject: 'Reset Your NAFSMA Password',
