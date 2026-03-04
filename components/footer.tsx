@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CookieConsent } from '@/components/public/cookie-consent';
 
 const footerLinks = [
   { label: 'About', href: '/about' },
@@ -100,6 +101,7 @@ export function Footer() {
           </div>
         </div>
       </div>
+      <CookieConsent />
     </footer>
   );
 }
