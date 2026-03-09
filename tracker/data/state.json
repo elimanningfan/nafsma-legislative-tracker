@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-06T13:06:03.974031",
+  "last_run": "2026-03-09T13:13:55.784364",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -463,6 +463,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-03-06",
       "first_seen": "2026-03-06T13:05:30.026608"
+    },
+    "2026-04590": {
+      "document_number": "2026-04590",
+      "title": "National Drinking Water Advisory Council: Request for Nominations",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-09",
+      "first_seen": "2026-03-09T13:13:19.300965"
     }
   },
   "committee_items": {
