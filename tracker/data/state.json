@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-09T13:13:55.784364",
+  "last_run": "2026-03-10T13:11:44.777129",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -470,6 +470,27 @@
       "doc_type": "Notice",
       "publication_date": "2026-03-09",
       "first_seen": "2026-03-09T13:13:19.300965"
+    },
+    "2026-04651": {
+      "document_number": "2026-04651",
+      "title": "Certain New Chemicals; Receipt and Status Information for September-December 2025",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-10",
+      "first_seen": "2026-03-10T13:11:07.950105"
+    },
+    "2026-04649": {
+      "document_number": "2026-04649",
+      "title": "Air Plan Approval; North Dakota; Approval of Air Quality Implementation Plans; Regional Haze State Implementation Plan; Regional Haze Five Year Progress Report and Nitrogen Oxides Best Available Retrofit Technology Determination for Coal Creek Station for the First Implementation Period",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-10",
+      "first_seen": "2026-03-10T13:11:07.950105"
+    },
+    "2026-04646": {
+      "document_number": "2026-04646",
+      "title": "Standards of Performance for New Stationary Sources and Emission Guidelines for Existing Sources: Large Municipal Waste Combustors Voluntary Remand Response and Five-Year Review",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-10",
+      "first_seen": "2026-03-10T13:11:07.950105"
     }
   },
   "committee_items": {
