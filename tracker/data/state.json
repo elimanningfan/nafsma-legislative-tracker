@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-11T13:11:29.781022",
+  "last_run": "2026-03-12T13:11:46.626489",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -491,6 +491,83 @@
       "doc_type": "Rule",
       "publication_date": "2026-03-10",
       "first_seen": "2026-03-10T13:11:07.950105"
+    },
+    "2026-04853": {
+      "document_number": "2026-04853",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Passaic Valley Sewerage Commission",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04852": {
+      "document_number": "2026-04852",
+      "title": "Proposed Consent Decree; Clean Air Act Citizen Suit",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04851": {
+      "document_number": "2026-04851",
+      "title": "Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04848": {
+      "document_number": "2026-04848",
+      "title": "Marine Protection: Modification To Expand Ocean Dredged Material Disposal Sites Offshore of Corpus Christi, Texas",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04847": {
+      "document_number": "2026-04847",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for HighPoint Operating Corporation, Anschutz Equus Farms 4-62-28",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04845": {
+      "document_number": "2026-04845",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Laramie Energy, LLC-Conn Creek Compressor Station",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04844": {
+      "document_number": "2026-04844",
+      "title": "Clean Air Act Operating Permit Program; Order on Petitions for Objection to State Operating Permits for Terra Energy Partners Rocky Mountain, LLC-Mamm Creek Compressor Station and Bailey Compressor Station",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04843": {
+      "document_number": "2026-04843",
+      "title": "Clean Air Act Operating Permit Program; Order on Petitions for Objection to State Operating Permits for Rocky Mountain Midstream, LLC's Latham, Mustang, Auburn, and West Brighton Compressor Stations",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04841": {
+      "document_number": "2026-04841",
+      "title": "Human Studies Review Board (HSRB) Meetings for 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04840": {
+      "document_number": "2026-04840",
+      "title": "Proposed Information Collection Request; Comment Request; Underground Storage Tank Finder Application (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04839": {
+      "document_number": "2026-04839",
+      "title": "Clean Air Act Operating Permit Program; Order on Petitions for Objection to State Operating Permits for DCP Operating Company, LP-Libsack Compressor Station, Rocky Turbine Compressor Station, and Northstar Compressor Station",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-12",
+      "first_seen": "2026-03-12T13:10:53.574389"
     }
   },
   "committee_items": {
@@ -642,6 +719,15 @@
       "title": "Hearings to examine S.3135, to require the Administrator of the Environmental Protection Agency to authorize manufacturers of certain vehicles to suspend engine derate or shutdown functions in prolonged cold weather conditions.",
       "date": "2026-03-11",
       "first_seen": "2026-03-05T13:10:34.390788"
+    },
+    "338064": {
+      "event_id": "338064",
+      "committee_code": "ssev15",
+      "committee_name": "Senate EPW - Fisheries, Wildlife, and Water",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine challenges and opportunities with implementing the Endangered Species Act.",
+      "date": "2026-03-18",
+      "first_seen": "2026-03-12T13:11:40.056979"
     }
   },
   "disaster_declarations": {
