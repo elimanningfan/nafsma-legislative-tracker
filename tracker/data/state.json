@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-12T13:11:46.626489",
+  "last_run": "2026-03-13T13:09:24.070481",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -568,6 +568,34 @@
       "doc_type": "Notice",
       "publication_date": "2026-03-12",
       "first_seen": "2026-03-12T13:10:53.574389"
+    },
+    "2026-04991": {
+      "document_number": "2026-04991",
+      "title": "Air Plan Approval; Connecticut; Revision to the State Implementation Plan for Inclusion of Consent Order No. 8383-Algonquin Gas Transmission, LLC and Negative Declaration for Rubber Tire Manufacturing Sources",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-13",
+      "first_seen": "2026-03-13T13:08:34.802499"
+    },
+    "2026-04958": {
+      "document_number": "2026-04958",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-13",
+      "first_seen": "2026-03-13T13:08:34.802499"
+    },
+    "2026-04941": {
+      "document_number": "2026-04941",
+      "title": "2026 Environmental Financial Advisory Board (EFAB) Federal Advisory Committee Act (FACA) Charter 2-Year Renewal",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-13",
+      "first_seen": "2026-03-13T13:08:34.802499"
+    },
+    "2026-04904": {
+      "document_number": "2026-04904",
+      "title": "National Priorities List",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-13",
+      "first_seen": "2026-03-13T13:08:34.802499"
     }
   },
   "committee_items": {
