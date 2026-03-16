@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-13T13:09:24.070481",
+  "last_run": "2026-03-16T13:22:56.353915",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -596,6 +596,13 @@
       "doc_type": "Rule",
       "publication_date": "2026-03-13",
       "first_seen": "2026-03-13T13:08:34.802499"
+    },
+    "2026-05051": {
+      "document_number": "2026-05051",
+      "title": "Notice of Solicitation of Input on Potential Future Changes to Nationwide Permits; Establishment of a Public Docket; Request for Input",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-16",
+      "first_seen": "2026-03-16T13:22:37.098275"
     }
   },
   "committee_items": {
