@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-16T13:22:56.353915",
+  "last_run": "2026-03-17T13:22:15.374646",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -603,6 +603,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-03-16",
       "first_seen": "2026-03-16T13:22:37.098275"
+    },
+    "2026-05167": {
+      "document_number": "2026-05167",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Ethylene Oxide Emissions Standards for Sterilization Facilities Residual Risk and Technology Review Reconsideration",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-17",
+      "first_seen": "2026-03-17T13:21:50.461839"
     }
   },
   "committee_items": {
