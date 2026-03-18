@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-17T13:22:15.374646",
+  "last_run": "2026-03-18T13:23:30.729822",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -610,6 +610,13 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-03-17",
       "first_seen": "2026-03-17T13:21:50.461839"
+    },
+    "2026-05261": {
+      "document_number": "2026-05261",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Polyether Polyols Production Industry Review",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-18",
+      "first_seen": "2026-03-18T13:22:38.229233"
     }
   },
   "committee_items": {
@@ -770,6 +777,15 @@
       "title": "Hearings to examine challenges and opportunities with implementing the Endangered Species Act.",
       "date": "2026-03-18",
       "first_seen": "2026-03-12T13:11:40.056979"
+    },
+    "119045": {
+      "event_id": "119045",
+      "committee_code": "hspw00",
+      "committee_name": "House Transportation & Infrastructure",
+      "meeting_type": "Markup",
+      "title": "an Amendment in the Substitute to H.R. 5688, Dalilah's Law",
+      "date": "2026-03-18",
+      "first_seen": "2026-03-18T13:23:25.548876"
     }
   },
   "disaster_declarations": {
