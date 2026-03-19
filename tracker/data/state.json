@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-18T13:23:30.729822",
+  "last_run": "2026-03-19T13:15:46.041715",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -617,6 +617,41 @@
       "doc_type": "Rule",
       "publication_date": "2026-03-18",
       "first_seen": "2026-03-18T13:22:38.229233"
+    },
+    "C1-2026-04304": {
+      "document_number": "C1-2026-04304",
+      "title": "National Emission Standards for Marine Tank Vessel Loading Operations: Technology Review",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-19",
+      "first_seen": "2026-03-19T13:15:18.646359"
+    },
+    "2026-05453": {
+      "document_number": "2026-05453",
+      "title": "Colorado Underground Injection Control Program; Class VI Primacy",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-19",
+      "first_seen": "2026-03-19T13:15:18.646359"
+    },
+    "2026-05452": {
+      "document_number": "2026-05452",
+      "title": "Announcement of Final Regulatory Determinations for Contaminants on the Fifth Drinking Water Contaminant Candidate List",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-19",
+      "first_seen": "2026-03-19T13:15:18.646359"
+    },
+    "2026-05395": {
+      "document_number": "2026-05395",
+      "title": "Commercial and Industrial Solid Waste Incineration Units: Temporary-Use Incinerators and Air Curtain Incinerators Used in Disaster Recovery; Rescission of Interim Final Rule",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-19",
+      "first_seen": "2026-03-19T13:15:18.646359"
+    },
+    "2026-05328": {
+      "document_number": "2026-05328",
+      "title": "Notice of Mississippi River Commission Public Meetings for Spring 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-19",
+      "first_seen": "2026-03-19T13:15:18.646359"
     }
   },
   "committee_items": {
@@ -786,6 +821,15 @@
       "title": "an Amendment in the Substitute to H.R. 5688, Dalilah's Law",
       "date": "2026-03-18",
       "first_seen": "2026-03-18T13:23:25.548876"
+    },
+    "119089": {
+      "event_id": "119089",
+      "committee_code": "hsap10",
+      "committee_name": "House Appropriations - Energy & Water",
+      "meeting_type": "Hearing",
+      "title": "Member Day",
+      "date": "2026-03-25",
+      "first_seen": "2026-03-19T13:15:40.910260"
     }
   },
   "disaster_declarations": {
