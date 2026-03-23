@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-20T13:09:41.564403",
+  "last_run": "2026-03-23T13:18:14.828315",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -666,6 +666,125 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-03-20",
       "first_seen": "2026-03-20T13:09:01.669237"
+    },
+    "2026-05642": {
+      "document_number": "2026-05642",
+      "title": "Notice of Proposed Administrative Settlement Agreement for Recovery of Past Response Costs at Refrigerant Exchange Corporation Site, Irwindale, CA",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05641": {
+      "document_number": "2026-05641",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Holly Energy Partners, L.P.-Denver Products Terminal",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05640": {
+      "document_number": "2026-05640",
+      "title": "Privacy Act of 1974; System of Records",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05639": {
+      "document_number": "2026-05639",
+      "title": "Request for Public Comment on Settlement Agreement for Battery and Electronics Recycling Inc. Site, Dane County, Wisconsin",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05637": {
+      "document_number": "2026-05637",
+      "title": "Approval and Promulgation of State Plans for Designated Facilities and Pollutants; West Virginia; Control of Emissions From Existing Municipal Solid Waste Landfills",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05636": {
+      "document_number": "2026-05636",
+      "title": "Air Plan Revisions; California; Antelope Valley Air Quality Management District; New Source Review; Stationary Source Permits",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05607": {
+      "document_number": "2026-05607",
+      "title": "Air Plan Approval; Texas; Reasonably Available Control Technology in the Dallas-Fort Worth Ozone Nonattainment Area",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05606": {
+      "document_number": "2026-05606",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; Louisiana; Control of Emissions From Existing Other Solid Waste Incineration Units",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05602": {
+      "document_number": "2026-05602",
+      "title": "Settlement Agreement for Response Action by Bona Fide Prospective Purchaser: Richardson Flat Tailings Superfund Site Operable Unit 1",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05601": {
+      "document_number": "2026-05601",
+      "title": "Determination of Attainment by the Attainment Date But for International Emissions for the 2015 Ozone National Ambient Air Quality Standards; Phoenix-Mesa Nonattainment Area, Arizona",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05596": {
+      "document_number": "2026-05596",
+      "title": "Air Plan Approval; Texas; Reasonably Available Control Technology in the Houston-Galveston-Brazoria Ozone Nonattainment Area",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05592": {
+      "document_number": "2026-05592",
+      "title": "Approval of Clean Air Plans; San Joaquin Valley, California; Contingency Measures for 1997 Ozone Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05591": {
+      "document_number": "2026-05591",
+      "title": "Air Plan Revisions; California; Mojave Desert Air Quality Management District; New Source Review; Stationary Source Permits",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05586": {
+      "document_number": "2026-05586",
+      "title": "Protecting Public Health and Unleashing American Energy by Facilitating Scrap Tire Pile Cleanups",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05584": {
+      "document_number": "2026-05584",
+      "title": "Certain New Chemicals or Significant New Uses; Statements of Findings-January 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05568": {
+      "document_number": "2026-05568",
+      "title": "Air Plan Approval; Ohio; Volatile Organic Compounds RFD Beaufort",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
+    },
+    "2026-05567": {
+      "document_number": "2026-05567",
+      "title": "Air Plan Approval; New Hampshire; Single Source VOC RACT Order for Hutchinson Sealing Systems",
+      "doc_type": "Rule",
+      "publication_date": "2026-03-23",
+      "first_seen": "2026-03-23T13:17:37.118246"
     }
   },
   "committee_items": {
