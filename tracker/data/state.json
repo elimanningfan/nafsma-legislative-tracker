@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-27T13:16:22.516033",
+  "last_run": "2026-03-30T13:43:37.511214",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -848,6 +848,41 @@
       "doc_type": "Rule",
       "publication_date": "2026-03-26",
       "first_seen": "2026-03-26T13:27:01.833417"
+    },
+    "2026-06066": {
+      "document_number": "2026-06066",
+      "title": "Reporting Deadline Extension for the Health and Safety Data Reporting Rule Under Toxic Substance Control Act (TSCA) Section 8(d)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-30",
+      "first_seen": "2026-03-30T13:43:04.629470"
+    },
+    "2026-05998": {
+      "document_number": "2026-05998",
+      "title": "Pesticide Product Registration; Emergency Exemption Request and Application for a New Active Ingredient",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-27",
+      "first_seen": "2026-03-30T13:43:04.629470"
+    },
+    "2026-05986": {
+      "document_number": "2026-05986",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-27",
+      "first_seen": "2026-03-30T13:43:04.629470"
+    },
+    "2026-05977": {
+      "document_number": "2026-05977",
+      "title": "Perchloroethylene (PCE) and Carbon Tetrachloride (CTC); Regulation Under the Toxic Substances Control Act (TSCA); Compliance Date Extensions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-03-27",
+      "first_seen": "2026-03-30T13:43:04.629470"
+    },
+    "2026-05929": {
+      "document_number": "2026-05929",
+      "title": "Product Cancellation Order for Certain Pesticide Registrations (From July 31, 2025, Notice)",
+      "doc_type": "Notice",
+      "publication_date": "2026-03-27",
+      "first_seen": "2026-03-30T13:43:04.629470"
     }
   },
   "committee_items": {
