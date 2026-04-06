@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-03T13:13:09.854495",
+  "last_run": "2026-04-06T13:20:53.911617",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -48,6 +48,30 @@
       "last_action_date": "2025-01-15",
       "first_seen": "2026-01-23T13:01:32.490203",
       "last_updated": "2026-01-23T13:01:32.490203"
+    },
+    "119-hjres-18": {
+      "bill_id": "119-hjres-18",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Primary Drinking Water Regulations for Lead and Copper: Improvements (LCRI)\".",
+      "last_action": "Referred to the House Committee on Energy and Commerce.",
+      "last_action_date": "2025-01-13",
+      "first_seen": "2026-04-06T13:19:47.087173",
+      "last_updated": "2026-04-06T13:19:47.087173"
+    },
+    "119-hr-502": {
+      "bill_id": "119-hr-502",
+      "title": "Protecting Infrastructure Investments for Rural America Act",
+      "last_action": "Referred to the Subcommittee on Highways and Transit.",
+      "last_action_date": "2025-01-17",
+      "first_seen": "2026-04-06T13:19:47.087173",
+      "last_updated": "2026-04-06T13:19:47.087173"
+    },
+    "119-hr-836": {
+      "bill_id": "119-hr-836",
+      "title": "Emergency Wildfire Fighting Technology Act of 2025",
+      "last_action": "Received in the Senate and Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "last_action_date": "2025-02-06",
+      "first_seen": "2026-04-06T13:19:47.087173",
+      "last_updated": "2026-04-06T13:19:47.087173"
     }
   },
   "federal_register_documents": {
@@ -1009,6 +1033,48 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-03",
       "first_seen": "2026-04-03T13:12:43.006876"
+    },
+    "C1-2026-05601": {
+      "document_number": "C1-2026-05601",
+      "title": "Determination of Attainment by the Attainment Date But for International Emissions for the 2015 Ozone National Ambient Air Quality Standards; Phoenix-Mesa Nonattainment Area, Arizona",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06665": {
+      "document_number": "2026-06665",
+      "title": "Protection of Stratospheric Ozone: Listing of Substitutes Under the Significant New Alternatives Policy Program in Refrigeration and Air Conditioning and Fire Suppression; Supplemental Notice of Proposed Rulemaking",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06662": {
+      "document_number": "2026-06662",
+      "title": "Drinking Water Contaminant Candidate List 6-Draft",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06588": {
+      "document_number": "2026-06588",
+      "title": "Proposed Information Collection Request; Comment Request; Establishing No-Discharge Zones (NDZs) Under Clean Water Act Section 312 (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06586": {
+      "document_number": "2026-06586",
+      "title": "Access to Confidential Business Information: Deaf Access Solutions, Inc.",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06585": {
+      "document_number": "2026-06585",
+      "title": "Deaf Access Solutions, Inc.; Access to Confidential Business Information",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-06",
+      "first_seen": "2026-04-06T13:19:47.632945"
     }
   },
   "committee_items": {
