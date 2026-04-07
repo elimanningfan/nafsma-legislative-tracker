@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-06T13:20:53.911617",
+  "last_run": "2026-04-07T13:41:57.731942",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1075,6 +1075,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-06",
       "first_seen": "2026-04-06T13:19:47.632945"
+    },
+    "2026-06686": {
+      "document_number": "2026-06686",
+      "title": "Citrus Tristeza Virus (CTV) Strain T36 Expressing Spinach Defensin Proteins SoD2, SoD2-1, and SoD2*; Exemption From the Requirement of a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-07",
+      "first_seen": "2026-04-07T13:41:31.980228"
     }
   },
   "committee_items": {
