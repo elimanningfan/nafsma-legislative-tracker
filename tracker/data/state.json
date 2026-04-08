@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-07T13:41:57.731942",
+  "last_run": "2026-04-08T13:28:32.809534",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -72,6 +72,14 @@
       "last_action_date": "2025-02-06",
       "first_seen": "2026-04-06T13:19:47.087173",
       "last_updated": "2026-04-06T13:19:47.087173"
+    },
+    "119-hr-315": {
+      "bill_id": "119-hr-315",
+      "title": "To waive certain provisions in the case of an emergency declaration under the Robert T. Stafford Disaster Relief and Emergency Assistance Act.",
+      "last_action": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "last_action_date": "2025-01-10",
+      "first_seen": "2026-04-08T13:28:04.836931",
+      "last_updated": "2026-04-08T13:28:04.836931"
     }
   },
   "federal_register_documents": {
@@ -1082,6 +1090,13 @@
       "doc_type": "Rule",
       "publication_date": "2026-04-07",
       "first_seen": "2026-04-07T13:41:31.980228"
+    },
+    "2026-06775": {
+      "document_number": "2026-06775",
+      "title": "Update to EPAAR Text of Provisions and Clauses, Signing of Uniform Hazardous Wastes Manifests",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-08",
+      "first_seen": "2026-04-08T13:28:05.300599"
     }
   },
   "committee_items": {
