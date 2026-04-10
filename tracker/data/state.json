@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-09T13:52:53.941865",
+  "last_run": "2026-04-10T13:21:10.155432",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1146,6 +1146,83 @@
       "doc_type": "Rule",
       "publication_date": "2026-04-09",
       "first_seen": "2026-04-09T13:52:21.092111"
+    },
+    "2026-06965": {
+      "document_number": "2026-06965",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06954": {
+      "document_number": "2026-06954",
+      "title": "Hexanedioic acid, polymer with sodium 2-[(2-aminoethyl)amino]ethanesulfonate (1:1), 1,6-diisocyanatohexane, 2,2-dimethyl-1,3-propanediol, 1,2-ethanediamine and 1,6-hexanediol in Pesticide Formulations; Exemption from the Requirement for a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06953": {
+      "document_number": "2026-06953",
+      "title": "Polyethylhexyl Glycidyl Ether Polyethylene Oxide Copolymer in Pesticide Formulations; Exemption From the Requirement for a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06943": {
+      "document_number": "2026-06943",
+      "title": "Air Plan Approval; Ohio; Redesignation of the Cleveland, OH Area to Attainment of the 2015 Ozone Standards",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06942": {
+      "document_number": "2026-06942",
+      "title": "Air Plan Approvals; Indiana; Prong 4 (Visibility) for the 2015 Ozone National Ambient Air Quality Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06941": {
+      "document_number": "2026-06941",
+      "title": "Air Plan Approval; Michigan; Redesignation and Maintenance Plan for the Partial St. Clair 2010 1-Hour Sulfur Dioxide (SO2) NAAQS Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06940": {
+      "document_number": "2026-06940",
+      "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT for Ohio",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06938": {
+      "document_number": "2026-06938",
+      "title": "Air Plan Approval; New York; Interstate Transport Requirements for the 2010 SO2 NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06937": {
+      "document_number": "2026-06937",
+      "title": "Air Plan Approval and Air Quality Designation; Ohio; Attainment Plan and Redesignation of the Canton Area to Attainment of the 2008 Lead Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06910": {
+      "document_number": "2026-06910",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permits for Bonanza Creek Energy Operating Company, LLC-Antelope CPF 13-21 Production Facility, State Antelope O-1 Central Production Facility, State North Platte 42-26 Central Production Facility and State Pronghorn 41-32 Central Production Facility",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-06905": {
+      "document_number": "2026-06905",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection To State Operating Permit for Caerus Piceance, LLC-Hunter Mesa Water Treatment Facility",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-10",
+      "first_seen": "2026-04-10T13:20:30.722227"
     }
   },
   "committee_items": {
