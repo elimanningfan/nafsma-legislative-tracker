@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-10T13:21:10.155432",
+  "last_run": "2026-04-13T13:49:12.599854",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1223,6 +1223,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-10",
       "first_seen": "2026-04-10T13:20:30.722227"
+    },
+    "2026-07062": {
+      "document_number": "2026-07062",
+      "title": "Modification to the Start of the Submission Period for Perfluoroalkyl and Polyfluoroalkyl Substances (PFAS) Reporting and Recordkeeping Under TSCA 8(a)(7)",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-13",
+      "first_seen": "2026-04-13T13:48:49.827698"
+    },
+    "2026-07061": {
+      "document_number": "2026-07061",
+      "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals From Electric Utilities; Legacy/CCRMU Amendments",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-13",
+      "first_seen": "2026-04-13T13:48:49.827698"
     }
   },
   "committee_items": {
@@ -1736,6 +1750,438 @@
       "declaration_date": "2025-12-12",
       "designated_area": "Whatcom (County)",
       "first_seen": "2026-01-23T13:02:12.628797"
+    },
+    "4906-WA-Stillaguamish Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Stillaguamish Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Skokomish Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Skokomish Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Asotin (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Asotin (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Clallam (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Clallam (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Clark (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Clark (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Cowlitz (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Cowlitz (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Garfield (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Garfield (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Island (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Island (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Jefferson (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Jefferson (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Kittitas (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Kittitas (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Klickitat (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Klickitat (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Mason (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Mason (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Pend Oreille (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Pend Oreille (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Skamania (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Skamania (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Wahkiakum (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Wahkiakum (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Yakima (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Yakima (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Nisqually Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Nisqually Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Thurston (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Thurston (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Chehalis Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Chehalis Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Lummi Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Lummi Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Muckleshoot Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Muckleshoot Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Nooksack Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Nooksack Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Puyallup Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Puyallup Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Quinault Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Quinault Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Samish (TDSA)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Samish (TDSA)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Sauk-Suiattle Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Sauk-Suiattle Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Shoalwater Bay Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Shoalwater Bay Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Squaxin Island Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Squaxin Island Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Swinomish Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Swinomish Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Tulalip Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Tulalip Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Upper Skagit Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Upper Skagit Indian Reservation",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Chelan (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Chelan (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Grays Harbor (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Grays Harbor (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-King (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "King (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Lewis (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Lewis (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Pacific (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Pacific (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Pierce (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Pierce (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Skagit (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Skagit (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Snohomish (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Snohomish (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Whatcom (County)": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Whatcom (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4901-MT-Lincoln (County)": {
+      "disaster_number": 4901,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "MT",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Lincoln (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Clackamas (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Clackamas (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Hood River (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Hood River (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Lane (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Lane (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Lincoln (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Lincoln (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Linn (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Linn (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Polk (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Polk (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4907-OR-Tillamook (County)": {
+      "disaster_number": 4907,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "OR",
+      "incident_type": "Severe Storm",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Tillamook (County)",
+      "first_seen": "2026-04-13T13:49:08.229267"
     }
   },
   "watchlist_bills": {
