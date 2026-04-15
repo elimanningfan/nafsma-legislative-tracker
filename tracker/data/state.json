@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-14T13:54:21.189982",
+  "last_run": "2026-04-15T13:48:22.105311",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1251,6 +1251,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-14",
       "first_seen": "2026-04-14T13:53:58.581973"
+    },
+    "2026-07299": {
+      "document_number": "2026-07299",
+      "title": "Allocations of Cross-State Air Pollution Rule Allowances From New Unit Set-Asides for 2025 Control Periods",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-15",
+      "first_seen": "2026-04-15T13:47:56.547369"
     }
   },
   "committee_items": {
@@ -1474,6 +1481,15 @@
       "title": "Hearings to examine restoration efforts in the Great Lakes Region.",
       "date": "2026-04-15",
       "first_seen": "2026-04-09T13:52:49.041372"
+    },
+    "338163": {
+      "event_id": "338163",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine the nominations of Kevin Warsh, of Florida, to be a Member and Chairman of the Board of Governors of the Federal Reserve System.",
+      "date": "2026-04-21",
+      "first_seen": "2026-04-15T13:48:17.107732"
     }
   },
   "disaster_declarations": {
