@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-15T13:48:22.105311",
+  "last_run": "2026-04-17T13:28:37.614162",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1258,6 +1258,76 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-15",
       "first_seen": "2026-04-15T13:47:56.547369"
+    },
+    "2026-07560": {
+      "document_number": "2026-07560",
+      "title": "Methoxyfenozide; Pesticide Tolerances",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-17",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07533": {
+      "document_number": "2026-07533",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-17",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07527": {
+      "document_number": "2026-07527",
+      "title": "Air Plan Approval; Virginia; Amendment to the State Operating Permit for GP Big Island, LLC",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-17",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07406": {
+      "document_number": "2026-07406",
+      "title": "Privacy Act of 1974; System of Records",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07405": {
+      "document_number": "2026-07405",
+      "title": "Air Plan Revisions; Arizona; Maricopa County Air Quality Department; New Source Review; Emission Reduction Credits",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07402": {
+      "document_number": "2026-07402",
+      "title": "Tucson International Airport Area Site, Tucson, AZ; Notice of Proposed CERCLA Settlement Agreement for Removal Action",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07400": {
+      "document_number": "2026-07400",
+      "title": "Air Plan Approval; Arizona; Interstate Transport Requirements for the 2012 Fine Particulate Matter National Ambient Air Quality Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07399": {
+      "document_number": "2026-07399",
+      "title": "Air Plan Approval; Pennsylvania; Redesignation Request for the Allegheny County Area for the 2012 Annual Fine Particulate Matter Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07398": {
+      "document_number": "2026-07398",
+      "title": "Air Plan Approval; California; Eastern Kern Air Pollution Control District; Portland Cement Kilns",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
+    },
+    "2026-07396": {
+      "document_number": "2026-07396",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units: Final Repeal; Correction",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-16",
+      "first_seen": "2026-04-17T13:27:53.717121"
     }
   },
   "committee_items": {
@@ -1490,6 +1560,15 @@
       "title": "Hearings to examine the nominations of Kevin Warsh, of Florida, to be a Member and Chairman of the Board of Governors of the Federal Reserve System.",
       "date": "2026-04-21",
       "first_seen": "2026-04-15T13:48:17.107732"
+    },
+    "338320": {
+      "event_id": "338320",
+      "committee_code": "ssap22",
+      "committee_name": "Senate Appropriations - Energy & Water",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine proposed budget estimates and justification for fiscal year 2027 for the Department of Energy.",
+      "date": "2026-04-22",
+      "first_seen": "2026-04-17T13:28:31.851620"
     }
   },
   "disaster_declarations": {
@@ -2212,6 +2291,42 @@
       "declaration_date": "2026-04-07",
       "designated_area": "Tillamook (County)",
       "first_seen": "2026-04-13T13:49:08.229267"
+    },
+    "4906-WA-Snoqualmie Indian Reservation": {
+      "disaster_number": 4906,
+      "declaration_title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WA",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Snoqualmie Indian Reservation",
+      "first_seen": "2026-04-17T13:28:32.291221"
+    },
+    "4909-HI-Hawaii (County)": {
+      "disaster_number": 4909,
+      "declaration_title": "SEVERE STORMS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "HI",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Hawaii (County)",
+      "first_seen": "2026-04-17T13:28:32.291221"
+    },
+    "4909-HI-Honolulu (County)": {
+      "disaster_number": 4909,
+      "declaration_title": "SEVERE STORMS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "HI",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Honolulu (County)",
+      "first_seen": "2026-04-17T13:28:32.291221"
+    },
+    "4909-HI-Maui (County)": {
+      "disaster_number": 4909,
+      "declaration_title": "SEVERE STORMS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "HI",
+      "incident_type": "Flood",
+      "declaration_date": "2026-04-07",
+      "designated_area": "Maui (County)",
+      "first_seen": "2026-04-17T13:28:32.291221"
     }
   },
   "watchlist_bills": {
