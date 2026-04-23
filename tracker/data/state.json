@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-22T13:52:36.583034",
+  "last_run": "2026-04-23T13:55:04.865806",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1363,6 +1363,97 @@
       "doc_type": "Rule",
       "publication_date": "2026-04-22",
       "first_seen": "2026-04-22T13:51:55.524938"
+    },
+    "2026-07939": {
+      "document_number": "2026-07939",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Submission of Protocols and Study Reports for Environmental Research Involving Human Subjects (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07938": {
+      "document_number": "2026-07938",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Request for Contractor Access to TSCA Confidential Business information (CBI)",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07936": {
+      "document_number": "2026-07936",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Notification of Substantial Risk of Injury to Health and the Environment Under TSCA Section 8(e) (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07934": {
+      "document_number": "2026-07934",
+      "title": "Forty-Ninth Update of the Federal Agency Hazardous Waste Compliance Docket",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07933": {
+      "document_number": "2026-07933",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Application for Reimbursement to Local Governments for Emergency Response to Hazardous Substance Releases Under CERCLA Sec. 123",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07906": {
+      "document_number": "2026-07906",
+      "title": "Air Plan Approval; Missouri; Control of Emissions During Petroleum Liquid Storage, Loading, and Transfer",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07905": {
+      "document_number": "2026-07905",
+      "title": "Air Plan Approval; Michigan; 2015 Ozone Moderate Reasonably Available Control Technology",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07904": {
+      "document_number": "2026-07904",
+      "title": "Utah; Uinta Basin; 2015 8-Hour Ozone National Ambient Air Quality Standard; Reconsideration and Repeal of Finding of Failure To Attain and Reclassification to a Moderate Nonattainment Area; Extension of the Attainment Date and Determination of Attainment by the Marginal Attainment Date",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07899": {
+      "document_number": "2026-07899",
+      "title": "Hazardous Waste Management System; Identification and Listing of Hazardous Waste; Correction",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07894": {
+      "document_number": "2026-07894",
+      "title": "Kentucky; Approval and Promulgation of State Plan for Designated Facilities and Pollutants; Control of Emissions From Existing Municipal Solid Waste Landfills",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07889": {
+      "document_number": "2026-07889",
+      "title": "Finding of Failure To Attain and Reclassification of Tribal Portions of the Greater Connecticut Ozone Nonattainment Area as Serious for the 2015 Ozone National Ambient Air Quality Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07885": {
+      "document_number": "2026-07885",
+      "title": "Air Plan Approval; Virginia; Revision to the Regulatory Definition of Volatile Organic Compound",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-07884": {
+      "document_number": "2026-07884",
+      "title": "Air Plan Approval; Missouri; Construction Permits Required",
+      "doc_type": "Rule",
+      "publication_date": "2026-04-23",
+      "first_seen": "2026-04-23T13:54:37.061735"
     }
   },
   "committee_items": {
@@ -1622,6 +1713,15 @@
       "title": "Hearings to examine the President's proposed budget request for fiscal year 2027 for the Environmental Protection Agency.",
       "date": "2026-04-29",
       "first_seen": "2026-04-22T13:52:32.736554"
+    },
+    "338352": {
+      "event_id": "338352",
+      "committee_code": "ssap22",
+      "committee_name": "Senate Appropriations - Energy & Water",
+      "meeting_type": "Meeting",
+      "title": "Hearings to examine proposed budget estimates and justification for fiscal year 2027 for the National Nuclear Security Administration.",
+      "date": "2026-04-29",
+      "first_seen": "2026-04-23T13:55:01.066963"
     }
   },
   "disaster_declarations": {
