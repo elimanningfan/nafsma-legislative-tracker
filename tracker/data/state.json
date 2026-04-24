@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-23T13:55:04.865806",
+  "last_run": "2026-04-24T13:45:13.679480",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1454,6 +1454,27 @@
       "doc_type": "Rule",
       "publication_date": "2026-04-23",
       "first_seen": "2026-04-23T13:54:37.061735"
+    },
+    "2026-08097": {
+      "document_number": "2026-08097",
+      "title": "Response to Petition To Change Regulation of Phosphogypsum Under RCRA",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-24",
+      "first_seen": "2026-04-24T13:44:52.326082"
+    },
+    "2026-08029": {
+      "document_number": "2026-08029",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-24",
+      "first_seen": "2026-04-24T13:44:52.326082"
+    },
+    "2026-08012": {
+      "document_number": "2026-08012",
+      "title": "Significant New Use Rules on Certain Chemical Substances (26-2)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-24",
+      "first_seen": "2026-04-24T13:44:52.326082"
     }
   },
   "committee_items": {
@@ -2552,6 +2573,51 @@
       "declaration_date": "2026-04-07",
       "designated_area": "Quileute Indian Reservation",
       "first_seen": "2026-04-20T13:52:00.891694"
+    },
+    "4910-MP-Rota (Municipality)": {
+      "disaster_number": 4910,
+      "declaration_title": "SUPER TYPHOON SINLAKU",
+      "state": "MP",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-04-23",
+      "designated_area": "Rota (Municipality)",
+      "first_seen": "2026-04-24T13:45:10.935391"
+    },
+    "4910-MP-Northern Islands (Municipality)": {
+      "disaster_number": 4910,
+      "declaration_title": "SUPER TYPHOON SINLAKU",
+      "state": "MP",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-04-23",
+      "designated_area": "Northern Islands (Municipality)",
+      "first_seen": "2026-04-24T13:45:10.935391"
+    },
+    "4910-MP-Saipan (Municipality)": {
+      "disaster_number": 4910,
+      "declaration_title": "SUPER TYPHOON SINLAKU",
+      "state": "MP",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-04-23",
+      "designated_area": "Saipan (Municipality)",
+      "first_seen": "2026-04-24T13:45:10.935391"
+    },
+    "4910-MP-Northern Mariana Islands (County-equivalent)": {
+      "disaster_number": 4910,
+      "declaration_title": "SUPER TYPHOON SINLAKU",
+      "state": "MP",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-04-23",
+      "designated_area": "Northern Mariana Islands (County-equivalent)",
+      "first_seen": "2026-04-24T13:45:10.935391"
+    },
+    "4910-MP-Tinian (Municipality)": {
+      "disaster_number": 4910,
+      "declaration_title": "SUPER TYPHOON SINLAKU",
+      "state": "MP",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-04-23",
+      "designated_area": "Tinian (Municipality)",
+      "first_seen": "2026-04-24T13:45:10.935391"
     }
   },
   "watchlist_bills": {
