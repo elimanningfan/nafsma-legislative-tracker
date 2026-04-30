@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-29T14:08:49.342159",
+  "last_run": "2026-04-30T14:06:53.223111",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1510,6 +1510,34 @@
       "doc_type": "Notice",
       "publication_date": "2026-04-28",
       "first_seen": "2026-04-29T14:08:15.031222"
+    },
+    "2026-08379": {
+      "document_number": "2026-08379",
+      "title": "Environmental Protection Agency Draft Fiscal Year 2027 Evidence Plan",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-30",
+      "first_seen": "2026-04-30T14:06:31.745017"
+    },
+    "2026-08373": {
+      "document_number": "2026-08373",
+      "title": "Air Plan Approval; Delaware; Excess Emissions Provisions Pertaining to Periods of Startup, Shutdown and Malfunction Events",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-30",
+      "first_seen": "2026-04-30T14:06:31.745017"
+    },
+    "2026-08372": {
+      "document_number": "2026-08372",
+      "title": "Utah; Northern Wasatch Front; 2015 8-Hour Ozone National Ambient Air Quality Standards; Reconsideration and Repeal of Finding of Failure To Attain and Reclassification to a Serious Nonattainment Area; Determination of Attainment by the Moderate Attainment Date But for International Emissions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-04-30",
+      "first_seen": "2026-04-30T14:06:31.745017"
+    },
+    "2026-08370": {
+      "document_number": "2026-08370",
+      "title": "Comprehensive Environmental Response, Compensation, and Liability Act; Proposed Administrative Settlement Agreement for Recovery of Response Costs; Goodrich Asbestos Superfund Site in Ottawa County, Miami, Oklahoma",
+      "doc_type": "Notice",
+      "publication_date": "2026-04-30",
+      "first_seen": "2026-04-30T14:06:31.745017"
     }
   },
   "committee_items": {
