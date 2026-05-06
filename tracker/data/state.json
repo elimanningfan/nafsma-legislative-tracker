@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-04T14:11:50.081425",
+  "last_run": "2026-05-06T14:24:32.853436",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1573,6 +1573,384 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-04",
       "first_seen": "2026-05-04T14:11:24.479188"
+    },
+    "2026-08897": {
+      "document_number": "2026-08897",
+      "title": "Tennessee; Amendment No. 2 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08896": {
+      "document_number": "2026-08896",
+      "title": "Tennessee; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08895": {
+      "document_number": "2026-08895",
+      "title": "Notices of Emergency and Major Disaster Declarations and Related Amendments",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08894": {
+      "document_number": "2026-08894",
+      "title": "Louisiana; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08893": {
+      "document_number": "2026-08893",
+      "title": "Missouri; Amendment No. 3 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08892": {
+      "document_number": "2026-08892",
+      "title": "Louisiana; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08891": {
+      "document_number": "2026-08891",
+      "title": "Mississippi; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08890": {
+      "document_number": "2026-08890",
+      "title": "Mississippi; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08889": {
+      "document_number": "2026-08889",
+      "title": "Tennessee; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08888": {
+      "document_number": "2026-08888",
+      "title": "Kansas; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08887": {
+      "document_number": "2026-08887",
+      "title": "Nebraska; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08886": {
+      "document_number": "2026-08886",
+      "title": "North Dakota; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08885": {
+      "document_number": "2026-08885",
+      "title": "Leech Lake Band of Ojibwe; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08884": {
+      "document_number": "2026-08884",
+      "title": "Leech Lake Band of Ojibwe; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08883": {
+      "document_number": "2026-08883",
+      "title": "Alaska; Major Disaster and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08882": {
+      "document_number": "2026-08882",
+      "title": "Alaska; Amendment No. 2 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08881": {
+      "document_number": "2026-08881",
+      "title": "Alaska; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08879": {
+      "document_number": "2026-08879",
+      "title": "North Carolina; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08878": {
+      "document_number": "2026-08878",
+      "title": "Crow Tribe of Montana; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08877": {
+      "document_number": "2026-08877",
+      "title": "Missouri; Amendment No. 2 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08876": {
+      "document_number": "2026-08876",
+      "title": "West Virginia; Amendment No. 2 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08875": {
+      "document_number": "2026-08875",
+      "title": "Michigan; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08874": {
+      "document_number": "2026-08874",
+      "title": "Missouri; Amendment No. 3 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08873": {
+      "document_number": "2026-08873",
+      "title": "Missouri; Amendment No. 2 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08872": {
+      "document_number": "2026-08872",
+      "title": "Missouri; Amendment No. 4 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08871": {
+      "document_number": "2026-08871",
+      "title": "Missouri; Amendment No. 3 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08870": {
+      "document_number": "2026-08870",
+      "title": "Kentucky; Amendment No. 3 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08869": {
+      "document_number": "2026-08869",
+      "title": "Missouri; Amendment No. 6 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08868": {
+      "document_number": "2026-08868",
+      "title": "Missouri; Amendment No. 5 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08867": {
+      "document_number": "2026-08867",
+      "title": "Missouri; Amendment No. 5 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08866": {
+      "document_number": "2026-08866",
+      "title": "Missouri; Amendment No. 4 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08865": {
+      "document_number": "2026-08865",
+      "title": "Kentucky; Amendment No. 5 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08864": {
+      "document_number": "2026-08864",
+      "title": "West Virginia; Amendment No. 6 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08863": {
+      "document_number": "2026-08863",
+      "title": "Kentucky; Amendment No. 10 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08862": {
+      "document_number": "2026-08862",
+      "title": "Kentucky; Amendment No. 3 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08861": {
+      "document_number": "2026-08861",
+      "title": "Crow Tribe of Montana; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08860": {
+      "document_number": "2026-08860",
+      "title": "North Carolina; Amendment No. 4 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08859": {
+      "document_number": "2026-08859",
+      "title": "North Carolina; Amendment No. 9 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08858": {
+      "document_number": "2026-08858",
+      "title": "La Jolla Band of Luise\u00f1o Indians; Amendment No. 1 to Notice of a Major Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08855": {
+      "document_number": "2026-08855",
+      "title": "Georgia; Emergency and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08854": {
+      "document_number": "2026-08854",
+      "title": "Georgia; Amendment No. 1 to Notice of an Emergency Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08853": {
+      "document_number": "2026-08853",
+      "title": "Indiana; Emergency and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08852": {
+      "document_number": "2026-08852",
+      "title": "Indiana; Amendment No. 1 to Notice of an Emergency Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08851": {
+      "document_number": "2026-08851",
+      "title": "Mississippi; Emergency and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08850": {
+      "document_number": "2026-08850",
+      "title": "Mississippi; Amendment No. 2 to Notice of an Emergency Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08849": {
+      "document_number": "2026-08849",
+      "title": "Mississippi; Amendment No. 1 to Notice of an Emergency Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08848": {
+      "document_number": "2026-08848",
+      "title": "West Virginia; Amendment No. 1 to Notice of an Emergency Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08847": {
+      "document_number": "2026-08847",
+      "title": "Louisiana; Emergency and Related Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08846": {
+      "document_number": "2026-08846",
+      "title": "Louisiana; Amendment No. 3 to Notice of an Emergency Disaster Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08845": {
+      "document_number": "2026-08845",
+      "title": "Louisiana; Amendment No. 2 to Notice of an Emergency Declaration",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08808": {
+      "document_number": "2026-08808",
+      "title": "Pesticide Experimental Use Permit; Receipt of Application; Comment Request (December 2025)",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-06",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08750": {
+      "document_number": "2026-08750",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-05",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08693": {
+      "document_number": "2026-08693",
+      "title": "Proposed Information Collection Request; Clean Water State Revolving Fund and Drinking Water State Revolving Fund Programs; EPA ICR No. 1803.10, OMB Control No. 2040-0185",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-05",
+      "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-08682": {
+      "document_number": "2026-08682",
+      "title": "1,2-Dichloroethane; Final Risk Evaluation Under the Toxic Substances Control Act (TSCA); Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-05",
+      "first_seen": "2026-05-06T14:23:55.422515"
     }
   },
   "committee_items": {
