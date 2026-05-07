@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-06T14:24:32.853436",
+  "last_run": "2026-05-07T14:24:35.639626",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -1951,6 +1951,83 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-05",
       "first_seen": "2026-05-06T14:23:55.422515"
+    },
+    "2026-09020": {
+      "document_number": "2026-09020",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09018": {
+      "document_number": "2026-09018",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09016": {
+      "document_number": "2026-09016",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09015": {
+      "document_number": "2026-09015",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09014": {
+      "document_number": "2026-09014",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09013": {
+      "document_number": "2026-09013",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09055": {
+      "document_number": "2026-09055",
+      "title": "Air Quality Plan; California; San Diego County Air Pollution Control District; Landfill Flares",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09054": {
+      "document_number": "2026-09054",
+      "title": "Air Plan Approval; Missouri; Attainment Plan for the New Madrid Nonattainment Area for the 2010 1-Hour Sulfur Dioxide National Ambient Air Quality Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09053": {
+      "document_number": "2026-09053",
+      "title": "Clean Air Act Operating Permit Program; Order on Petitions for Objection to State Operating Permits for Bargath, LLC's Clough, Heath, Hyrup, Jangles and Starkey Gulch Compressor Stations, and Grand River Gathering, LLC's East Mamm Creek Compressor Station",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09043": {
+      "document_number": "2026-09043",
+      "title": "Approval and Promulgation of Delegation of Authority for Designated Facilities and Pollutants; Allegheny County; Delegation of Authority of the Federal Plan for Existing Sewage Sludge Incineration Units",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09042": {
+      "document_number": "2026-09042",
+      "title": "Virginia; Waters of the Northern Neck Peninsula Vessel Sewage No-Discharge Zone; Final Affirmative Determination",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-07",
+      "first_seen": "2026-05-07T14:24:04.554904"
     }
   },
   "committee_items": {
@@ -2246,6 +2323,15 @@
       "title": "Business meeting to consider the nomination of Kevin Warsh, of Florida, to be a Member and Chairman of the Board of Governors of the Federal Reserve System.",
       "date": "2026-04-29",
       "first_seen": "2026-04-29T14:08:45.212382"
+    },
+    "338393": {
+      "event_id": "338393",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine The U.S. Nuclear Regulatory Commission's Proposed Fiscal Year 2027 Budget.",
+      "date": "2026-05-13",
+      "first_seen": "2026-05-07T14:24:31.964617"
     }
   },
   "disaster_declarations": {
