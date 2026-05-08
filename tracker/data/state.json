@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-07T14:24:35.639626",
+  "last_run": "2026-05-08T14:00:01.109377",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2028,6 +2028,34 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-07",
       "first_seen": "2026-05-07T14:24:04.554904"
+    },
+    "2026-09136": {
+      "document_number": "2026-09136",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request; Integrated Public Alert and Warning Systems (IPAWS) Memorandum of Agreement Applications.",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-08",
+      "first_seen": "2026-05-08T13:59:37.194573"
+    },
+    "2026-09180": {
+      "document_number": "2026-09180",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-08",
+      "first_seen": "2026-05-08T13:59:37.194573"
+    },
+    "2026-09179": {
+      "document_number": "2026-09179",
+      "title": "Definition of Hazardous Waste Applicable to Corrective Action for Releases From Solid Waste Management Units; Withdrawal",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-08",
+      "first_seen": "2026-05-08T13:59:37.194573"
+    },
+    "2026-09146": {
+      "document_number": "2026-09146",
+      "title": "Air Plan Approval; NC; Removal of the State's Vehicle Inspection and Maintenance Program",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-08",
+      "first_seen": "2026-05-08T13:59:37.194573"
     }
   },
   "committee_items": {
