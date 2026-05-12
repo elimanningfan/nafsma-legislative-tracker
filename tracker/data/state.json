@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-11T15:20:23.659343",
+  "last_run": "2026-05-12T14:33:59.562082",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2063,6 +2063,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-11",
       "first_seen": "2026-05-11T15:19:55.601865"
+    },
+    "2026-09370": {
+      "document_number": "2026-09370",
+      "title": "Science Applications International Corporation; Access to Confidential Business Information",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-12",
+      "first_seen": "2026-05-12T14:33:33.036696"
     }
   },
   "committee_items": {
@@ -2376,6 +2383,24 @@
       "title": "Fiscal Year 2027 Commerce, Justice, Science, and Related Agencies Bill",
       "date": "2026-05-13",
       "first_seen": "2026-05-11T15:20:20.217484"
+    },
+    "119283": {
+      "event_id": "119283",
+      "committee_code": "hsap10",
+      "committee_name": "House Appropriations - Energy & Water",
+      "meeting_type": "Markup",
+      "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill",
+      "date": "2026-05-15",
+      "first_seen": "2026-05-12T14:33:56.079418"
+    },
+    "338403": {
+      "event_id": "338403",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Open Business Meeting",
+      "title": "Business meeting to consider H.R.3633, to provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission.",
+      "date": "2026-05-14",
+      "first_seen": "2026-05-12T14:33:56.079418"
     }
   },
   "disaster_declarations": {
