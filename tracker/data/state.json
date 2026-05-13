@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-12T14:33:59.562082",
+  "last_run": "2026-05-13T14:44:36.804730",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2070,6 +2070,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-12",
       "first_seen": "2026-05-12T14:33:33.036696"
+    },
+    "2026-09524": {
+      "document_number": "2026-09524",
+      "title": "Begin Actual Construction in the New Source Review (NSR) Preconstruction Permitting Program",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-13",
+      "first_seen": "2026-05-13T14:43:33.782445"
+    },
+    "2026-09490": {
+      "document_number": "2026-09490",
+      "title": "Oxirane, 2-phenyl-, polymer With oxirane, mono(hydrogen 2-sulfobutanedioate), octyl ether, sodium salt (1:2) in Pesticide Formulations; Exemption From the Requirement for a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-13",
+      "first_seen": "2026-05-13T14:43:33.782445"
     }
   },
   "committee_items": {
