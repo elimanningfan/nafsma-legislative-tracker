@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-13T14:44:36.804730",
+  "last_run": "2026-05-14T14:24:02.055485",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2084,6 +2084,97 @@
       "doc_type": "Rule",
       "publication_date": "2026-05-13",
       "first_seen": "2026-05-13T14:43:33.782445"
+    },
+    "2026-09619": {
+      "document_number": "2026-09619",
+      "title": "Air Plan Approval; Montana; Revisions to Western Sugar Stipulation",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09618": {
+      "document_number": "2026-09618",
+      "title": "Air Plan Approval; Minnesota; Metropolitan Council Wastewater Treatment Plant Title I PM10 SIP Revisions",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09616": {
+      "document_number": "2026-09616",
+      "title": "Air Plan Approval; Michigan; Infrastructure SIP Requirements for the 2015 Ozone NAAQS; Michigan State Board Requirements",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09615": {
+      "document_number": "2026-09615",
+      "title": "Approval and Promulgation of Delegation of Authority for Designated Facilities and Pollutants; Washington; Northwest Clean Air Agency",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09614": {
+      "document_number": "2026-09614",
+      "title": "Air Plan Approval; Ohio; Clean Data Determination for the Cleveland, Ohio Area for the 2015 Ozone Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09613": {
+      "document_number": "2026-09613",
+      "title": "Air Plan Approval; Illinois; Moderate Attainment Plan Elements for the Chicago and Metro East Areas for the 2015 Ozone Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09612": {
+      "document_number": "2026-09612",
+      "title": "Air Plan Approval; Indiana; Indiana NOX Emissions Monitoring",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09604": {
+      "document_number": "2026-09604",
+      "title": "Determination of Attainment by the Attainment Date and Clean Data Determination for the 2012 Annual Fine Particulate Standard; Plumas County, California",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09603": {
+      "document_number": "2026-09603",
+      "title": "Alaska: Tentative Determination on Final Authorization of State Hazardous Waste Management Program",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09588": {
+      "document_number": "2026-09588",
+      "title": "Clean Air Act Tribal Minor New Source Review Permit Issued to Jamul Casino Resort",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09587": {
+      "document_number": "2026-09587",
+      "title": "Proposed CERCLA Cost Recovery Settlement for the Desha Road Superfund Site, Tappahannock, Essex County, Virginia",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09586": {
+      "document_number": "2026-09586",
+      "title": "Environmental Protection Agency Draft Fiscal Year 2027 Evidence Plan; Extension of Comment Period",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
+    },
+    "2026-09585": {
+      "document_number": "2026-09585",
+      "title": "2026 Annual Joint Meeting of the Ozone Transport Commission and the Mid-Atlantic Northeast Visibility Union",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-14",
+      "first_seen": "2026-05-14T14:23:41.344371"
     }
   },
   "committee_items": {
@@ -2415,6 +2506,15 @@
       "title": "Business meeting to consider H.R.3633, to provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission.",
       "date": "2026-05-14",
       "first_seen": "2026-05-12T14:33:56.079418"
+    },
+    "338418": {
+      "event_id": "338418",
+      "committee_code": "ssap22",
+      "committee_name": "Senate Appropriations - Energy & Water",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine proposed budget estimates and justification for fiscal year 2027 for the U.S. Army Corps of Engineers and the Bureau of Reclamation.",
+      "date": "2026-05-20",
+      "first_seen": "2026-05-14T14:23:58.464734"
     }
   },
   "disaster_declarations": {
