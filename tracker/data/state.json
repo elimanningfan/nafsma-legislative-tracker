@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-15T14:16:51.384088",
+  "last_run": "2026-05-18T15:40:48.966107",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2182,6 +2182,55 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-15",
       "first_seen": "2026-05-15T14:16:21.650529"
+    },
+    "2026-09851": {
+      "document_number": "2026-09851",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09850": {
+      "document_number": "2026-09850",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09848": {
+      "document_number": "2026-09848",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09847": {
+      "document_number": "2026-09847",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09905": {
+      "document_number": "2026-09905",
+      "title": "Revision of Tier 4 Criteria Pollutant Standards, Part 1: Amendments to Phase-In Schedule for Light-Duty and Medium-Duty Vehicles",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09895": {
+      "document_number": "2026-09895",
+      "title": "Effluent Limitations Guidelines and Standards for the Steam Electric Power Generating Point Source Category-Unmanaged Combustion Residual Leachate",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09883": {
+      "document_number": "2026-09883",
+      "title": "GDIT, SAVAN and Agile; Access to Confidential Business Information",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-18",
+      "first_seen": "2026-05-18T15:40:24.786861"
     }
   },
   "committee_items": {
