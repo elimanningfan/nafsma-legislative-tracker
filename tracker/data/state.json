@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-18T15:40:48.966107",
+  "last_run": "2026-05-19T15:33:43.264522",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2231,6 +2231,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-18",
       "first_seen": "2026-05-18T15:40:24.786861"
+    },
+    "2026-09957": {
+      "document_number": "2026-09957",
+      "title": "National Flood Insurance Program (NFIP); Assistance to Private Sector Property Insurers, Notice of Adjustment to FY 2027 Arrangement",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-19",
+      "first_seen": "2026-05-19T15:33:04.850529"
+    },
+    "2026-09945": {
+      "document_number": "2026-09945",
+      "title": "Proposed Flood Hazard Determinations for Gaston County, North Carolina, and Incorporated Areas",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-19",
+      "first_seen": "2026-05-19T15:33:04.850529"
     }
   },
   "committee_items": {
@@ -2571,6 +2585,24 @@
       "title": "Hearings to examine proposed budget estimates and justification for fiscal year 2027 for the U.S. Army Corps of Engineers and the Bureau of Reclamation.",
       "date": "2026-05-20",
       "first_seen": "2026-05-14T14:23:58.464734"
+    },
+    "119211": {
+      "event_id": "119211",
+      "committee_code": "hspw00",
+      "committee_name": "House Transportation & Infrastructure",
+      "meeting_type": "Markup",
+      "title": "H.R. ____, Building Unrivaled Infrastructure and Long-term Development for America's 250th Act (BUILD America 250 Act); and other matters cleared for consideration",
+      "date": "2026-05-21",
+      "first_seen": "2026-05-19T15:33:30.397740"
+    },
+    "119319": {
+      "event_id": "119319",
+      "committee_code": "hsap00",
+      "committee_name": "House Appropriations",
+      "meeting_type": "Markup",
+      "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
+      "date": "2026-05-20",
+      "first_seen": "2026-05-19T15:33:30.397740"
     }
   },
   "disaster_declarations": {
