@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-19T15:33:43.264522",
+  "last_run": "2026-05-20T15:31:22.784542",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2245,6 +2245,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-19",
       "first_seen": "2026-05-19T15:33:04.850529"
+    },
+    "2026-10086": {
+      "document_number": "2026-10086",
+      "title": "Extending the Compliance Deadline for the PFOA and PFOS Maximum Contaminant Levels",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-20",
+      "first_seen": "2026-05-20T15:30:56.789831"
+    },
+    "2026-10085": {
+      "document_number": "2026-10085",
+      "title": "Rescission of Regulatory Determinations and Removal of Related Provisions for Four PFAS Substances (PFHxS, PFNA, HFPO-DA (GenX), and the Mixture of These Three PFAS Plus PFBS)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-20",
+      "first_seen": "2026-05-20T15:30:56.789831"
     }
   },
   "committee_items": {
