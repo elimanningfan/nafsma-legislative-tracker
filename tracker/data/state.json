@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-25T15:16:14.374698",
+  "last_run": "2026-05-26T15:45:07.896732",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2357,6 +2357,20 @@
       "doc_type": "Rule",
       "publication_date": "2026-05-22",
       "first_seen": "2026-05-22T14:46:41.594073"
+    },
+    "2026-10388": {
+      "document_number": "2026-10388",
+      "title": "Phasedown of Hydrofluorocarbons: Excluding Road and Intermodal Container Transport Refrigeration Units From the Hydrofluorocarbon Leak Repair Requirements",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-26",
+      "first_seen": "2026-05-26T15:44:45.103768"
+    },
+    "2026-10387": {
+      "document_number": "2026-10387",
+      "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Promulgated Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-26",
+      "first_seen": "2026-05-26T15:44:45.103768"
     }
   },
   "committee_items": {
