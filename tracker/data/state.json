@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-28T16:09:06.929229",
+  "last_run": "2026-05-29T15:49:16.516178",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2427,6 +2427,146 @@
       "doc_type": "Notice",
       "publication_date": "2026-05-28",
       "first_seen": "2026-05-28T16:08:15.086483"
+    },
+    "2026-10817": {
+      "document_number": "2026-10817",
+      "title": "Regulation for Federal Financial Assistance",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10776": {
+      "document_number": "2026-10776",
+      "title": "Air Plan Approval; Indiana; Keystone VOC RACT Alternative Control",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10771": {
+      "document_number": "2026-10771",
+      "title": "Air Plan Approval; Pennsylvania; Revision to Philadelphia Gas Works, Richmond Plant Reasonably Available Control Technology Plan Under the 1997 8-Hour Ozone National Ambient Air Quality Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10770": {
+      "document_number": "2026-10770",
+      "title": "Approval of Source-Specific Air Quality Implementation Plan; New York; Calpine JFK Energy Center",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10769": {
+      "document_number": "2026-10769",
+      "title": "Air Plan Approval; New York; Athens Generating Plant",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10768": {
+      "document_number": "2026-10768",
+      "title": "Designation of Areas for Air Quality Planning Purposes; Michigan; Technical Amendment",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10767": {
+      "document_number": "2026-10767",
+      "title": "Air Plan Approval; Michigan; Determination of Attainment by the Attainment Date for the 2015 Ozone Standards",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10760": {
+      "document_number": "2026-10760",
+      "title": "Air Plan Approval; California; San Joaquin Valley Unified Air Pollution Control District; Ventura County Air Pollution Control District; South Coast Air Quality Management District; Oil and Gas Production; Volatile Organic Compounds",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10755": {
+      "document_number": "2026-10755",
+      "title": "Air Plan Approval; Maryland; Clean Data Determination for the Baltimore, MD Nonattainment Area for the 2015 Ozone National Ambient Air Quality Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10754": {
+      "document_number": "2026-10754",
+      "title": "Partial Approval and Partial Disapproval of Air Quality Implementation Plans; Hawaii; Regional Haze State Implementation Plan for the Second Implementation Period",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10745": {
+      "document_number": "2026-10745",
+      "title": "Air Plan Approval; Virginia; Repeal of Existing Stationary Source Regulations",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10744": {
+      "document_number": "2026-10744",
+      "title": "South Carolina; Approval of State Plan for Control of Emissions From Commercial and Industrial Solid Waste Incineration Units",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10740": {
+      "document_number": "2026-10740",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10739": {
+      "document_number": "2026-10739",
+      "title": "Approval and Promulgation of State Air Quality Plans (Negative Declarations) for Designated Facilities and Pollutants; District of Columbia",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10738": {
+      "document_number": "2026-10738",
+      "title": "Air Plan Approval; ID; Update to Materials Incorporated by Reference",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10714": {
+      "document_number": "2026-10714",
+      "title": "Pesticide Experimental Use Permit; Receipt of Application; Comment Request (March 2026)",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10712": {
+      "document_number": "2026-10712",
+      "title": "Significant New Use Rules on Certain Chemical Substances (25-2.5e)",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10711": {
+      "document_number": "2026-10711",
+      "title": "Propylene Oxide; Pesticide Tolerances",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10709": {
+      "document_number": "2026-10709",
+      "title": "Bacillus Thuringiensis Cry1B.34.1, Bacillus Thuringiensis Cry1B.61.1 and Adiantum Trapeziforme var. Braziliense IPD083Cb Proteins; Pesticide Tolerances",
+      "doc_type": "Rule",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
+    },
+    "2026-10708": {
+      "document_number": "2026-10708",
+      "title": "Certain New Chemicals or Significant New Uses; Statements of Findings-March 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-05-29",
+      "first_seen": "2026-05-29T15:48:43.833373"
     }
   },
   "committee_items": {
