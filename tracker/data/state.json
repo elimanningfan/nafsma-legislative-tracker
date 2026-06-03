@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-02T16:40:48.300067",
+  "last_run": "2026-06-03T16:57:43.230427",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2595,6 +2595,34 @@
       "doc_type": "Rule",
       "publication_date": "2026-06-01",
       "first_seen": "2026-06-01T17:48:29.081397"
+    },
+    "2026-11055": {
+      "document_number": "2026-11055",
+      "title": "Hermit's Peak/Calf Canyon Fire Assistance",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-03",
+      "first_seen": "2026-06-03T16:57:13.568243"
+    },
+    "2026-11053": {
+      "document_number": "2026-11053",
+      "title": "Amending the Administrative Hearing Procedures for Claims Against the Hazardous Substance Superfund Pursuant to the Comprehensive Environmental Response, Compensation, and Liability Act",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-03",
+      "first_seen": "2026-06-03T16:57:13.568243"
+    },
+    "2026-11052": {
+      "document_number": "2026-11052",
+      "title": "Rescinding the Regulations for Arbitration Requirements and Procedures for Small Superfund Cost Recovery Claims",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-03",
+      "first_seen": "2026-06-03T16:57:13.568243"
+    },
+    "2026-11047": {
+      "document_number": "2026-11047",
+      "title": "National Emission Standards for Hazardous Air Pollutants From Hazardous Waste Combustors: Residual Risk and Technology Review",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-03",
+      "first_seen": "2026-06-03T16:57:13.568243"
     }
   },
   "committee_items": {
@@ -2980,6 +3008,15 @@
       "title": "Business meeting to markup Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2027; Legislative Branch Appropriations Act, 2027; and the Commerce, Justice, Science, and Related Agencies Appropriations Act, 2027.",
       "date": "2026-06-04",
       "first_seen": "2026-06-02T16:40:43.902144"
+    },
+    "119342": {
+      "event_id": "119342",
+      "committee_code": "hspw00",
+      "committee_name": "House Transportation & Infrastructure",
+      "meeting_type": "Markup",
+      "title": "updated Subcommittee Rosters due to changes on the Majority side; Fiscal Year 2027 Views and Estimates of the Committee on Transportation and Infrastructure; General Services Administration Capital Investment and Leasing Program Resolutions; and other matters cleared for consideration.",
+      "date": "2026-06-04",
+      "first_seen": "2026-06-03T16:57:39.339202"
     }
   },
   "disaster_declarations": {
