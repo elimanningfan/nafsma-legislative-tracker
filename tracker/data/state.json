@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-03T16:57:43.230427",
+  "last_run": "2026-06-04T15:28:22.133910",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2623,6 +2623,55 @@
       "doc_type": "Rule",
       "publication_date": "2026-06-03",
       "first_seen": "2026-06-03T16:57:13.568243"
+    },
+    "2026-11204": {
+      "document_number": "2026-11204",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; PCBs, Consolidated Reporting and Recordkeeping Requirements (Revision)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11202": {
+      "document_number": "2026-11202",
+      "title": "Alternative Electronic Submission of PCB Annual Reports",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11199": {
+      "document_number": "2026-11199",
+      "title": "Proposed Consent Decree, Clean Air Act Citizen Suit",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11198": {
+      "document_number": "2026-11198",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Federal Implementation Plans Under the Clean Air Act for Indian Reservations in Idaho, Oregon and Washington",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11170": {
+      "document_number": "2026-11170",
+      "title": "Clean Air Act Title V Operating Permit Program Revision; District of Columbia",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11169": {
+      "document_number": "2026-11169",
+      "title": "Revisions of the Nonattainment Designation for the 2008 and 2015 Ozone Standards and Clean Data Determinations for the 2008 and 2015 Ozone Standards: Cecil County, MD and New Castle County, DE",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
+    },
+    "2026-11168": {
+      "document_number": "2026-11168",
+      "title": "Conditional Approval; Contingency Measure State Implementation Plan for the 2008 Ozone Standards; San Joaquin Valley, California",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-04",
+      "first_seen": "2026-06-04T15:27:50.737954"
     }
   },
   "committee_items": {
@@ -3017,6 +3066,15 @@
       "title": "updated Subcommittee Rosters due to changes on the Majority side; Fiscal Year 2027 Views and Estimates of the Committee on Transportation and Infrastructure; General Services Administration Capital Investment and Leasing Program Resolutions; and other matters cleared for consideration.",
       "date": "2026-06-04",
       "first_seen": "2026-06-03T16:57:39.339202"
+    },
+    "338547": {
+      "event_id": "338547",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine the President's proposed budget request for fiscal year 2027 for the U.S. Fish and Wildlife Service.",
+      "date": "2026-06-10",
+      "first_seen": "2026-06-04T15:28:17.602716"
     }
   },
   "disaster_declarations": {
