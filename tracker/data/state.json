@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-11T16:10:27.901816",
+  "last_run": "2026-06-12T15:23:39.090258",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -2896,6 +2896,55 @@
       "doc_type": "Rule",
       "publication_date": "2026-06-11",
       "first_seen": "2026-06-11T16:09:26.014366"
+    },
+    "2026-11826": {
+      "document_number": "2026-11826",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request; FEMA Inspection and Claims Forms",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11885": {
+      "document_number": "2026-11885",
+      "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals From Electric Utilities; Legacy/CCRMU Amendments; Extension of Comment Period",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11884": {
+      "document_number": "2026-11884",
+      "title": "Partial Withdrawals of Findings of Failure To Submit State Implementation Plan (SIP) Revisions To Amend Provisions Applying to Excess Emissions During Periods of Startup, Shutdown, and Malfunction",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11853": {
+      "document_number": "2026-11853",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11848": {
+      "document_number": "2026-11848",
+      "title": "Pesticide Product Registration; Receipt of Applications for New Uses (January 2026)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11844": {
+      "document_number": "2026-11844",
+      "title": "Receipt of Pesticide Petitions Filed for Residues of Pesticide Chemicals in or on Various Commodities-January 2026",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
+    },
+    "2026-11843": {
+      "document_number": "2026-11843",
+      "title": "Ozone Reclassification State Implementation Plan Rule",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-12",
+      "first_seen": "2026-06-12T15:23:20.973657"
     }
   },
   "committee_items": {
