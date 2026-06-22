@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T15:28:37.735957",
+  "last_run": "2026-06-22T17:03:35.356706",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3015,6 +3015,146 @@
       "doc_type": "Rule",
       "publication_date": "2026-06-18",
       "first_seen": "2026-06-18T15:33:39.580471"
+    },
+    "2026-12399": {
+      "document_number": "2026-12399",
+      "title": "Rescinding Portions of DHS Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12481": {
+      "document_number": "2026-12481",
+      "title": "National Emission Standards for Hazardous Air Pollutants: National Emission Standards for Hazardous Air Pollutants: Crude Oil and Natural Gas Production Facilities and Natural Gas Transmission and Storage Facilities; Technology Review and Reconsideration; Extension of Comment Period",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12473": {
+      "document_number": "2026-12473",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Agricultural Worker Protection Standard Training, Notification and Recordkeeping (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12472": {
+      "document_number": "2026-12472",
+      "title": "Agency Information Collection Activities; Submission to OMB for Review and Approval; Comment Request; Revisions to the RCRA Definition of Solid Waste (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12471": {
+      "document_number": "2026-12471",
+      "title": "Agency Information Collection Activities; Submission to OMB for Review and Approval; Comment Request; RCRA Expanded Public Participation (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12470": {
+      "document_number": "2026-12470",
+      "title": "Agency Information Collection Activities; Submission to OMB for Review and Approval; Comment Request; State Program Adequacy Determination: Municipal Solid Waste Landfills and Non-Municipal, Non-Hazardous Waste Disposal Units That Receive Conditionally Exempt Small Quantity Generator Hazardous Waste (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12469": {
+      "document_number": "2026-12469",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Trade Secret Claims for Community Right-to-Know and Emergency Planning (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12468": {
+      "document_number": "2026-12468",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; NESHAP for Radionuclides (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12427": {
+      "document_number": "2026-12427",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Microbial Rules (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12426": {
+      "document_number": "2026-12426",
+      "title": "EPCRA Hazardous Chemical Inventory Reporting Requirements: Conformity With the 2024 OSHA Hazard Communication Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12424": {
+      "document_number": "2026-12424",
+      "title": "Congressional Review Act Revocation of 2024 Amendments to the National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12423": {
+      "document_number": "2026-12423",
+      "title": "Clean Air Act Operating Permit Program; Petition for Objection to State Operating Permit for Lubrizol Corporation, Harris County, Texas",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12422": {
+      "document_number": "2026-12422",
+      "title": "Clean Air Act Operating Permit Program; Petition for Objection to State Operating Permit for Intercontinental Terminals Company, LLC, Harris County, Texas",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12421": {
+      "document_number": "2026-12421",
+      "title": "Clean Air Act Operating Permit Program; Petitions for Objection to State Operating Permit for TPC Group, LLC, Harris County, Texas",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12419": {
+      "document_number": "2026-12419",
+      "title": "Clean Air Act Operating Permit Program; Petition for Objection to State Operating Permit for ExxonMobil Corporation, Harris County, Texas",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12418": {
+      "document_number": "2026-12418",
+      "title": "Pesticide Product Registration; Receipt of Applications for New Active Ingredients (March 2026)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12417": {
+      "document_number": "2026-12417",
+      "title": "Receipt of Pesticide Petitions Filed for Residues of Pesticide Chemicals in or on Various Commodities-March 2026",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12415": {
+      "document_number": "2026-12415",
+      "title": "Air Plan Approval; OR; Update to Materials Incorporated by Reference",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12397": {
+      "document_number": "2026-12397",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Clean School Bus (CSB) Rebate Program; EPA ICR No. 2461.07, OMB Control No. 2060-0686 (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12350": {
+      "document_number": "2026-12350",
+      "title": "1,2-Dichloropropane (1,2-DCP); 1,1,2-Trichloroethane (1,1,2-TCA); Trans-1,2-Dichloroethylene (tDCE); 4,4\u2032-(1-Methylethylidene)bis[2, 6-Dibromophenol] (TBBPA); and Ethylene Dibromide (EDB); Draft Hazard and Exposure Assessments; Science Advisory Committee on Chemicals (SACC) Peer Review; Notice of SACC Meeting; Availability of Draft Documents and Request for Comment",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-22",
+      "first_seen": "2026-06-22T17:03:05.183045"
     }
   },
   "committee_items": {
@@ -3454,6 +3594,33 @@
       "title": "Hearings to examine the nomination of Kevin Lilly, of Texas, to be Assistant Secretary for Fish and Wildlife.",
       "date": "2026-06-24",
       "first_seen": "2026-06-18T15:34:32.791361"
+    },
+    "338607": {
+      "event_id": "338607",
+      "committee_code": "ssap00",
+      "committee_name": "Senate Appropriations",
+      "meeting_type": "Open Business Meeting",
+      "title": "Business meeting to markup Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027, Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027, Commerce, Justice, Science, and Related Agencies Appropriations Act, 2027,Legislative Branch Appropriations Act, 2027.",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-22T17:03:32.308346"
+    },
+    "338609": {
+      "event_id": "338609",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine the nominations of Christopher Phelan, to be Chairman of the Council of Economic Advisers, Executive Office of the President, John Crews, to be a Member of the National Credit Union Administration, and Jeffrey Ledbetter, to be Inspector General, Department of Housing and Urban Development.",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-22T17:03:32.308346"
+    },
+    "119414": {
+      "event_id": "119414",
+      "committee_code": "hsap00",
+      "committee_name": "House Appropriations",
+      "meeting_type": "Markup",
+      "title": "Fiscal Year 2027 Defense Bill",
+      "date": "2026-06-24",
+      "first_seen": "2026-06-22T17:03:32.308346"
     }
   },
   "disaster_declarations": {
