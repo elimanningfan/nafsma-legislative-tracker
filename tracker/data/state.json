@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-22T17:03:35.356706",
+  "last_run": "2026-06-23T14:56:41.915690",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3155,6 +3155,48 @@
       "doc_type": "Notice",
       "publication_date": "2026-06-22",
       "first_seen": "2026-06-22T17:03:05.183045"
+    },
+    "2026-12564": {
+      "document_number": "2026-12564",
+      "title": "Certain New Chemicals; Receipt and Status Information for February, March, and April 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12551": {
+      "document_number": "2026-12551",
+      "title": "Approval and Promulgation of Implementation Plans; Arizona; Revisions to the Cleaner Burning Gasoline, Winter Oxygenated Fuel, and Gasoline Set-Aside Programs",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12549": {
+      "document_number": "2026-12549",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for the Humboldt Redwood Company, LLC",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12548": {
+      "document_number": "2026-12548",
+      "title": "Notice of Two Proposed CERCLA Administrative Settlement Agreements for Recovery of Past Response Costs at the Recycletronics-Akron Farm Facility Superfund Site",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12544": {
+      "document_number": "2026-12544",
+      "title": "No-Migration Variance From Land Disposal Restrictions for Clean Harbors Grassy Mountain, Utah",
+      "doc_type": "Rule",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12543": {
+      "document_number": "2026-12543",
+      "title": "Air Plan Approval; Colorado; RACT Requirements for the 2008 8-Hour Ozone Standard for the Denver Metro/North Front Range Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-23",
+      "first_seen": "2026-06-23T14:56:30.025999"
     }
   },
   "committee_items": {
