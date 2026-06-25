@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-24T14:39:16.752440",
+  "last_run": "2026-06-25T14:39:42.834352",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3197,6 +3197,20 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-06-23",
       "first_seen": "2026-06-23T14:56:30.025999"
+    },
+    "2026-12862": {
+      "document_number": "2026-12862",
+      "title": "Update of Procedures for Implementing the National Environmental Policy Act and Assessing the Environmental Effects Abroad of EPA Actions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-06-25",
+      "first_seen": "2026-06-25T14:39:14.300130"
+    },
+    "2026-12752": {
+      "document_number": "2026-12752",
+      "title": "Pesticide Registration Maintenance Fee; Requested and Proposed Cancellations of Certain Pesticide Registrations",
+      "doc_type": "Notice",
+      "publication_date": "2026-06-25",
+      "first_seen": "2026-06-25T14:39:14.300130"
     }
   },
   "committee_items": {
