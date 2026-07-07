@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-06T15:40:53.262373",
+  "last_run": "2026-07-07T14:44:47.118134",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3470,6 +3470,13 @@
       "doc_type": "Rule",
       "publication_date": "2026-07-06",
       "first_seen": "2026-07-06T15:40:34.825602"
+    },
+    "2026-13667": {
+      "document_number": "2026-13667",
+      "title": "Minor New Source Review Program Air Permitting Public Participation Requirements for State Implementation Plans",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-07",
+      "first_seen": "2026-07-07T14:44:25.761038"
     }
   },
   "committee_items": {
@@ -5603,6 +5610,15 @@
       "declaration_date": "2026-06-30",
       "designated_area": "Oceana (County)",
       "first_seen": "2026-07-06T15:40:51.709341"
+    },
+    "4925-MI-Washtenaw (County)": {
+      "disaster_number": 4925,
+      "declaration_title": "SEVERE STORMS, TORNADOES, AND FLOODING",
+      "state": "MI",
+      "incident_type": "Flood",
+      "declaration_date": "2026-06-30",
+      "designated_area": "Washtenaw (County)",
+      "first_seen": "2026-07-07T14:44:44.953397"
     }
   },
   "watchlist_bills": {
