@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-08T14:23:02.357857",
+  "last_run": "2026-07-09T15:17:38.078748",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3477,6 +3477,69 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-07-07",
       "first_seen": "2026-07-07T14:44:25.761038"
+    },
+    "2026-13901": {
+      "document_number": "2026-13901",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13900": {
+      "document_number": "2026-13900",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13899": {
+      "document_number": "2026-13899",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13898": {
+      "document_number": "2026-13898",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13897": {
+      "document_number": "2026-13897",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13902": {
+      "document_number": "2026-13902",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; EPA Program Information on Source Water Protection (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13849": {
+      "document_number": "2026-13849",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request: Technical Assistance Needs Assessments (TANAs) at Superfund Remedial or Removal Sites",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13845": {
+      "document_number": "2026-13845",
+      "title": "Approval and Promulgation of Implementation Plans; California; San Joaquin Valley; Revisions to Motor Vehicle Emissions Budgets for Ozone",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
+    },
+    "2026-13843": {
+      "document_number": "2026-13843",
+      "title": "Air Plan Approval; Michigan; Redesignation and Maintenance Plan for the Partial St. Clair 2010 1-Hour Sulfur Dioxide (SO2) NAAQS Nonattainment Area",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-09",
+      "first_seen": "2026-07-09T15:17:11.787319"
     }
   },
   "committee_items": {
@@ -3952,6 +4015,15 @@
       "title": "updated Subcommittee rosters due to changes on the Majority side; General Services Administration Capital Investment and Leasing Program Resolutions' an ANS to H.R. ____, the \"Water Resources Development Act of 2026\"; and other matters cleared for consideration",
       "date": "2026-07-01",
       "first_seen": "2026-06-30T14:26:41.017026"
+    },
+    "338650": {
+      "event_id": "338650",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine the semiannual monetary policy report to the congress.",
+      "date": "2026-07-15",
+      "first_seen": "2026-07-09T15:17:34.126757"
     }
   },
   "disaster_declarations": {
