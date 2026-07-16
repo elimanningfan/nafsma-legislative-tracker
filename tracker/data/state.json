@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-15T13:50:08.622279",
+  "last_run": "2026-07-16T14:01:27.996712",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3603,6 +3603,83 @@
       "doc_type": "Notice",
       "publication_date": "2026-07-15",
       "first_seen": "2026-07-15T13:49:54.253952"
+    },
+    "2026-14371": {
+      "document_number": "2026-14371",
+      "title": "New Source Performance Standards Review for Stationary Combustion Turbines and Stationary Gas Turbines; Correction",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14361": {
+      "document_number": "2026-14361",
+      "title": "Good Samaritan Remediation Permit for the Bodie Mine Project",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14330": {
+      "document_number": "2026-14330",
+      "title": "Approval and Promulgation of State Plan (Negative Declaration) for Designated Facilities and Pollutants; Nebraska; Commercial and Industrial Solid Waste Incineration Units",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14329": {
+      "document_number": "2026-14329",
+      "title": "Approval and Promulgation of State Plan (Negative Declaration) for Designated Facilities and Pollutants; Nebraska; Commercial and Industrial Solid Waste Incineration Units",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14326": {
+      "document_number": "2026-14326",
+      "title": "Air Plan Approval; Pennsylvania; Interim Final Determination To Stay and Defer Sanctions Related to Reasonably Available Control Technology Requirements (RACT) for Volatile Organic Compounds (VOC) Control Technique Guidelines (CTG) Under the 2008 Ozone National Ambient Air Quality Standards (NAAQS)",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14325": {
+      "document_number": "2026-14325",
+      "title": "Air Plan Approval; Pennsylvania; Reasonably Available Control Technology (RACT) for Volatile Organic Compounds (VOC) Control Technique Guidelines (CTG) Under the 2008 and 2015 Ozone National Ambient Air Quality Standards (NAAQS)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14322": {
+      "document_number": "2026-14322",
+      "title": "Air Plan Approval; Iowa; Revisions to Iowa Air Quality Regulations",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14318": {
+      "document_number": "2026-14318",
+      "title": "Air Plan Approval and Air Quality Designation; Ohio; Attainment Plan and Redesignation of the Canton Area to Attainment of the 2008 Lead Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14317": {
+      "document_number": "2026-14317",
+      "title": "Air Plan Revisions; California; Antelope Valley Air Quality Management District; New Source Review; Stationary Source Permits",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14257": {
+      "document_number": "2026-14257",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Mitsubishi Chemical America, Inc., MCA Geismar Site",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
+    },
+    "2026-14254": {
+      "document_number": "2026-14254",
+      "title": "Proposed Consent Decree; Clean Air Act Citizen Suit",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-16",
+      "first_seen": "2026-07-16T14:01:02.343587"
     }
   },
   "committee_items": {
@@ -4123,6 +4200,24 @@
       "title": "updated Subcommittee Rosters due to changes on the Majority side; General Services Administration Capital Investment and Leasing Program Resolutions; an Amendment in the Nature of a Substitute to H.R. 9497, the Water Resources Development Act of 2026; and other matters cleared for consideration.",
       "date": "2026-07-14",
       "first_seen": "2026-07-15T13:50:06.986513"
+    },
+    "119485": {
+      "event_id": "119485",
+      "committee_code": "hsap00",
+      "committee_name": "House Appropriations",
+      "meeting_type": "Hearing",
+      "title": "Funding Lapses: Analyzing Shutdown Reform",
+      "date": "2026-07-22",
+      "first_seen": "2026-07-16T14:01:25.801817"
+    },
+    "119434": {
+      "event_id": "119434",
+      "committee_code": "hspw00",
+      "committee_name": "House Transportation & Infrastructure",
+      "meeting_type": "Hearing",
+      "title": "\"Reforming FEMA: Ensuring the Nation's Disaster Readiness Works for Americans\"",
+      "date": "2026-07-15",
+      "first_seen": "2026-07-16T14:01:25.801817"
     }
   },
   "disaster_declarations": {
