@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-17T13:45:57.516039",
+  "last_run": "2026-07-20T14:13:43.311793",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -80,6 +80,14 @@
       "last_action_date": "2025-01-10",
       "first_seen": "2026-04-08T13:28:04.836931",
       "last_updated": "2026-04-08T13:28:04.836931"
+    },
+    "119-hr-716": {
+      "bill_id": "119-hr-716",
+      "title": "Fill the Lake Act",
+      "last_action": "Referred to the House Committee on Natural Resources.",
+      "last_action_date": "2025-01-23",
+      "first_seen": "2026-07-20T14:13:17.888460",
+      "last_updated": "2026-07-20T14:13:17.888460"
     }
   },
   "federal_register_documents": {
@@ -3694,6 +3702,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-07-17",
       "first_seen": "2026-07-17T13:45:40.290022"
+    },
+    "2026-14545": {
+      "document_number": "2026-14545",
+      "title": "Ambient Air Monitoring Reference and Equivalent Methods; Designation of One New Reference Method and Three New Equivalent Methods; Correction",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-20",
+      "first_seen": "2026-07-20T14:13:18.347140"
+    },
+    "2026-14529": {
+      "document_number": "2026-14529",
+      "title": "Notice of Mississippi River Commission Public Meetings for Fall 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-20",
+      "first_seen": "2026-07-20T14:13:18.347140"
     }
   },
   "committee_items": {
@@ -3717,6 +3739,13 @@
       "source_name": "Congress.gov Most Viewed",
       "published_date": "",
       "first_seen": "2026-01-23T13:01:37.097279"
+    },
+    "July 19, 2026": {
+      "item_id": "July 19, 2026",
+      "title": "Most-Viewed Bills - Week of July 19, 2026",
+      "source_name": "Congress.gov Most Viewed",
+      "published_date": "",
+      "first_seen": "2026-07-20T14:13:28.877283"
     }
   },
   "committee_meetings": {
@@ -4232,6 +4261,15 @@
       "title": "\"Reforming FEMA: Ensuring the Nation's Disaster Readiness Works for Americans\"",
       "date": "2026-07-15",
       "first_seen": "2026-07-16T14:01:25.801817"
+    },
+    "338677": {
+      "event_id": "338677",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Open Business Meeting",
+      "title": "Business meeting to consider the nomination of Kevin Lilly, of Texas, to be Assistant Secretary for Fish and Wildlife, Department of the Interior.",
+      "date": "2026-07-22",
+      "first_seen": "2026-07-20T14:13:40.791807"
     }
   },
   "disaster_declarations": {
@@ -5899,6 +5937,303 @@
       "declaration_date": "2026-06-30",
       "designated_area": "Washtenaw (County)",
       "first_seen": "2026-07-07T14:44:44.953397"
+    },
+    "3649-TX-Atascosa (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Atascosa (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Bandera (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Bandera (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Bexar (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Bexar (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Blanco (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Blanco (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Brewster (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Brewster (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Comal (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Comal (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Crockett (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Crockett (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Dimmit (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Dimmit (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Edwards (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Edwards (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Frio (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Frio (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Gillespie (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Gillespie (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Kendall (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Kendall (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Kerr (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Kerr (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Kimble (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Kimble (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Kinney (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Kinney (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-La Salle (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "La Salle (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Mason (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Mason (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Maverick (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Maverick (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Medina (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Medina (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Menard (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Menard (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Real (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Real (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Schleicher (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Schleicher (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Sutton (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Sutton (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Terrell (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Terrell (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Uvalde (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Uvalde (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Val Verde (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Val Verde (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Wilson (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Wilson (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Zavala (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Zavala (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Duval (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Duval (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Jim Wells (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Jim Wells (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Live Oak (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Live Oak (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Pecos (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Pecos (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
+    },
+    "3649-TX-Webb (County)": {
+      "disaster_number": 3649,
+      "declaration_title": "FLOODING",
+      "state": "TX",
+      "incident_type": "Flood",
+      "declaration_date": "2026-07-18",
+      "designated_area": "Webb (County)",
+      "first_seen": "2026-07-20T14:13:41.053598"
     }
   },
   "watchlist_bills": {
