@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-20T14:13:43.311793",
+  "last_run": "2026-07-21T14:01:33.056507",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4270,6 +4270,15 @@
       "title": "Business meeting to consider the nomination of Kevin Lilly, of Texas, to be Assistant Secretary for Fish and Wildlife, Department of the Interior.",
       "date": "2026-07-22",
       "first_seen": "2026-07-20T14:13:40.791807"
+    },
+    "338680": {
+      "event_id": "338680",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Open Business Meeting",
+      "title": "Business meeting to consider the nominations of Christopher Phelan, of Minnesota, to be Chairman of the Council of Economic Advisers, John Crews, of Virginia, to be a Member of the National Credit Union Administration Board, and Jeffrey Ledbetter, of Virginia, to be Inspector General, Department of Housing and Urban Development; to be immediately followed by an opening hearing to examine the nominations of Brian Johnson, of Ohio, to be Director, Bureau of Consumer Financial Protection, Abby Warren, of Virginia, to be an Assistant Secretary of Commerce, and Irving Dennis, of Ohio, to be Chief Financial Officer, Department of Housing and Urban Development.",
+      "date": "2026-07-23",
+      "first_seen": "2026-07-21T14:01:29.927046"
     }
   },
   "disaster_declarations": {
