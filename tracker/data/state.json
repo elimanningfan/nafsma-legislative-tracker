@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-29T14:18:35.977773",
+  "last_run": "2026-07-30T14:10:04.218173",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3870,6 +3870,132 @@
       "doc_type": "Notice",
       "publication_date": "2026-07-29",
       "first_seen": "2026-07-29T14:18:09.864344"
+    },
+    "2026-15333": {
+      "document_number": "2026-15333",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request; Application for Surplus Federal Real Property Public Benefit Conveyance and BRAC Program for Emergency Management Use",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15395": {
+      "document_number": "2026-15395",
+      "title": "CERCLA Administrative Settlement Agreement With Prospective Purchaser and Covenants Not To Sue, McCormick & Baxter Creosoting Company Superfund Site, Portland, Oregon",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15394": {
+      "document_number": "2026-15394",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; National Pollutant Discharge Elimination System Program (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15393": {
+      "document_number": "2026-15393",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Generator Standards Applicable to Laboratories Owned by Eligible Academic Entities, EPA ICR No. 2317.05, OMB Control No. 2050-0204",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15392": {
+      "document_number": "2026-15392",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Facility Ground-Water Monitoring Requirements, EPA ICR No. 0959.18, OMB Control No. 2050-0033",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15391": {
+      "document_number": "2026-15391",
+      "title": "Proposed CERCLA Administrative Cost Recovery Settlement: Bliss Corner Neighborhood Site, Dartmouth, Massachusetts",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15390": {
+      "document_number": "2026-15390",
+      "title": "Multi-Agency Radiation Survey and Site Investigation Manual, Revision 2",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15388": {
+      "document_number": "2026-15388",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Recordkeeping and Reporting-Solid Waste Disposal Facilities and Practices; EPA ICR No. 1381.14, OMB Control No. 2050-0122",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15387": {
+      "document_number": "2026-15387",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Management Standards for Hazardous Waste Pharmaceuticals ICR (Renewal), EPA ICR No. 2486.04, OMB Control No. 2050-0212",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15379": {
+      "document_number": "2026-15379",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Land Disposal Restrictions (Renewal), EPA ICR No. 1442.25, OMB Control No. 2050-0085",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15377": {
+      "document_number": "2026-15377",
+      "title": "Air Plan Approval; California; San Joaquin Valley Air Pollution Control District",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15376": {
+      "document_number": "2026-15376",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Final Authorization for Hazardous Waste Management Programs, EPA ICR No. 0969.13, OMB Control No. 2050-0041",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15372": {
+      "document_number": "2026-15372",
+      "title": "Air Plan Approval; Pennsylvania; Redesignation of the Warren County Nonattainment Area to Attainment and Approval of the Area's Maintenance Plan for the 2010 1-Hour Primary Sulfur Dioxide National Ambient Air Quality Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15371": {
+      "document_number": "2026-15371",
+      "title": "Air Plan Approval; Missouri; Construction Permit Exemptions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15364": {
+      "document_number": "2026-15364",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Application for Registration and Pesticide Report for Pesticide-Producing and Device-Producing Establishments",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15363": {
+      "document_number": "2026-15363",
+      "title": "Operating Permit Program Approval; New Hampshire; Revised Definitions",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15362": {
+      "document_number": "2026-15362",
+      "title": "Clean Air Act Operating Permit Program Revisions; California; Amador County Air Pollution Control District, Calaveras County Air Pollution Control District, Great Basin Unified Air Pollution Control District, Northern Sierra Air Quality Management District",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15352": {
+      "document_number": "2026-15352",
+      "title": "Significant New Use Rules on Certain Chemical Substances (26-4)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-07-30",
+      "first_seen": "2026-07-30T14:09:33.051758"
     }
   },
   "committee_items": {
