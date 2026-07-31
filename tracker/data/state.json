@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-30T14:10:04.218173",
+  "last_run": "2026-07-31T14:15:59.984185",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -3996,6 +3996,27 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-07-30",
       "first_seen": "2026-07-30T14:09:33.051758"
+    },
+    "2026-15560": {
+      "document_number": "2026-15560",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request; Application for Participation in the National Flood Insurance Program",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-31",
+      "first_seen": "2026-07-31T14:15:30.354187"
+    },
+    "2026-15536": {
+      "document_number": "2026-15536",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-07-31",
+      "first_seen": "2026-07-31T14:15:30.354187"
+    },
+    "2026-15493": {
+      "document_number": "2026-15493",
+      "title": "Air Plan Approval; Rhode Island; Update to Materials Incorporated by Reference",
+      "doc_type": "Rule",
+      "publication_date": "2026-07-31",
+      "first_seen": "2026-07-31T14:15:30.354187"
     }
   },
   "committee_items": {
@@ -4559,6 +4580,15 @@
       "title": "Business meeting to consider the nominations of Christopher Phelan, of Minnesota, to be Chairman of the Council of Economic Advisers, John Crews, of Virginia, to be a Member of the National Credit Union Administration Board, and Jeffrey Ledbetter, of Virginia, to be Inspector General, Department of Housing and Urban Development; to be immediately followed by an opening hearing to examine the nominations of Brian Johnson, of Ohio, to be Director, Bureau of Consumer Financial Protection, Abby Warren, of Virginia, to be an Assistant Secretary of Commerce, and Irving Dennis, of Ohio, to be Chief Financial Officer, Department of Housing and Urban Development.",
       "date": "2026-07-23",
       "first_seen": "2026-07-21T14:01:29.927046"
+    },
+    "338708": {
+      "event_id": "338708",
+      "committee_code": "ssbk00",
+      "committee_name": "Senate Banking",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine empowering Main Street by unlocking access to capital.",
+      "date": "2026-08-06",
+      "first_seen": "2026-07-31T14:15:57.008567"
     }
   },
   "disaster_declarations": {
