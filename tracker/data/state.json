@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-31T14:15:59.984185",
+  "last_run": "2026-08-03T14:46:31.108490",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4017,6 +4017,20 @@
       "doc_type": "Rule",
       "publication_date": "2026-07-31",
       "first_seen": "2026-07-31T14:15:30.354187"
+    },
+    "2026-15656": {
+      "document_number": "2026-15656",
+      "title": "National Pollutant Discharge Elimination System (NPDES) 2027 Issuance of General Permit for Stormwater Discharges From Construction Activities",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-03",
+      "first_seen": "2026-08-03T14:46:16.581240"
+    },
+    "2026-15634": {
+      "document_number": "2026-15634",
+      "title": "Permethrin; Pesticide Tolerances",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-03",
+      "first_seen": "2026-08-03T14:46:16.581240"
     }
   },
   "committee_items": {
