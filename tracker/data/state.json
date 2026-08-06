@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-05T14:17:11.117966",
+  "last_run": "2026-08-06T14:20:36.213201",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4059,6 +4059,104 @@
       "doc_type": "Notice",
       "publication_date": "2026-08-05",
       "first_seen": "2026-08-05T14:16:17.163791"
+    },
+    "2026-15946": {
+      "document_number": "2026-15946",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15944": {
+      "document_number": "2026-15944",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15943": {
+      "document_number": "2026-15943",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15942": {
+      "document_number": "2026-15942",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15941": {
+      "document_number": "2026-15941",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15939": {
+      "document_number": "2026-15939",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15938": {
+      "document_number": "2026-15938",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-16083": {
+      "document_number": "2026-16083",
+      "title": "Partial Approval and Partial Disapproval of Air Quality State Implementation Plans; Arizona; Prevention of Significant Deterioration Infrastructure Requirements for the 2012 Fine Particulate Matter National Ambient Air Quality Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-16076": {
+      "document_number": "2026-16076",
+      "title": "Cancellation Order for Certain Pesticide Registrations and/or Amendments To Terminate Uses (From February 19, 2026, Notice)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-16001": {
+      "document_number": "2026-16001",
+      "title": "Air Plan Approval; Illinois; 2015 Ozone Moderate and Serious Reasonably Available Control Technology Update",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15998": {
+      "document_number": "2026-15998",
+      "title": "Public Water System Supervision Program Revision Approvals for the States of Indiana and Illinois",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15994": {
+      "document_number": "2026-15994",
+      "title": "Clean Air Act Operating Permit Program; Order on Petition for Objection to State Operating Permit for Phillips 66 Pipeline LLC, Denver Terminal",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15986": {
+      "document_number": "2026-15986",
+      "title": "Air Plan Approval; Connecticut; Plan for Inclusion of a Consent Order No. 8383-Algonquin Gas Transmission, LLC and Negative Declaration for Rubber Tire Manufacturing Sources",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-15984": {
+      "document_number": "2026-15984",
+      "title": "Alaska: Final Authorization of State Hazardous Waste Program",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-06",
+      "first_seen": "2026-08-06T14:20:19.672154"
     }
   },
   "committee_items": {
