@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-06T14:20:36.213201",
+  "last_run": "2026-08-07T13:11:20.922674",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4157,6 +4157,41 @@
       "doc_type": "Rule",
       "publication_date": "2026-08-06",
       "first_seen": "2026-08-06T14:20:19.672154"
+    },
+    "2026-16114": {
+      "document_number": "2026-16114",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request; General Admissions Applications (Long and Short) and Stipend Forms",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-07",
+      "first_seen": "2026-08-07T13:10:54.926439"
+    },
+    "2026-16150": {
+      "document_number": "2026-16150",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-07",
+      "first_seen": "2026-08-07T13:10:54.926439"
+    },
+    "2026-16123": {
+      "document_number": "2026-16123",
+      "title": "2-Propenoic Acid, 2-Methyl-, Telomer With 1-Dodecanethiol, and 2-Methyloxirane Polymer With Oxirane Monoether With 1,2-Propanediol Mono(2-Methyl-2-Propenoate) in Pesticide Formulations; Exemption From the Requirement for a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-07",
+      "first_seen": "2026-08-07T13:10:54.926439"
+    },
+    "2026-16120": {
+      "document_number": "2026-16120",
+      "title": "Bacillus thuringiensis eCry1Gb.1Ig Protein; Exemption From the Requirement of a Pesticide Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-07",
+      "first_seen": "2026-08-07T13:10:54.926439"
+    },
+    "2026-16089": {
+      "document_number": "2026-16089",
+      "title": "Proposed Reissuance of NPDES General Permit for Oil and Gas Exploration Facilities in Federal Waters of Cook Inlet (AKG51000)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-07",
+      "first_seen": "2026-08-07T13:10:54.926439"
     }
   },
   "committee_items": {
