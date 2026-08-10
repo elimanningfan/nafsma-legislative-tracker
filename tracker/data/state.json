@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-07T13:11:20.922674",
+  "last_run": "2026-08-10T13:16:16.234099",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -88,6 +88,54 @@
       "last_action_date": "2025-01-23",
       "first_seen": "2026-07-20T14:13:17.888460",
       "last_updated": "2026-07-20T14:13:17.888460"
+    },
+    "119-s-4022": {
+      "bill_id": "119-s-4022",
+      "title": "Disaster Recovery Improvement Act",
+      "last_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "last_action_date": "2026-03-05",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-s-4000": {
+      "bill_id": "119-s-4000",
+      "title": "Securing Infrastructure from Adversaries Act of 2026",
+      "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "last_action_date": "2026-03-05",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-hr-8889": {
+      "bill_id": "119-hr-8889",
+      "title": "National Dam and Hydropower Safety Improvements Act of 2026",
+      "last_action": "Referred to the House Committee on Energy and Commerce.",
+      "last_action_date": "2026-05-19",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-hr-4970": {
+      "bill_id": "119-hr-4970",
+      "title": "Orland Project Water Management Act",
+      "last_action": "ASSUMING FIRST SPONSORSHIP - Mr. Gallagher asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 4970, a bill originally introduced by Representative LaMalfa, for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
+      "last_action_date": "2026-07-16",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-hr-8998": {
+      "bill_id": "119-hr-8998",
+      "title": "Researching Innovative Shipbuilding and Next-Generation Transit Infrastructure for Durable and Efficient Systems",
+      "last_action": "Referred to the House Committee on Transportation and Infrastructure.",
+      "last_action_date": "2026-05-21",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-s-4102": {
+      "bill_id": "119-s-4102",
+      "title": "Delaware River Basin Restoration Program Reauthorization Act of 2026",
+      "last_action": "Read twice and referred to the Committee on Environment and Public Works.",
+      "last_action_date": "2026-03-16",
+      "first_seen": "2026-08-10T13:15:50.863094",
+      "last_updated": "2026-08-10T13:15:50.863094"
     }
   },
   "federal_register_documents": {
@@ -4192,6 +4240,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-08-07",
       "first_seen": "2026-08-07T13:10:54.926439"
+    },
+    "2026-16263": {
+      "document_number": "2026-16263",
+      "title": "o-Dichlorobenzene and p-Dichlorobenzene; Draft Risk Evaluations Under the Toxic Substances Control Act (TSCA); Notice of Availability and Request for Comment",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-10",
+      "first_seen": "2026-08-10T13:15:52.030400"
     }
   },
   "committee_items": {
@@ -7160,6 +7215,24 @@
       "declaration_date": "2026-08-03",
       "designated_area": "Adair (County)",
       "first_seen": "2026-08-04T14:23:22.904015"
+    },
+    "4932-WV-Ritchie (County)": {
+      "disaster_number": 4932,
+      "declaration_title": "SEVERE STORM, STRAIGHT-LINE WINDS, TORNADOES, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WV",
+      "incident_type": "Flood",
+      "declaration_date": "2026-08-03",
+      "designated_area": "Ritchie (County)",
+      "first_seen": "2026-08-10T13:16:14.052567"
+    },
+    "4932-WV-Pleasants (County)": {
+      "disaster_number": 4932,
+      "declaration_title": "SEVERE STORM, STRAIGHT-LINE WINDS, TORNADOES, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "state": "WV",
+      "incident_type": "Flood",
+      "declaration_date": "2026-08-03",
+      "designated_area": "Pleasants (County)",
+      "first_seen": "2026-08-10T13:16:14.052567"
     }
   },
   "watchlist_bills": {
@@ -7329,10 +7402,10 @@
       "bill_id": "119-s-5361",
       "title": "Improving Atmospheric River Forecasts Act",
       "category": "notable",
-      "last_action": null,
-      "last_action_date": null,
+      "last_action": "Read twice and referred to the Committee on Veterans' Affairs.",
+      "last_action_date": "2026-08-07",
       "first_seen": "2026-01-23T13:02:16.355438",
-      "last_updated": "2026-01-23T13:02:16.355438"
+      "last_updated": "2026-08-10T13:16:15.812580"
     },
     "119-hr-1115": {
       "bill_id": "119-hr-1115",
