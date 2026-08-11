@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-10T13:16:16.234099",
+  "last_run": "2026-08-11T13:12:36.372305",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4247,6 +4247,55 @@
       "doc_type": "Notice",
       "publication_date": "2026-08-10",
       "first_seen": "2026-08-10T13:15:52.030400"
+    },
+    "2026-16335": {
+      "document_number": "2026-16335",
+      "title": "Air Quality Plan; Arizona; Maricopa County Air Quality Department; Gasoline Loading",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16334": {
+      "document_number": "2026-16334",
+      "title": "Determination To Defer Sanctions; Arizona; Maricopa County Air Quality Department; Gasoline Loading",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16331": {
+      "document_number": "2026-16331",
+      "title": "Response to Clean Air Act Section 176A Petition From New Hampshire",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16330": {
+      "document_number": "2026-16330",
+      "title": "Air Plan Approval; New Hampshire; Repeal of Motor Vehicle Inspection and Maintenance Program",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16311": {
+      "document_number": "2026-16311",
+      "title": "Agency Information Collection Activities; Proposed Renewal Collection and Request for Comment; Generic Clearance for TSCA Section 4 Test Rules, Test Orders, Enforceable Consent Agreements (ECAs), Voluntary Data Submissions, and Exemptions From Testing Requirement (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16359": {
+      "document_number": "2026-16359",
+      "title": "Danger Zone: Pacific Ocean at Marine Corps Base Hawaii, Kaneohe Bay, Island of Oahu, Hawaii",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16357": {
+      "document_number": "2026-16357",
+      "title": "Restricted Area: Naval Weapons Station Seal Beach",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-11",
+      "first_seen": "2026-08-11T13:12:20.745049"
     }
   },
   "committee_items": {
