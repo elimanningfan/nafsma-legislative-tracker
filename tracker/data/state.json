@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-12T13:16:56.765931",
+  "last_run": "2026-08-13T13:19:10.811884",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4296,6 +4296,41 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-08-11",
       "first_seen": "2026-08-11T13:12:20.745049"
+    },
+    "2026-16564": {
+      "document_number": "2026-16564",
+      "title": "Air Plan Approval; Commonwealth of Virginia; Transfer of Authority and Requests for Certain Public Hearings on Air Permits",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-13",
+      "first_seen": "2026-08-13T13:18:58.114017"
+    },
+    "2026-16515": {
+      "document_number": "2026-16515",
+      "title": "Air Plan Approval; Missouri; Clean Data Determination for the 2015 8-Hour Ozone Standard for the Missouri Portion of the St. Louis Nonattainment Area",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-13",
+      "first_seen": "2026-08-13T13:18:58.114017"
+    },
+    "2026-16514": {
+      "document_number": "2026-16514",
+      "title": "Air Plan Approval; Illinois; Clean Data Determination for the Illinois Portion of the St. Louis Area for the 2015 Ozone Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-13",
+      "first_seen": "2026-08-13T13:18:58.114017"
+    },
+    "2026-16511": {
+      "document_number": "2026-16511",
+      "title": "Determination of Attainment by the Attainment Date; 1997 Ozone Standards; California; Coachella Valley",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-13",
+      "first_seen": "2026-08-13T13:18:58.114017"
+    },
+    "2026-16510": {
+      "document_number": "2026-16510",
+      "title": "Determination of Attainment by the Attainment Date and Clean Data Determination for the 2012 Annual Fine Particulate Standard; Plumas County, California",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-13",
+      "first_seen": "2026-08-13T13:18:58.114017"
     }
   },
   "committee_items": {
