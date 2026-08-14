@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-13T13:19:10.811884",
+  "last_run": "2026-08-14T13:13:55.137407",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4331,6 +4331,76 @@
       "doc_type": "Rule",
       "publication_date": "2026-08-13",
       "first_seen": "2026-08-13T13:18:58.114017"
+    },
+    "2026-16629": {
+      "document_number": "2026-16629",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16627": {
+      "document_number": "2026-16627",
+      "title": "Approval of Source-Specific Air Quality Implementation Plan; New York; Big Six Towers Inc.",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16608": {
+      "document_number": "2026-16608",
+      "title": "2026 Unified Agenda of Regulatory and Deregulatory Actions",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16579": {
+      "document_number": "2026-16579",
+      "title": "Notice of Proposed Administrative Settlement Agreement and Order on Consent for Recovery of Past Response Costs",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16578": {
+      "document_number": "2026-16578",
+      "title": "Notice of Proposed Administrative Settlement Agreement and Order on Consent for De Minimins Contributors",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16577": {
+      "document_number": "2026-16577",
+      "title": "Notice of Proposed Administrative Settlement Agreement and Order on Consent for Recovery of Past Response Costs",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16575": {
+      "document_number": "2026-16575",
+      "title": "Air Plan Approval; Virginia; 1997 8-Hour Ozone National Ambient Air Quality Standard Second Maintenance Plan for the Madison and Page Counties (Shenandoah National Park) Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16571": {
+      "document_number": "2026-16571",
+      "title": "Air Plan Approval; Missouri; Moderate Attainment Plan Elements for the 2015 8-Hour Ozone Standard for the Missouri Portion of the St. Louis Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16570": {
+      "document_number": "2026-16570",
+      "title": "Air Plan Approval; Iowa; Interstate Transport Requirements for the 2010 Sulfur Dioxide Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
+    },
+    "2026-16565": {
+      "document_number": "2026-16565",
+      "title": "Proposed Modification of NPDES General Permit for Federal Aquaculture Facilities and Aquaculture Facilities Located in Indian Country in Washington (WAG130000)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-14",
+      "first_seen": "2026-08-14T13:13:24.285222"
     }
   },
   "committee_items": {
