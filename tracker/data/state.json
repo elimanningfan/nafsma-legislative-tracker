@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-19T12:53:22.315188",
+  "last_run": "2026-08-20T12:54:58.703606",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4464,6 +4464,90 @@
       "doc_type": "Notice",
       "publication_date": "2026-08-19",
       "first_seen": "2026-08-19T12:53:07.091938"
+    },
+    "2026-16987": {
+      "document_number": "2026-16987",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request; Approval and Coordination of Requirements To Use the NETC for Extracurricular and Training Activities",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16994": {
+      "document_number": "2026-16994",
+      "title": "Proposed Deletion From the National Priorities List",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16990": {
+      "document_number": "2026-16990",
+      "title": "Air Plan Approval; SC; Department Name Change",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16989": {
+      "document_number": "2026-16989",
+      "title": "Air Plan Approval; Arizona; Attainment Plan for the Hayden SO2 Nonattainment Area for the 1971 and 2010 Sulfur Dioxide National Ambient Air Quality Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16988": {
+      "document_number": "2026-16988",
+      "title": "Deletion From the National Priorities List",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16986": {
+      "document_number": "2026-16986",
+      "title": "Air Plan Approval; Wisconsin; Moderate Attainment Plan Elements for Wisconsin's 2015 Ozone Standard Areas",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16976": {
+      "document_number": "2026-16976",
+      "title": "Receipt of Pesticide Petitions Filed for Residues of Pesticide Chemicals in or on Various Commodities-June 2026",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16974": {
+      "document_number": "2026-16974",
+      "title": "Pesticide Product Registration; Receipt of Applications for New Active Ingredients (June 2026)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16973": {
+      "document_number": "2026-16973",
+      "title": "Cypermethrin; Pesticide Tolerance(s)",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16971": {
+      "document_number": "2026-16971",
+      "title": "Pesticide Product Registration; Receipt of Applications for New Uses (June 2026)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16938": {
+      "document_number": "2026-16938",
+      "title": "Proposed Settlement Agreement, Unreasonable Delay Claim Regarding Natural Resources Defense Council's Petition To Revoke Tolerances for Neonicotinoid Pesticides",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
+    },
+    "2026-16931": {
+      "document_number": "2026-16931",
+      "title": "Nominations Request for the Good Neighbor Environmental Board",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-20",
+      "first_seen": "2026-08-20T12:54:46.493081"
     }
   },
   "committee_items": {
