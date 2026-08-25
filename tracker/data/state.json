@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-24T12:56:07.874628",
+  "last_run": "2026-08-25T12:52:56.890472",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -136,6 +136,14 @@
       "last_action_date": "2026-03-16",
       "first_seen": "2026-08-10T13:15:50.863094",
       "last_updated": "2026-08-10T13:15:50.863094"
+    },
+    "119-hr-5794": {
+      "bill_id": "119-hr-5794",
+      "title": "FEMA Operations Continuity Act of 2025",
+      "last_action": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "last_action_date": "2025-12-01",
+      "first_seen": "2026-08-25T12:52:34.778743",
+      "last_updated": "2026-08-25T12:52:34.778743"
     }
   },
   "federal_register_documents": {
@@ -4660,6 +4668,20 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-08-24",
       "first_seen": "2026-08-24T12:55:51.969326"
+    },
+    "2026-17303": {
+      "document_number": "2026-17303",
+      "title": "Certain New Chemicals or Significant New Uses; Statements of Findings-May 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-25",
+      "first_seen": "2026-08-25T12:52:35.288866"
+    },
+    "2026-17301": {
+      "document_number": "2026-17301",
+      "title": "Glyphosate Open Literature Search To Inform Human Health Risk Assessment Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-25",
+      "first_seen": "2026-08-25T12:52:35.288866"
     }
   },
   "committee_items": {
