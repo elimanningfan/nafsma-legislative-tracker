@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-26T12:58:11.183910",
+  "last_run": "2026-08-27T22:00:46.814731",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4689,6 +4689,167 @@
       "doc_type": "Rule",
       "publication_date": "2026-08-26",
       "first_seen": "2026-08-26T12:57:54.474210"
+    },
+    "2026-17506": {
+      "document_number": "2026-17506",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Confidential Business Information Claims Under the Toxic Substances Control Act (TSCA) (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17504": {
+      "document_number": "2026-17504",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Performance Evaluation Studies on Wastewater Laboratories (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17503": {
+      "document_number": "2026-17503",
+      "title": "Air Plan Approval; Mississippi; 2010 1-Hour SO2 NAAQS Transport Infrastructure",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17502": {
+      "document_number": "2026-17502",
+      "title": "Air Plan Approval; Kentucky; Cincinnati-Hamilton Area Limited Maintenance Plan for the 1997 8-Hour Ozone NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17501": {
+      "document_number": "2026-17501",
+      "title": "Air Plan Approval; Kentucky; Louisville Area Limited Maintenance Plan for the 1997 8-Hour Ozone NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17499": {
+      "document_number": "2026-17499",
+      "title": "Air Plan Approval; Oklahoma; Regional Haze Plan for the First Implementation Revision; Revision to State Implementation Plan and Requirements",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17497": {
+      "document_number": "2026-17497",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; Allegheny County; Negative Declaration for Existing Large Municipal Waste Combustors",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17495": {
+      "document_number": "2026-17495",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; Puerto Rico; Negative Declaration for the Oil and Gas Industry",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17494": {
+      "document_number": "2026-17494",
+      "title": "Air Plan Approval; Arkansas; Regional Haze State Implementation Plan for the Second Implementation Period",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17490": {
+      "document_number": "2026-17490",
+      "title": "Air Plan Approval; FL; Emissions Reporting Requirements and Permitting Forms",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17488": {
+      "document_number": "2026-17488",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; City of Philadelphia; Negative Declarations for Existing Commercial and Industrial Solid Waste Incinerators, Large Municipal Waste Incinerators, Small Municipal Waste Incinerators, and Other Solid Waste Incinerators",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17486": {
+      "document_number": "2026-17486",
+      "title": "Air Plan Approval; Michigan; 2015 Ozone Moderate Reasonably Available Control Technology",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17482": {
+      "document_number": "2026-17482",
+      "title": "Certain New Chemicals; Receipt and Status Information for March, May, and June 2026",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17478": {
+      "document_number": "2026-17478",
+      "title": "trans-1,2-Dichloroethylene Draft Risk Evaluation Under the Toxic Substances Control Act (TSCA); Notice of Availability and Request for Comment",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17468": {
+      "document_number": "2026-17468",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Residential Lead-Based Paint Hazards Disclosure Requirements (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17467": {
+      "document_number": "2026-17467",
+      "title": "Information Collection Request Submitted to OMB for Review and Approval; Comment Request; Foreign Purchaser Acknowledgement Statement of Unregistered Pesticides (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17466": {
+      "document_number": "2026-17466",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Certification of Pesticide Applicators (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17462": {
+      "document_number": "2026-17462",
+      "title": "Agency Information Collection Activities; Submission to OMB for Review and Approval; Comment Request; Standardized Permit for RCRA Hazardous Waste Management Facilities (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17459": {
+      "document_number": "2026-17459",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Emergency Planning and Community Right-to-Know Act (EPCRA) Hazardous Chemical Inventory Reporting",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17456": {
+      "document_number": "2026-17456",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Clean Water State Revolving Fund and Drinking Water State Revolving Fund Programs (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17455": {
+      "document_number": "2026-17455",
+      "title": "National Environmental Education Advisory Council (NEEAC); Notice of Public Meeting",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17454": {
+      "document_number": "2026-17454",
+      "title": "Florida: Final Authorization of State Hazardous Waste Management Program Revisions",
+      "doc_type": "Rule",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
+    },
+    "2026-17453": {
+      "document_number": "2026-17453",
+      "title": "Public Meetings of the Clean Air Scientific Advisory Committee (CASAC) on Oxides of Nitrogen",
+      "doc_type": "Notice",
+      "publication_date": "2026-08-27",
+      "first_seen": "2026-08-27T22:00:11.839051"
     }
   },
   "committee_items": {
