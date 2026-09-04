@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-03T16:05:32.238654",
+  "last_run": "2026-09-04T16:01:05.390617",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4885,6 +4885,48 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-03",
       "first_seen": "2026-09-03T16:04:40.190545"
+    },
+    "2026-18172": {
+      "document_number": "2026-18172",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request; FEMA Preparedness Grants: Port Security Grant Program (PSGP)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18169": {
+      "document_number": "2026-18169",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request; Generic Clearance for Notice of Loss and Proof of Loss",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18168": {
+      "document_number": "2026-18168",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards (Renewal)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18134": {
+      "document_number": "2026-18134",
+      "title": "Updates to the National Pollutant Discharge Elimination System Definitions and Exclusions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18132": {
+      "document_number": "2026-18132",
+      "title": "Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18117": {
+      "document_number": "2026-18117",
+      "title": "1,2-Dichloropropane Draft Risk Evaluation Under the Toxic Substances Control Act (TSCA); Notice of Availability and Request for Comment",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-04",
+      "first_seen": "2026-09-04T16:00:24.728722"
     }
   },
   "committee_items": {
