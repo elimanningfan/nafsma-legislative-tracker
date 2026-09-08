@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-07T17:33:16.348635",
+  "last_run": "2026-09-08T16:18:24.066533",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4927,6 +4927,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-04",
       "first_seen": "2026-09-04T16:00:24.728722"
+    },
+    "2026-18198": {
+      "document_number": "2026-18198",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-08",
+      "first_seen": "2026-09-08T16:18:01.042409"
     }
   },
   "committee_items": {
