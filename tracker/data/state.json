@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-08T16:18:24.066533",
+  "last_run": "2026-09-09T16:13:50.519413",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -4934,6 +4934,83 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-08",
       "first_seen": "2026-09-08T16:18:01.042409"
+    },
+    "2026-18334": {
+      "document_number": "2026-18334",
+      "title": "Air Plan Approvals; Indiana; Prong 4 (Visibility) for the 2015 Ozone National Ambient Air Quality Standard",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18324": {
+      "document_number": "2026-18324",
+      "title": "Air Plan Approval; New York; Interstate Transport Requirements for the 2010 SO2 NAAQS",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18317": {
+      "document_number": "2026-18317",
+      "title": "Updated Definition of \u201cWaters of the United States\u201d",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18290": {
+      "document_number": "2026-18290",
+      "title": "Air Plan Approval; Reconsideration and Repeal of Air Plan Partial Approval and Partial Disapproval of North Dakota's Regional Haze State Implementation Plan for the Second Implementation Period",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18289": {
+      "document_number": "2026-18289",
+      "title": "U.S. Environmental Protection Agency (EPA) Contractor and Subcontractor Access to Confidential Business Information (CBI) Submitted Under Clean Air Act (CAA), Act To Prevent Pollution From Ships (APPS), and American Innovation and Manufacturing Act (AIM)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18288": {
+      "document_number": "2026-18288",
+      "title": "Approval of Clean Air Act General Permit Requests for Coverage for New or Modified Minor Source Hot Mix Asphalt Plants in Indian Country",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18287": {
+      "document_number": "2026-18287",
+      "title": "Publication of Notification of Coverage Under the Air Quality Permit by Rule for New or Modified True Minor Source Gasoline Dispensing Facilities in Indian Country for Costco Fuel Facility, Location No. 1834",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18286": {
+      "document_number": "2026-18286",
+      "title": "Approval of Clean Air Act General Permit Requests for Coverage for New or Modified Minor Source Stone Quarrying, Crushing, and Screening Facilities in Indian Country",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18285": {
+      "document_number": "2026-18285",
+      "title": "Approval of Clean Air Act General Permit Requests for Coverage for New or Modified Minor Source Concrete Batch Plants in Indian Country",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18284": {
+      "document_number": "2026-18284",
+      "title": "Public Water System Supervision Program Revision for Puerto Rico; Notice of Approval and Opportunity To Request Public Hearing",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18281": {
+      "document_number": "2026-18281",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Proposed Revised Information Collection Request; Comment Request; Public Comment on EPA Requested Non-Substantive Changes to Information Collect Requests for General Performance Reporting for Assistance Programs, Promoting Readiness and Enhancing Proficiency to Advance Reporting and Data, and National Estuary Program",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-09",
+      "first_seen": "2026-09-09T16:13:22.934289"
     }
   },
   "committee_items": {
