@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-09T16:13:50.519413",
+  "last_run": "2026-09-10T16:04:49.103992",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5011,6 +5011,83 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-09",
       "first_seen": "2026-09-09T16:13:22.934289"
+    },
+    "2026-18419": {
+      "document_number": "2026-18419",
+      "title": "Assistance to Firefighters Grant Program; Fire Prevention and Safety Grants",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18410": {
+      "document_number": "2026-18410",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18409": {
+      "document_number": "2026-18409",
+      "title": "Final Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18408": {
+      "document_number": "2026-18408",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18406": {
+      "document_number": "2026-18406",
+      "title": "Proposed Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18405": {
+      "document_number": "2026-18405",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18404": {
+      "document_number": "2026-18404",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18403": {
+      "document_number": "2026-18403",
+      "title": "Changes in Flood Hazard Determinations",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18435": {
+      "document_number": "2026-18435",
+      "title": "Agency Information Collection Activities; Proposed Renewal Collection and Request for Comment; User Fees for the Administration of the Toxic Substances Control Act (TSCA)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18434": {
+      "document_number": "2026-18434",
+      "title": "Agency Information Collection Activities; Proposed Renewal Collection and Request for Comment; Regulation of Persistent, Bioaccumulative, and Toxic Chemicals Under TSCA Section 6(h)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
+    },
+    "2026-18488": {
+      "document_number": "2026-18488",
+      "title": "Notice of the Virtual Meetings of the Federal Advisory Committee Known as the Western Water Cooperative Committee",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-10",
+      "first_seen": "2026-09-10T16:04:22.925280"
     }
   },
   "committee_items": {
