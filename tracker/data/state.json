@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-16T16:28:07.822754",
+  "last_run": "2026-09-17T16:33:58.715239",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5186,6 +5186,34 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-09-16",
       "first_seen": "2026-09-16T16:27:40.221414"
+    },
+    "2026-19036": {
+      "document_number": "2026-19036",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request; Hazard Mitigation Grant Program (HMGP) Application Reporting",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-17",
+      "first_seen": "2026-09-17T16:33:34.501138"
+    },
+    "2026-19072": {
+      "document_number": "2026-19072",
+      "title": "Rescission of the Greenhouse Gas Findings for Fossil Fuel-Fired Power Plants and Repeal of Regulations for Power Plant Greenhouse Gas Emissions Under Clean Air Act Section 111",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-17",
+      "first_seen": "2026-09-17T16:33:34.501138"
+    },
+    "2026-19071": {
+      "document_number": "2026-19071",
+      "title": "Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-17",
+      "first_seen": "2026-09-17T16:33:34.501138"
+    },
+    "2026-19064": {
+      "document_number": "2026-19064",
+      "title": "Pesticide Registration Review; Case Closures for Several Pesticides; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-17",
+      "first_seen": "2026-09-17T16:33:34.501138"
     }
   },
   "committee_items": {
@@ -5785,6 +5813,15 @@
       "title": "an Amendment in the Nature of a Substitute to H.R. 10304, the Drone Safety Statement Modernization Act of 2026; ANS to H.R. 6448, the Rural Airport Infrastructure Support Act of 2026; ANS to H.R. 9530, the Quiet Skies Act; ANS to 2592, the Aviation Medication Transparency Act of 2026; ANS to H.R. 8597, the Air Traffic Situational Awareness Enhancement Act; ANS to H.R. 7553, the Aviation Innovation and Global Competitiveness Act; ANS to H.R. 7625, the Marine Transportation System Cybersecurity Budget and Evaluation Report (MTS CYBER) Act of 2026; ANS to H.R. 5645, the Pray Safe Act of 2025; H.R. 8409, the Post-Disaster Protection Act; ANS to H.R. 10305, the Strengthening Oversight in Public Buildings Act of 2026; and General Services Administration Capital Investment and Leasing Program Resolutions",
       "date": "2026-09-15",
       "first_seen": "2026-09-16T16:28:04.724786"
+    },
+    "338766": {
+      "event_id": "338766",
+      "committee_code": "ssev00",
+      "committee_name": "Senate Environment & Public Works",
+      "meeting_type": "Open Hearing",
+      "title": "Hearings to examine updating America's nuclear waste management policy.",
+      "date": "2026-09-23",
+      "first_seen": "2026-09-17T16:33:55.844809"
     }
   },
   "disaster_declarations": {
