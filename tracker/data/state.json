@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-18T16:05:36.818145",
+  "last_run": "2026-09-21T18:02:47.573863",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5221,6 +5221,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-18",
       "first_seen": "2026-09-18T16:05:05.654826"
+    },
+    "2026-19249": {
+      "document_number": "2026-19249",
+      "title": "CTS of Asheville, Inc. Superfund Site, Asheville, North Carolina; Proposed Settlement",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-21",
+      "first_seen": "2026-09-21T18:02:18.175990"
+    },
+    "2026-19248": {
+      "document_number": "2026-19248",
+      "title": "Proposed Deletion From the National Priorities List; Correction",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-21",
+      "first_seen": "2026-09-21T18:02:18.175990"
     }
   },
   "committee_items": {
@@ -5251,6 +5265,13 @@
       "source_name": "Congress.gov Most Viewed",
       "published_date": "",
       "first_seen": "2026-07-20T14:13:28.877283"
+    },
+    "September 20, 2026": {
+      "item_id": "September 20, 2026",
+      "title": "Most-Viewed Bills - Week of September 20, 2026",
+      "source_name": "Congress.gov Most Viewed",
+      "published_date": "",
+      "first_seen": "2026-09-21T18:02:22.226373"
     }
   },
   "committee_meetings": {
