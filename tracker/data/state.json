@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-21T18:02:47.573863",
+  "last_run": "2026-09-22T16:36:04.836571",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5235,6 +5235,13 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-09-21",
       "first_seen": "2026-09-21T18:02:18.175990"
+    },
+    "2026-19337": {
+      "document_number": "2026-19337",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Application for Preauthorization of CERCLA Response Action and Claim for CERCLA Response Action (Reinstatement)",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-22",
+      "first_seen": "2026-09-22T16:35:25.569861"
     }
   },
   "committee_items": {
