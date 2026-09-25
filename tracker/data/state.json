@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-24T16:47:49.670194",
+  "last_run": "2026-09-25T16:52:34.234238",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5319,6 +5319,34 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-24",
       "first_seen": "2026-09-24T16:47:27.385237"
+    },
+    "2026-19676": {
+      "document_number": "2026-19676",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-25",
+      "first_seen": "2026-09-25T16:52:12.358947"
+    },
+    "2026-19671": {
+      "document_number": "2026-19671",
+      "title": "Clarifying the Scope of \u201cApplicable Requirements\u201d Under State Operating Permit Programs and the Federal Operating Permit Program",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-25",
+      "first_seen": "2026-09-25T16:52:12.358947"
+    },
+    "2026-19668": {
+      "document_number": "2026-19668",
+      "title": "Air Plan Approval; Kentucky; Campbell-Clermont Area Maintenance Plan for the 2010 1-Hour SO2 NAAQS",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-25",
+      "first_seen": "2026-09-25T16:52:12.358947"
+    },
+    "2026-19667": {
+      "document_number": "2026-19667",
+      "title": "Air Plan Approval; Kentucky; Campbell-Clermont Area Maintenance Plan for the 2010 1-Hour SO2 NAAQS",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-25",
+      "first_seen": "2026-09-25T16:52:12.358947"
     }
   },
   "committee_items": {
