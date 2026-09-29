@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-28T19:26:04.896424",
+  "last_run": "2026-09-29T17:53:27.642954",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5375,6 +5375,69 @@
       "doc_type": "Notice",
       "publication_date": "2026-09-28",
       "first_seen": "2026-09-28T19:25:50.885358"
+    },
+    "2026-19898": {
+      "document_number": "2026-19898",
+      "title": "Notice of Adjustment of Disaster Grant Amounts",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19859": {
+      "document_number": "2026-19859",
+      "title": "Notice of Adjustment of Minimum Project Worksheet Amount",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19858": {
+      "document_number": "2026-19858",
+      "title": "Notice of Adjustment of Countywide Per Capita Impact Indicator",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19857": {
+      "document_number": "2026-19857",
+      "title": "Notices of Emergency and Major Disaster Declarations and Related Amendments",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19856": {
+      "document_number": "2026-19856",
+      "title": "Notice of Award Amount Adjustment for Serious Needs Assistance",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19855": {
+      "document_number": "2026-19855",
+      "title": "Notice of Adjustment of Statewide per Capita Impact Indicator",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19854": {
+      "document_number": "2026-19854",
+      "title": "Notice of Maximum Amount of Assistance Under the Individuals and Households Program",
+      "doc_type": "Notice",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19889": {
+      "document_number": "2026-19889",
+      "title": "Rescission of Title V Emergency Affirmative Defense Rule; Corrections",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-19884": {
+      "document_number": "2026-19884",
+      "title": "Sodium Salt of Acifluorfen; Pesticide Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-09-29",
+      "first_seen": "2026-09-29T17:53:11.179619"
     }
   },
   "committee_items": {
