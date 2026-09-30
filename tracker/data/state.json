@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-29T17:53:27.642954",
+  "last_run": "2026-09-30T17:48:25.741891",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5438,6 +5438,13 @@
       "doc_type": "Rule",
       "publication_date": "2026-09-29",
       "first_seen": "2026-09-29T17:53:11.179619"
+    },
+    "2026-20060": {
+      "document_number": "2026-20060",
+      "title": "Air Plan Approval; Reconsideration and Repeal of Air Plan Partial Approval and Partial Disapproval of North Dakota's Regional Haze State Implementation Plan for the Second Implementation Period; Correction",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-09-30",
+      "first_seen": "2026-09-30T17:47:57.399406"
     }
   },
   "committee_items": {
