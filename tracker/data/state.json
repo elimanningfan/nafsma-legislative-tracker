@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-06T18:06:55.931370",
+  "last_run": "2026-10-07T18:39:58.822766",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5543,6 +5543,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-10-06",
       "first_seen": "2026-10-06T18:06:29.088161"
+    },
+    "2026-20497": {
+      "document_number": "2026-20497",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request; Elevation Certificate/Floodproofing Certificate.",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-07",
+      "first_seen": "2026-10-07T18:39:38.722623"
+    },
+    "2026-20611": {
+      "document_number": "2026-20611",
+      "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; West Virginia; Negative Declarations for Existing Large Municipal Waste Combustors and Other Solid Waste Incinerators",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-07",
+      "first_seen": "2026-10-07T18:39:38.722623"
     }
   },
   "committee_items": {
