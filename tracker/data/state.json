@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-08T18:38:16.074245",
+  "last_run": "2026-10-09T18:09:09.827452",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5627,6 +5627,20 @@
       "doc_type": "Notice",
       "publication_date": "2026-10-08",
       "first_seen": "2026-10-08T18:38:01.705973"
+    },
+    "2026-20738": {
+      "document_number": "2026-20738",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-09",
+      "first_seen": "2026-10-09T18:08:53.182617"
+    },
+    "2026-20736": {
+      "document_number": "2026-20736",
+      "title": "Air Plan Approval; Michigan; Clean Data Determination for the Berrien, MI and Muskegon, MI Areas for the 2015 Ozone Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-10-09",
+      "first_seen": "2026-10-09T18:08:53.182617"
     }
   },
   "committee_items": {
@@ -10472,6 +10486,24 @@
       "declaration_date": "2026-10-07",
       "designated_area": "Piute (County)",
       "first_seen": "2026-10-08T18:38:13.807007"
+    },
+    "4952-HI-Maui (County)": {
+      "disaster_number": 4952,
+      "declaration_title": "HURRICANE LOWELL",
+      "state": "HI",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-07",
+      "designated_area": "Maui (County)",
+      "first_seen": "2026-10-09T18:09:08.368687"
+    },
+    "4952-HI-Kauai (County)": {
+      "disaster_number": 4952,
+      "declaration_title": "HURRICANE LOWELL",
+      "state": "HI",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-07",
+      "designated_area": "Kauai (County)",
+      "first_seen": "2026-10-09T18:09:08.368687"
     }
   },
   "watchlist_bills": {
