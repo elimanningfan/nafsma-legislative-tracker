@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T18:09:09.827452",
+  "last_run": "2026-10-12T21:04:56.570354",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -10504,6 +10504,42 @@
       "declaration_date": "2026-10-07",
       "designated_area": "Kauai (County)",
       "first_seen": "2026-10-09T18:09:08.368687"
+    },
+    "3656-AL-Baldwin (County)": {
+      "disaster_number": 3656,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "AL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-09",
+      "designated_area": "Baldwin (County)",
+      "first_seen": "2026-10-12T21:04:53.711135"
+    },
+    "3656-AL-Escambia (County)": {
+      "disaster_number": 3656,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "AL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-09",
+      "designated_area": "Escambia (County)",
+      "first_seen": "2026-10-12T21:04:53.711135"
+    },
+    "3656-AL-Mobile (County)": {
+      "disaster_number": 3656,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "AL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-09",
+      "designated_area": "Mobile (County)",
+      "first_seen": "2026-10-12T21:04:53.711135"
+    },
+    "3656-AL-Poarch Band of Creek Indians": {
+      "disaster_number": 3656,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "AL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-09",
+      "designated_area": "Poarch Band of Creek Indians",
+      "first_seen": "2026-10-12T21:04:53.711135"
     }
   },
   "watchlist_bills": {
