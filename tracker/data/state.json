@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-15T16:35:50.164452",
+  "last_run": "2026-10-16T16:20:20.022636",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5760,6 +5760,27 @@
       "doc_type": "Rule",
       "publication_date": "2026-10-15",
       "first_seen": "2026-10-15T16:35:13.515030"
+    },
+    "2026-21199": {
+      "document_number": "2026-21199",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request; FEMA Preparedness Grants: Tribal Homeland Security Grant Program (THSGP).",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-16",
+      "first_seen": "2026-10-16T16:19:55.836054"
+    },
+    "2026-21183": {
+      "document_number": "2026-21183",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-16",
+      "first_seen": "2026-10-16T16:19:55.836054"
+    },
+    "2026-21155": {
+      "document_number": "2026-21155",
+      "title": "Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-16",
+      "first_seen": "2026-10-16T16:19:55.836054"
     }
   },
   "committee_items": {
