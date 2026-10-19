@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-16T16:20:20.022636",
+  "last_run": "2026-10-19T18:31:38.584651",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -5781,6 +5781,41 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-10-16",
       "first_seen": "2026-10-16T16:19:55.836054"
+    },
+    "2026-21383": {
+      "document_number": "2026-21383",
+      "title": "New Source Performance Standards and National Emission Standards for Hazardous Air Pollutants; Delegation of Authority to Northwest Clean Air Agency, Washington State",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-19",
+      "first_seen": "2026-10-19T18:31:14.148616"
+    },
+    "2026-21289": {
+      "document_number": "2026-21289",
+      "title": "Air Quality Plan; Arizona; Agricultural Best Management Practices Rules for the West Pinal County PM10 Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-19",
+      "first_seen": "2026-10-19T18:31:14.148616"
+    },
+    "2026-21288": {
+      "document_number": "2026-21288",
+      "title": "Approval and Promulgation of Implementation Plans-Pinal County (Part); West Pinal, AZ PM10 Nonattainment Area; Moderate Area, Serious Area, and Section 189(d) Plan for Attainment of the 24-Hour PM10 Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-19",
+      "first_seen": "2026-10-19T18:31:14.148616"
+    },
+    "2026-21287": {
+      "document_number": "2026-21287",
+      "title": "Air Quality Plan; Arizona; Pinal County Air Quality Control District; West Pinal County PM10 Nonattainment Area; Fugitive Dust Rules",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-10-19",
+      "first_seen": "2026-10-19T18:31:14.148616"
+    },
+    "2026-21268": {
+      "document_number": "2026-21268",
+      "title": "Approval and Promulgation of Implementation Plans; Arizona; Revisions to the Cleaner Burning Gasoline, Winter Oxygenated Fuel, and Gasoline Set-Aside Programs",
+      "doc_type": "Rule",
+      "publication_date": "2026-10-19",
+      "first_seen": "2026-10-19T18:31:14.148616"
     }
   },
   "committee_items": {
