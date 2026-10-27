@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-26T18:28:27.079217",
+  "last_run": "2026-10-27T17:43:56.656105",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -152,6 +152,14 @@
       "last_action_date": "2026-10-15",
       "first_seen": "2026-10-21T16:52:17.240585",
       "last_updated": "2026-10-21T16:52:17.240585"
+    },
+    "119-hr-10869": {
+      "bill_id": "119-hr-10869",
+      "title": "Protect Clean Water Act",
+      "last_action": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "last_action_date": "2026-10-22",
+      "first_seen": "2026-10-27T17:43:26.517915",
+      "last_updated": "2026-10-27T17:43:26.517915"
     }
   },
   "federal_register_documents": {
@@ -5894,6 +5902,13 @@
       "doc_type": "Notice",
       "publication_date": "2026-10-26",
       "first_seen": "2026-10-26T18:28:08.646034"
+    },
+    "2026-21843": {
+      "document_number": "2026-21843",
+      "title": "Official Release of the MOVES6 Motor Vehicle Emissions Model for SIPs and Transportation Conformity",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-27",
+      "first_seen": "2026-10-27T17:43:26.987236"
     }
   },
   "committee_items": {
@@ -10793,6 +10808,87 @@
       "declaration_date": "2026-10-09",
       "designated_area": "Poarch Band of Creek Indians",
       "first_seen": "2026-10-12T21:04:53.711135"
+    },
+    "3660-NM-Laguna Pueblo (Indian Reservation)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Laguna Pueblo (Indian Reservation)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Pueblo of Acoma": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Pueblo of Acoma",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Jicarilla Apache Indian Reservation": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Jicarilla Apache Indian Reservation",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Rio Arriba (County)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Rio Arriba (County)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-San Ildefonso Pueblo (Indian Reservation)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "San Ildefonso Pueblo (Indian Reservation)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-San Juan (County)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "San Juan (County)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Zia Pueblo (Indian Reservation)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Zia Pueblo (Indian Reservation)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Sandoval (County)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Sandoval (County)",
+      "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "3660-NM-Cibola (County)": {
+      "disaster_number": 3660,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "NM",
+      "incident_type": "Flood",
+      "declaration_date": "2026-10-26",
+      "designated_area": "Cibola (County)",
+      "first_seen": "2026-10-27T17:43:53.197675"
     }
   },
   "watchlist_bills": {
