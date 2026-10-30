@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-29T18:13:42.279020",
+  "last_run": "2026-10-30T17:51:23.399594",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -6015,6 +6015,34 @@
       "doc_type": "Proposed Rule",
       "publication_date": "2026-10-29",
       "first_seen": "2026-10-29T18:13:17.197728"
+    },
+    "2026-22209": {
+      "document_number": "2026-22209",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Motor Vehicle and Engine Compliance Program Fees (Renewal), EPA ICR 2080.09, OMB Control No. 2060-0545",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-30",
+      "first_seen": "2026-10-30T17:50:58.589517"
+    },
+    "2026-22202": {
+      "document_number": "2026-22202",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-30",
+      "first_seen": "2026-10-30T17:50:58.589517"
+    },
+    "2026-22176": {
+      "document_number": "2026-22176",
+      "title": "Dimethyl Sulfoxide in Pesticide Formulations; Exemptions From the Requirement of a Tolerance",
+      "doc_type": "Rule",
+      "publication_date": "2026-10-30",
+      "first_seen": "2026-10-30T17:50:58.589517"
+    },
+    "2026-22164": {
+      "document_number": "2026-22164",
+      "title": "Additions to the Clean Air Act Section 111, 112, and 129 Applicability Determination Dashboard and to the List of Broadly Applicable Alternative Test Methods",
+      "doc_type": "Notice",
+      "publication_date": "2026-10-30",
+      "first_seen": "2026-10-30T17:50:58.589517"
     }
   },
   "committee_items": {
@@ -10995,6 +11023,141 @@
       "declaration_date": "2026-10-26",
       "designated_area": "Cibola (County)",
       "first_seen": "2026-10-27T17:43:53.197675"
+    },
+    "4955-FL-Walton (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Walton (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Franklin (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Franklin (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Santa Rosa (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Santa Rosa (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Holmes (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Holmes (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Wakulla (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Wakulla (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Bay (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Bay (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Jackson (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Jackson (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Gulf (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Gulf (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Washington (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Washington (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Calhoun (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Calhoun (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Gadsden (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Gadsden (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Jefferson (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Jefferson (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Liberty (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Liberty (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Okaloosa (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Okaloosa (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4955-FL-Escambia (County)": {
+      "disaster_number": 4955,
+      "declaration_title": "HURRICANE ISAIAS",
+      "state": "FL",
+      "incident_type": "Hurricane",
+      "declaration_date": "2026-10-27",
+      "designated_area": "Escambia (County)",
+      "first_seen": "2026-10-30T17:51:19.195903"
     }
   },
   "watchlist_bills": {
