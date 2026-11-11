@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T22:05:37.660219",
+  "last_run": "2026-11-11T19:24:08.054692",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -6246,6 +6246,27 @@
       "doc_type": "Notice",
       "publication_date": "2026-11-09",
       "first_seen": "2026-11-09T22:05:07.893615"
+    },
+    "2026-22857": {
+      "document_number": "2026-22857",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request; Homeland Security Exercise and Evaluation Program (HSEEP) Documentation",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-10",
+      "first_seen": "2026-11-11T19:23:42.397263"
+    },
+    "2026-22888": {
+      "document_number": "2026-22888",
+      "title": "Modification of Significant New Uses of Certain Chemical Substances (23-1.M)",
+      "doc_type": "Rule",
+      "publication_date": "2026-11-10",
+      "first_seen": "2026-11-11T19:23:42.397263"
+    },
+    "2026-22887": {
+      "document_number": "2026-22887",
+      "title": "Air Plan Approval; Michigan; Determination of Attainment by the Attainment Date for the 2015 Ozone Standards",
+      "doc_type": "Rule",
+      "publication_date": "2026-11-10",
+      "first_seen": "2026-11-11T19:23:42.397263"
     }
   },
   "committee_items": {
