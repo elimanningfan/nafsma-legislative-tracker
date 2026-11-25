@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-24T22:05:56.520393",
+  "last_run": "2026-11-25T21:22:05.254151",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -11733,6 +11733,69 @@
       "declaration_date": "2026-10-27",
       "designated_area": "Escambia (County)",
       "first_seen": "2026-10-30T17:51:19.195903"
+    },
+    "4956-FL-Okeechobee (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Okeechobee (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-St. Lucie (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "St. Lucie (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-Palm Beach (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Palm Beach (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-Martin (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Martin (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-Hardee (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Hardee (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-Brevard (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Brevard (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
+    },
+    "4956-FL-Indian River (County)": {
+      "disaster_number": 4956,
+      "declaration_title": "SEVERE STORMS AND FLOODING",
+      "state": "FL",
+      "incident_type": "Flood",
+      "declaration_date": "2026-11-24",
+      "designated_area": "Indian River (County)",
+      "first_seen": "2026-11-25T21:22:02.617146"
     }
   },
   "watchlist_bills": {
