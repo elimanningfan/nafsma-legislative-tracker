@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-26T21:09:07.251021",
+  "last_run": "2026-11-27T20:52:50.123543",
   "bills": {
     "119-hr-187": {
       "bill_id": "119-hr-187",
@@ -6582,6 +6582,97 @@
       "doc_type": "Notice",
       "publication_date": "2026-11-24",
       "first_seen": "2026-11-24T22:05:33.552490"
+    },
+    "2026-24025": {
+      "document_number": "2026-24025",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request; Generic Clearance for Notice of Loss and Proof of Loss",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24126": {
+      "document_number": "2026-24126",
+      "title": "Environmental Impact Statements; Notice of Availability",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24092": {
+      "document_number": "2026-24092",
+      "title": "Air Quality Plan; California; San Diego County Air Pollution Control District; Landfill Flares",
+      "doc_type": "Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24084": {
+      "document_number": "2026-24084",
+      "title": "Technical Updates to the RCRA Hazardous Waste Permitting Regulations-Permitting Technical Updates Rule",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24082": {
+      "document_number": "2026-24082",
+      "title": "Significant New Use Rule on a Chemical Substance (P-24-195)",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24080": {
+      "document_number": "2026-24080",
+      "title": "Reducing Complexity in Management of Leather Waste",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24043": {
+      "document_number": "2026-24043",
+      "title": "Air Plan Approval; Virginia; Revision to Minor New Source Review Permit Exemptions",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24042": {
+      "document_number": "2026-24042",
+      "title": "Air Plan Approval; Maryland; Interstate Transport Requirements for the 2010 1-Hour Sulfur Dioxide National Ambient Air Quality Standard",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24038": {
+      "document_number": "2026-24038",
+      "title": "Notice of Availability of Proposed National Pollutant Discharge Elimination System (NPDES) General Permit for Bulk Fuel Facilities in Guam",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24037": {
+      "document_number": "2026-24037",
+      "title": "U.S. Environmental Protection Agency (EPA) Contractor and Subcontractor Access to Confidential Business Information (CBI) Submitted Under Clean Air Act (CAA), Act To Prevent Pollution From Ships (APPS), and American Innovation and Manufacturing Act (AIM); Correction",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24036": {
+      "document_number": "2026-24036",
+      "title": "Air Plan Approval; Utah; Cache County Inspection and Maintenance Program Revision",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24033": {
+      "document_number": "2026-24033",
+      "title": "Air Plan Approval; Texas; Attainment Plan for the Navarro County 2010 Sulfur Dioxide Primary National Ambient Air Quality Standard Nonattainment Area",
+      "doc_type": "Proposed Rule",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
+    },
+    "2026-24027": {
+      "document_number": "2026-24027",
+      "title": "Settlement Agreement: Silver Bow Creek/Butte Area Superfund Site, Butte-Silver Bow County, Montana",
+      "doc_type": "Notice",
+      "publication_date": "2026-11-27",
+      "first_seen": "2026-11-27T20:52:33.555378"
     }
   },
   "committee_items": {
